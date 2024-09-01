@@ -1,0 +1,281 @@
+<!DOCTYPE html> 
+<html> 
+
+<head>
+  <meta charset=utf-8>
+  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="stylesheet1.css">
+  <style type="text/css">
+    * {font-family: Rubik;}
+    .video_wrap {max-width:400px; margin:auto; text-align:center;}
+    video {max-width:100%; outline:none; border-radius: 10px;}
+    div#video video {margin:0;}
+    .subtitles_wrap {
+      margin-top:5px; text-align:center; font-family:Rubik; font-size:24px;
+      min-height:30px;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .my_controls {align:center; margin-bottom:5px; text-align:center;}
+    button {height: 25px}
+  </style>
+</head>
+<body>
+
+  <div class="misha_iomdin">
+        Сайт: Миша Иомдин, <a href="https://t.me/MonOnSun">@MonOnSun</a>
+        <br>
+        Посвящается моему дедушке лингвисту Леониду Иомдину в день его рождения!
+    </div>
+
+    <header>
+        <span class="title">
+            <h1 class="song_title">Бременские музыканты</h1>
+        </span>
+    </header>
+
+    <div class="content_container">
+        <div class="content_column list_of_contents">
+            <a href="/">☜ Главная страница</a>
+            <h3>Песни на сайте</h3>
+            <ul>
+                <li>
+                    <a href="/song/BremenMusicians">
+                        Бременские музыканты
+                    </a>
+                </li>
+                <li>... скоро будут!</li>
+            </ul>
+        </div>
+
+        <div class="content_column video_column">
+          <div class="song_info">
+
+            <span class="strong">Авторы мультфильма:</span> Василий Ливанов, Юрий Энтин, ...
+            <span class="strong">Оригинальные исполнители:</span> Олег Анофриев, Муслим Магомаев, ...
+            <h3>Перевод и исполнение: неизвестны</h3>
+            <h3>
+                Источник:
+                <a href="https://www.facebook.com/100068139504179/videos/%D0%B1%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B5-%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BD%D1%82%D1%8B-%D0%BD%D0%B0-%D0%B8%D0%B2%D1%80%D0%B8%D1%82%D0%B5/1540622656206008/" target="_blank"> ➥ </a>
+            </h3>
+        </div>
+
+            <div class="my_controls">
+    <button onclick="playPause()">▶</button> 
+    <button onclick="setSpeed(0.5)">0.5</button> 
+    <button onclick="setSpeed(0.75)">0.75</button> 
+    <button onclick="setSpeed(1)">1</button>
+    <button onclick="goForward(-3)">⤾ 3 сек.</button>
+    <button onclick="goForward(3)">⤿ 3 сек.</button>
+  </div id="my_controls">
+
+  <div id="video_wrap" class="video_wrap">
+    <video id="video1" width="420" controls onmouseover="showControls();">
+      <source src="media/videos/BremenMusicians.mp4" type="video/mp4" />
+      <track label="Hebrew" kind="subtitles" srclang="he"
+      src="media/subtitles/BremenMusicians_Hebrew.vtt" default />
+      <track label="Russian" kind="subtitles" srclang="ru"
+      src="media/subtitles/BremenMusicians_Russian.vtt" />
+      
+    </video>
+  </div>
+  <div id="subtitles_he_wrap" class="subtitles_wrap">
+      <div id="subtitles_he" class="subtitles" dir="rtl">
+        <!-- here are the Hebrew subtitles -->
+      </div>
+  </div>
+
+  <div id="subtitles_ru_wrap" class="subtitles_wrap">
+      <div id="subtitles_ru" class="subtitles">
+        <!-- here are the Russian subtitles -->
+      </div>
+  </div>
+
+        </div>
+
+        <div class="content_column contents_column">
+            <h3>
+            Песни в мультфильме
+            </h3>
+            <p>Нажмите, чтобы перейти к песне:</p>
+            <div id="video_moments">
+      <ul>
+        <li/> <button onclick="setTime(0, 1)">Песня друзей</button> 
+        <li/> <button onclick="setTime(6, 25)">В клетке птичка томится</button> 
+        <li/> <button onclick="setTime(7, 53)">Говорят, мы бяки-буки</button> 
+        <li/> <button onclick="setTime(10, 11)">Ох, рано встаёт охрана!</button>
+        <li/> <button onclick="setTime(11, 49)">Пиф-паф, и вы покойники</button>
+        <li/> <button onclick="setTime(13, 43)">Куда ты, тропинка</button>
+        <li/> <button onclick="setTime(21, 19)">Я гениальный сыщик</button>
+        <li/> <button onclick="setTime(22, 10)">Что за дети нынче, право</button>
+        <li/> <button onclick="setTime(27, 50)">Луч солнца золотого</button>
+        <li/> <button onclick="setTime(30, 20)">Ничего я не хочу</button>
+        <li/> <button onclick="setTime(32, 12)">Романтики с большой дороги</button>
+      </ul>
+  </div>
+            
+        </div>
+
+ <script type="text/javascript"
+ src="media/analysis/BremenMusicians_analysis.json">
+ </script>
+
+<script type="text/javascript">
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// saving the video
+var myVideo = document.getElementById("video1");
+var hoveredSubtitles = false;
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+}
+
+function setSpeed(newSpeed) {
+  myVideo.playbackRate = newSpeed;
+}
+
+function goForward(sec) {
+  myVideo.currentTime = myVideo.currentTime + sec;
+}
+
+function setTime(min, sec) {
+  myVideo.currentTime = min * 60 + sec;
+}
+
+function showControls() {
+  myVideo.controls = true;
+}
+
+function hideControls() {
+  myVideo.controls = false;
+}
+
+function subtitlesHover() {
+  if (!myVideo.paused) {
+    hideControls(); // otherwise they annoyingly show
+    myVideo.pause();
+    hoveredSubtitles = true;
+  }
+}
+
+function subtitlesUnHover() {
+  if (hoveredSubtitles) {
+    hideControls(); // otherwise they annoyingly show
+    myVideo.play();
+    hoveredSubtitles = false;
+  }
+}
+
+function show(data) {
+  if (!data) {
+    return "";
+  }
+  return data
+}
+
+function designAnalysis(word) {
+  return `<span class="tooltip">
+        ${word.word} <span class="tooltiptext_analysis">
+        <table class="word_analysis_table">
+      <tr>
+        <td class="heb_td">
+        ${show(word.prefix)}
+        ${show(word.lemma)}
+        ${show(word.suffix)}
+        </td>
+      </tr>
+      <tr>
+        <td>${show(word.pattern)}</td>
+      </tr>
+      <tr>
+        <td class="heb_td">${show(word.root)}</td>
+      </tr>
+      <tr>
+        <td class="translation">${show(word.translation)}</td>
+      </tr>
+    </span>
+    </span>`;
+}
+
+function showInteractiveSubtitles(cue, span1) {
+  var line = cue.text;
+  let words = analysis.filter(item => item.line === line);
+  if (words.length > 0) {
+    for (let word of words) {
+      const word_span = document.createElement("span");
+      word_span.innerHTML += designAnalysis(word);
+      span1.appendChild(word_span);
+      span1.appendChild(document.createTextNode(" "));
+    }
+  }
+  else {
+    // non-interactive line
+    span1.appendChild(document.createTextNode(line));
+  }
+}
+
+function showSubtitles(track_id, subtitles_wrap_id, interactive) {
+  var span1 = document.querySelector(`div#${subtitles_wrap_id} > div`);
+  span1.innerHTML = '';
+  if (!myVideo.textTracks) return;
+
+  var track = myVideo.textTracks[track_id];
+  track.mode = 'hidden';
+  var idx = 0;
+
+  track.oncuechange = function(e) {
+    var cue = this.activeCues[0];
+    if (cue) {
+      if (idx >= 0) {
+        span1.classList.remove('on');
+        span1.innerHTML = '';
+
+        if (interactive) {
+          showInteractiveSubtitles(cue, span1);
+        }
+        else {
+          var cueHTML = cue.getCueAsHTML();
+          span1.appendChild(cueHTML);
+          span1.classList.add('on');
+        }
+      }
+      idx = ++idx % 2;
+    }
+    else {
+      // deleting the ended subtitle
+      span1.innerHTML = '';
+    }
+  };
+}
+
+showSubtitles(0, 'subtitles_he_wrap', true);
+showSubtitles(1, 'subtitles_ru_wrap', false);
+
+
+
+function findRow(word, line) {
+  var csvFilePath = "media/subtitles/BremenMusicians_analysis.csv";
+
+  d3.csv(csvFilePath, function(data) {
+    var result = data.filter(function(row) {
+      return row.word === word && row.line === line;
+    });
+  });
+
+  alert(result.toString());
+  return result;
+}
+
+//-->
+</script>
+
+</body>
+</html>
