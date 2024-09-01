@@ -1,0 +1,274 @@
+* {
+ font-family: Rubik;
+}
+
+
+body {
+  margin-top: 30px;
+  background-color: lightblue;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1 {
+  color: navy;
+}
+
+a {
+  color: navy;
+  text-decoration: underline dotted;
+}
+
+li {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.strong {
+  color: navy;
+  font-weight: 900;
+
+}
+
+.song_title {
+  color: navy;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.song_author {
+  color: navy;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.author_photo {
+  margin-right: 20px;
+}
+
+.song_logo {
+  margin-left: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.song_translator {
+
+}
+
+.song_info {
+  border-radius: 25px;
+  /*border-style: solid;
+  border-width: 1px;*/
+  padding: 15px;
+  background-color: #8ac6db;
+  margin-bottom: 50px;
+}
+
+.song_info_heb {
+  direction: rtl;
+  float:right;
+}
+
+
+.img_and_text, .two_parts {
+    display: flex;
+    justify-content: left
+}
+
+
+.content_container {
+  display: flex;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.content_column {
+  margin-right: 50px;
+  margin-top: 25px;
+  padding: 20px;
+}
+
+/*left columnn, 1/6 width*/
+.list_of_contents { 
+  flex: 2;
+  background-color: #63b5cf;
+  border-radius: 25px;
+}
+
+/*middle columnn, 1/2 width*/
+.video_column { 
+  flex: 4;
+  width: 640px;
+  padding: 0px;
+}
+
+.main_page_container {
+  flex: 9.5;
+  padding: 0px;
+}
+
+video {
+  margin: 0px;
+}
+
+/*right column, 1/3 width*/
+.lyrics_column { 
+  flex: 3;
+  margin-right: 0px;
+  background-color: #7CB9E8;
+  border-radius: 25px;
+}
+
+.lyrics_heb {
+  direction: rtl;
+}
+
+.video_selection {
+  margin-left: 10px;
+  text-align: center;
+  background-color: #63b5cf;
+  border-radius: 25px;
+}
+
+.video_selection_label, .video_selection {
+  font-size: 18px;
+}
+
+.screenshot {
+  height: 100px;
+  width: 150px;
+}
+
+figure {
+  
+  flex-flow: column;
+  text-align: center;
+}
+
+/* show on hover */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+  direction: rtl;
+}
+
+.tooltip:hover {
+  text-decoration: underline dotted;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  padding: 0.25em 0.5em;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.25em;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 1;
+  top: -150%;
+  left: -100%;
+  transition-property: visibility;
+  transition-delay: 0s;
+  direction: ltr;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  transition-delay: 0.3s;
+}
+
+
+/*
+.tooltip .tooltiptext_analysis {
+  visibility: hidden;
+  padding: 0.25em 0.5em;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.25em;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 1;
+  top: -600%;
+  left: -300%;
+  transition-property: visibility;
+  transition-delay: 0s;
+  direction: ltr;
+}
+
+.tooltip:hover .tooltiptext_analysis {
+  visibility: visible;
+  transition-delay: 0.3s;
+}
+*/
+
+.tooltiptext_analysis {
+  position: absolute
+}
+
+/* Tooltip text */
+.tooltiptext_analysis {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 10px;
+  direction: ltr;
+  bottom: 100%;
+  padding: 0.25em 0.5em;
+  white-space: nowrap;
+
+  right: 0%;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext_analysis {
+  visibility: visible;
+}
+
+
+.translation {
+  font-size: 25px;
+  color: lightgreen;
+}
+
+.misha_iomdin {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #FFF9C7;
+  border-radius: 5px;
+  padding: 2px;
+  margin-bottom: 30px;
+}
+
+/*.word_analysis_table {
+  direction: rtl;
+}*/
+
+.heb_td {
+  direction: rtl;
+}
+
+.transcription {
+  font-style: italic;
+  color: lightblue;
+}
+
+.word_stuff {
+  text-align: left;
+}
