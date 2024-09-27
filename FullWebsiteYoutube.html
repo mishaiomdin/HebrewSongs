@@ -232,9 +232,18 @@
 
   function onYouTubePlayerAPIReady() {
     player = new YT.Player('the_video', {
-      videoId: 'Hlbxl3rNLN8'
+      videoId: 'Hlbxl3rNLN8',
+      playerVars: {
+      'rel': 0,
+      'cc_load_policy': 0,
+      'fs': 0,
+      },
     });
+    player.unloadModule("cc");
+    player.unloadModule("captions");
+    player.unloadModule("subtitles");
   }
+
 
   // fetch and parse the .vtt file using vtt.js
   async function fetchAndParseVTT(vttUrl) {
@@ -255,8 +264,6 @@
     var div1 = document.getElementById("subtitles_he");
     function showSubtitlesByTime() {
       line = getSubtitleAtTime(cues, player.playerInfo.currentTime * 1000);
-      div1.innerHTML = makeInteractive(line);
-      div1.dataset.line = line;
       if (div1.dataset.line != line) {
         div1.innerHTML = makeInteractive(line);
         div1.dataset.line = line;
@@ -294,8 +301,8 @@
   }
 
   function designAnalysis(word) {
-    return `<span class="tooltip">
-        ${word.word} <span class="tooltiptext_analysis">
+    return `<span class="tooltip" ontouchstart="this.querySelector("#${word}_analysis").visibility = "visible">
+        ${word.word} <span class="tooltiptext_analysis" id="${word}_analysis">
         <table class="word_analysis_table">
       <tr>
         <td class="heb_td">
