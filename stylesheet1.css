@@ -239,7 +239,6 @@ figure {
 }
 
 .translation {
-  font-size: 25px;
   color: lightgreen;
 }
 
@@ -269,6 +268,10 @@ figure {
       margin: auto;
       margin-top: 10px;
       margin-bottom: 10px;
+}
+
+.subtitles {
+  font-size: 30px;
 }
 
 .my_controls {align:center; margin-bottom:5px; text-align:center;}
