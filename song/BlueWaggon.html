@@ -35,13 +35,7 @@
       <div class="song_info" id="song_info" style="display: none">
          <button class="open_close_button song_info_close_button" onclick="openCloseSongInfo()">✕</button>
         <ul style="list-style: none;">
-          <li><span class="strong">Авторы мультфильма:</span> Василий Ливанов, Юрий Энтин, ...</li>
-          <li><span class="strong">Оригинальные исполнители:</span> Олег Анофриев, Муслим Магомаев, ...</li>
-          <li>Перевод и исполнение: неизвестны</li>
-          <li>
-             Источник:
-            <a href="https://www.facebook.com/100068139504179/videos/%D0%B1%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B5-%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BD%D1%82%D1%8B-%D0%BD%D0%B0-%D0%B8%D0%B2%D1%80%D0%B8%D1%82%D0%B5/1540622656206008/" target="_blank"> ➥ </a>
-          </li>
+          <!-- SONG DATA HERE -->
           </ul>
       </div>
   </header>
@@ -94,11 +88,6 @@
     <button id="menu_button" class="open_close_button" onclick="openCloseMenu();" data-open="closed">☰</button>
   </div>
 
-  <!-- OPEN/CLOSE VIDEO CONTENTS -->
-  <div style="float: right;">
-      <button id="contents_button" class="open_close_button" onclick="openCloseContents();" data-open="closed">☰ Песни в мультфильме</button>
-  </div>
-
   <!-- ACTUAL CONTENT -->
   <div class="content_container">
 
@@ -107,7 +96,8 @@
       <a href="/HebrewSongs/">☜ Главная страница</a>
       <h3>Песни на сайте</h3>
         <ul>
-          <li><a href="/HebrewSongs/song/BlueWaggon">Бременские музыканты</a></li>
+          <li><a href="/HebrewSongs/song/BremenMusicians">Бременские музыканты</a></li>
+          <li><a href="/HebrewSongs/song/BlueWaggon">Голубой вагон</a></li>
            <li>... скоро будут!</li>
         </ul>
     </div>
@@ -142,27 +132,6 @@
           <div id="subtitles_ru" class="subtitles">
             <!-- here are the Russian subtitles -->
           </div>
-      </div>
-    </div>
-
-    <!-- CONTENTS COLUMN -->
-    <div class="content_column contents_column" id="contents_list" style="display: none">
-      <h3>Песни в мультфильме</h3>
-      <p>Нажмите, чтобы перейти к песне:</p>
-      <div id="video_moments">
-        <ul>
-          <li/> <button onclick="setTime(0, 1)">Песня друзей</button> 
-          <li/> <button onclick="setTime(6, 25)">В клетке птичка томится</button> 
-          <li/> <button onclick="setTime(7, 53)">Говорят, мы бяки-буки</button> 
-          <li/> <button onclick="setTime(10, 11)">Ох, рано встаёт охрана!</button>
-          <li/> <button onclick="setTime(11, 49)">Пиф-паф, и вы покойники</button>
-          <li/> <button onclick="setTime(13, 43)">Куда ты, тропинка</button>
-          <li/> <button onclick="setTime(21, 19)">Я гениальный сыщик</button>
-          <li/> <button onclick="setTime(22, 10)">Что за дети нынче, право</button>
-          <li/> <button onclick="setTime(27, 50)">Луч солнца золотого</button>
-          <li/> <button onclick="setTime(30, 20)">Ничего я не хочу</button>
-          <li/> <button onclick="setTime(32, 12)">Романтики с большой дороги</button>
-        </ul>
       </div>
     </div>
     
