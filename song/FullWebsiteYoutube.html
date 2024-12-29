@@ -10,8 +10,28 @@
   </style>
 </head>
 
+<div class='misha_iomdin'>
+  <div class="content_container">
+    <img height="40" src="../media/images/Misha_Leonid.png" height="175" style="margin-right: 10px">
+    <div>
+      Сайт: <strong>Миша Иомдин</strong>, <a href='https://t.me/MonOnSun'>@MonOnSun</a>
+      <br>
+      Имени моего дедушки <strong>Леонида Иомдина</strong> (1947 – 2024), лингвиста, автора статей, словарей и корпусов
+    </div>
+  </div>
+</div>
+
+<!--
+<div class='misha_iomdin'>
+  Имени <strong>Леонида Иомдина</strong> (1947 – 2024), лингвиста, автора статей, словарей и корпусов
+
+  <br>
+  Сайт: <strong>Миша Иомдин</strong>, <a href='https://t.me/MonOnSun'>@MonOnSun</a>
+</div>
+-->
 
 <body>
+  
   <!-- HEADER -->
   <header>
     <span class="title">
@@ -33,6 +53,7 @@
         </ul>
     </div>
   </header>
+  
 
 <!-- OPEN/CLOSE ELEMENTS -->
 <script>
@@ -214,7 +235,7 @@
 </script>
 
 <!-- ANALYSIS FILE -->
-<script type="text/javascript" src="media/analysis/BremenMusicians_analysis.json"></script>
+<script type="text/javascript" src="../media/analysis/BremenMusicians_analysis.json"></script>
 
 <!-- VTT-TO-JSON LIBRARY -->
 <script src="https://unpkg.com/vtt-to-json@0.1.1/index.js"></script>
@@ -258,7 +279,7 @@
     return currentCue ? currentCue.part : '';
   }
 
-  const vttUrl = 'media/subtitles/BremenMusicians_Hebrew.vtt';
+  const vttUrl = '../media/subtitles/BremenMusicians_Hebrew.vtt';
 
   var cues = fetchAndParseVTT(vttUrl).then(cues => {
     var subtitles_wrap_id = 'subtitles_he_wrap';
@@ -273,7 +294,7 @@
     var t = setInterval(showSubtitlesByTime, 100);
   });
 
-  const vttUrl_ru = 'media/subtitles/BremenMusicians_Russian.vtt';
+  const vttUrl_ru = '../media/subtitles/BremenMusicians_Russian.vtt';
 
   var cues_ru = fetchAndParseVTT(vttUrl_ru).then(cues_ru => {
     var div_ru = document.getElementById("subtitles_ru");

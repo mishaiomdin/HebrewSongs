@@ -39,12 +39,19 @@ li {
 /* SIGNATURE OVER THE TITLE */
 .misha_iomdin {
   width: 100%;
-  background-color: #FFF9C7;
+  /*background-color: #FFF9C7;*/
+
+  /*
+  background-color: navy;
+  color: #FFF9C7;
+  */
+
+  background-color: #63b5cf;
+
   border-radius: 5px;
   padding: 2px;
   margin-bottom: 40px;
   margin: 0px;
-  display: none;
 }
 
 /* TITLE */
@@ -290,4 +297,13 @@ button {min-height: 25px}
 
 .open_close_button:hover {
   background-color: #5193a8;
+}
+
+
+.sticky_header {
+  position: sticky;
+  top: 0;
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
 }
