@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> 
+<html> 
 
 <!-- SETTINGS -->
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Песни и переводы</title>
-    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/HebrewSongs/stylesheet1.css">
+  <meta charset=utf-8>
+  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/HebrewSongs/stylesheet1.css">
+  <style type="text/css">
+  </style>
 </head>
 
 <!-- ATTRIBUTION -->
@@ -24,40 +23,84 @@
 </div>
 
 <body>
+  
+  <!-- HEADER OF THE SONG -->
+  <header>
+      <span class="title">
+        <h1 class="song_title">
+          <h1 class="song_title">
+            Песни и переводы
+            <sup class="info_circle" style="visibility: hidden;">ⓘ</sup>
+          </h1>
+        </h1>
+      </span>
+  </header>
+    
+  <!-- OPEN/CLOSE CALLBACKS -->
+  <script>
+    function openCloseMenu() {
+      var button = document.getElementById("menu_button");
+      var menu = document.getElementById("menu_list");
+      if (button.dataset.open === "closed") {
+        menu.style.display = "block";
+        button.innerHTML = "✕";
+        button.dataset.open = "open";
+      }
+      else {
+        menu.style.display = "none";
+        button.innerHTML = "☰";
+        button.dataset.open = "closed";
+      }
+    }
 
-    <!-- HEADER -->
-    <header>
-    <div class="content_container">
-            <!--<img class="author_photo" src="/HebrewSongs/media/images/NotesLogo.png" height="175">-->
-            <span class=" title">
-                <h1 class="song_title">Песни и переводы</h1>
-                <h2>Здесь вы найдёте переводы известных песен на иврит и подробный разбор слов в тексте!
-                </h2>
-            </span>
-        </div>
-    </header>
+    function openCloseContents() {
+      var button = document.getElementById("contents_button");
+      var contents = document.getElementById("contents_list");
+      if (button.dataset.open === "closed") {
+        contents.style.display = "block";
+        button.innerHTML = "✕ Песни в мультфильме";
+        button.dataset.open = "open";
+      }
+      else {
+        contents.style.display = "none";
+        button.innerHTML = "☰ Песни в мультфильме";
+        button.dataset.open = "closed";
+      }
+    }
 
-    <!-- ACTUAL CONTENT -->
-    <div class="content_container">
+    function openCloseSongInfo() {
+      var song_info = document.getElementById("song_info");
+      if (song_info.style.display === "block") {
+        song_info.style.display = "none";
+      }
+      else {
+        song_info.style.display = "block";
+      }
+    }
+  </script>
 
-        <!-- MENU -->
-        <div class="content_column list_of_contents">
-            <a href="">Главная страница</a>
-            <h3>Песни на сайте</h3>
-            <ul>
-                <li><a href="/HebrewSongs/song/BremenMusicians">Бременские музыканты</a></li>
-                <!--
-                <li><a href="/HebrewSongs/song/IfYouHaveNoAunt">Если у вас нету тёти</a></li>
-                <li><a href="/HebrewSongs/song/MoscowOdessa">Москва — Одесса</a></li>
-                <li><a href="/HebrewSongs/song/Reincarnation">Песенка о переселении душ</a></li>
-                <li><a href="/HebrewSongs/song/SheWasInParis">Она была в Париже</a></li>
-                <li><a href="/HebrewSongs/song/StarCalledSun">Звезда по имени Солнце</a></li>
-                -->
-            </ul>
-        </div>
+  <!-- OPEN/CLOSE MENU -->
+  <div style="float: left;">
+    <button id="menu_button" class="open_close_button" onclick="openCloseMenu();" data-open="closed">☰</button>
+  </div>
 
-        <!-- CONTENT -->
-        <div class="content_column main_page_container">
+  <!-- ACTUAL CONTENT -->
+  <div class="content_container">
+
+    <!-- MENU COLUMN --->
+    <div class="content_column list_of_contents" id="menu_list" style="display: none">
+      <a href="/HebrewSongs/">☜ Главная страница</a>
+      <h3>Песни на сайте</h3>
+        <ul>
+          <li><a href="/HebrewSongs/song/BremenMusicians">Бременские музыканты</a></li>
+           <li>... скоро будут!</li>
+        </ul>
+    </div>
+
+    <!-- VIDEO COLUMN --->
+    <div class="content_column video_column">
+      <h2>Здесь вы найдёте переводы известных песен на иврит и подробный разбор слов в тексте!</h2>
+      <div class="content_column main_page_container">
             <p><span class="strong">Песни не мои, переводы песен не мои.</span>
                 Моя цель — собрать переводы знакомых песен и подробно разобрать текст,
                 чтобы по нему можно было учить иврит.
@@ -65,6 +108,8 @@
             </p>
             <p><span class="strong">Я — школьник Миша Иомдин.</span> Живу и учусь в Берлине, до этого — в Израиле, ещё раньше — в Москве. Учу языки, занимаюсь лингвистикой, математикой и программирую.</p>
             <p>Мой канал про иврит, немецкий и другие языки: <a href="https://t.me/MonOnSun">«Понедельник начинается в воскресенье»</a></p>
+
+            <!--
 
             <h3>На сайте можно:</h3>
 
@@ -91,18 +136,205 @@
                 <a href="/HebrewSongs/song/MoscowOdessa">«Москва — Одесса»</a>
                 уже есть перевод и подробный разбор всех слов в тексте. Чтобы увидеть его, наведите курсор на любое слово в правой колонке со словами песни. Скоро подобное будет и в других песнях!
             </p>
+
+          -->
             <p>
             С ошибками, предложениями и комментариями обращайтесь ко мне: <a href="https://t.me/misha_iomdin">@misha_iomdin</a>
             </p>
 
             <!--<div class="content_column lyrics_column" style="visibility: hidden"></div>-->
 
-            <!-- first change to try git commit -->
-
         </div>
-
-
     </div>
+    
+
+  <!-- OPENING/CLOSING ACCORDING TO DEVICE SIZE -->
+  <script>
+    if (window.matchMedia("(min-width: 800px)").matches) {
+      openCloseMenu(); // will open
+    }
+    if (window.matchMedia("(min-width: 1200px)").matches) {
+      openCloseContents(); // will open
+    }
+  </script>
+
+  <!-- VIDEO CONTROLS CALLBACKS -->
+  <script>
+    var myVideo = document.getElementById("the_video");
+    var hoveredSubtitles = false;
+
+    function playPause() {
+      if (player.getPlayerState() == 1) { // playing
+        player.pauseVideo();
+      }
+      else {
+        player.playVideo();
+      }
+    }
+
+    function setSpeed(newSpeed) {
+      player.setPlaybackRate(newSpeed);
+    }
+
+    function goForward(sec) {
+      player.seekTo(player.playerInfo.currentTime + sec);
+    }
+
+    function setTime(min, sec) {
+      player.seekTo(min * 60 + sec);
+    }
+
+    function showControls() {
+      myVideo.controls = true;
+    }
+
+    function hideControls() {
+      myVideo.controls = false;
+    }
+
+    function subtitlesHover() {
+      if (!myVideo.paused) {
+        hideControls(); // otherwise they annoyingly show
+        myVideo.pause();
+        hoveredSubtitles = true;
+      }
+    }
+
+    function subtitlesUnHover() {
+      if (hoveredSubtitles) {
+        hideControls(); // otherwise they annoyingly show
+        myVideo.play();
+        hoveredSubtitles = false;
+      }
+    }
+  </script>
+
+  <!-- ANALYSIS FILE -->
+  <script type="text/javascript" src="../media/analysis/BremenMusicians_analysis.json"></script>
+
+  <!-- VTT-TO-JSON LIBRARY -->
+  <script src="https://unpkg.com/vtt-to-json@0.1.1/index.js"></script>
+
+  <!-- VIDEO AND SUBTITLES FUNCTIONS -->
+  <script>
+    // Includes Youtube API
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/player_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    // Includes video
+    var player;
+
+    function onYouTubePlayerAPIReady() {
+      player = new YT.Player('the_video', {
+        //videoId: 'Hlbxl3rNLN8',
+        videoId: 'Ha-eig6xhzs',
+        playerVars: {
+        'rel': 0,
+        'cc_load_policy': 0,
+        'fs': 0,
+        },
+      });
+      player.unloadModule("cc");
+      player.unloadModule("captions");
+      player.unloadModule("subtitles");
+    }
 
 
-</body></html>
+    // fetch and parse the .vtt file using vtt.js
+    async function fetchAndParseVTT(vttUrl) {
+      const response = await fetch(vttUrl);
+      const vttText = await response.text();
+      return convertVttToJson(vttText);
+    }
+
+    function getSubtitleAtTime(cues, currentTimeInSeconds) {
+      const currentCue = cues.find(cue => (currentTimeInSeconds >= cue.start) && (currentTimeInSeconds <= cue.end));
+      return currentCue ? currentCue.part : '';
+    }
+
+    const vttUrl = '../media/subtitles/BremenMusicians_Hebrew.vtt';
+
+    var cues = fetchAndParseVTT(vttUrl).then(cues => {
+      var subtitles_wrap_id = 'subtitles_he_wrap';
+      var div1 = document.getElementById("subtitles_he");
+      function showSubtitlesByTime() {
+        line = getSubtitleAtTime(cues, player.playerInfo.currentTime * 1000);
+        if (div1.dataset.line != line) {
+          div1.innerHTML = makeInteractive(line);
+          div1.dataset.line = line;
+        }
+      }
+      var t = setInterval(showSubtitlesByTime, 100);
+    });
+
+    const vttUrl_ru = '../media/subtitles/BremenMusicians_Russian.vtt';
+
+    var cues_ru = fetchAndParseVTT(vttUrl_ru).then(cues_ru => {
+      var div_ru = document.getElementById("subtitles_ru");
+      function showSubtitlesByTime() {
+        line = getSubtitleAtTime(cues_ru, player.playerInfo.currentTime * 1000);
+        if (div_ru.dataset.line != line) {
+          div_ru.innerHTML = line;
+          div_ru.dataset.line = line;
+        }
+      }
+      var t_ru = setInterval(showSubtitlesByTime, 100);
+    });
+
+    function show(data) {
+      if (!data) {
+        return "";
+      }
+      return data;
+    }
+
+    function show_suff(suffix) {
+      if (!suffix) {
+        return "";
+      }
+      return "+ " + suffix;
+    }
+
+    function designAnalysis(word) {
+      return `<span class="tooltip" ontouchstart="this.querySelector("#${word}_analysis").visibility = "visible">
+          ${word.word} <span class="tooltiptext_analysis" id="${word}_analysis">
+          <table class="word_analysis_table">
+        <tr>
+          <td class="heb_td">
+          ${show(word.prefix)}
+          ${show(word.lemma)}
+          ${show_suff(word.suffix)}
+          </td>
+        </tr>
+        <tr>
+          <td>${show(word.pattern)}</td>
+        </tr>
+        <tr>
+          <td class="heb_td">${show(word.root)}</td>
+        </tr>
+        <tr>
+          <td class="translation">${show(word.translation)}</td>
+        </tr>
+      </table>
+      </span>
+      </span>`;
+    }
+
+    function makeInteractive(line) {
+      let new_line = "";
+      let words = analysis.filter(item => item.line === line);
+      if (words.length > 0) {
+        for (let word of words) {
+          new_line += designAnalysis(word) + " ";
+        }
+        return new_line;
+      }
+      return line;
+    }
+  </script>
+
+
+</body>
+</html>
