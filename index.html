@@ -3,8 +3,16 @@
 
 <!-- SETTINGS -->
 <head>
+  <!-- settings -->
   <meta charset=utf-8>
+
+  <!-- favicon -->
   <link rel="icon" type="image/x-icon" href="/HebrewSongs/media/images/NotesLogo.png">
+
+  <!-- title -->
+  <title>Песни и переводы</title>
+
+  <!-- stylesheets -->
   <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/HebrewSongs/stylesheet1.css">
   <style type="text/css">
@@ -25,7 +33,7 @@
 
 <body>
   
-  <!-- HEADER OF THE SONG -->
+  <!-- HEADER -->
   <header>
       <span class="title">
         <h1 class="song_title">
@@ -93,10 +101,9 @@
       <a href="/HebrewSongs/">☜ Главная страница</a>
       <h3>Песни на сайте</h3>
         <ul>
-          <li><a href="/HebrewSongs/song/BremenMusicians">Бременские музыканты</a></li>
-          <li><a href="/HebrewSongs/song/BlueWaggon">Голубой вагон</a></li>
-           <li>... скоро будут!</li>
-        </ul>
+<li><a href="/HebrewSongs/song/BremenMusicians">Бременские музыканты</a></li>
+<li><a href="/HebrewSongs/song/BlueWaggon">Голубой вагон</a></li>
+</ul>
     </div>
 
     <!-- VIDEO COLUMN --->
@@ -110,43 +117,6 @@
             </p>
             <p><span class="strong">Я — школьник Миша Иомдин.</span> Живу и учусь в Берлине, до этого — в Израиле, ещё раньше — в Москве. Учу языки, занимаюсь лингвистикой, математикой и программирую.</p>
             <p>Мой канал про иврит, немецкий и другие языки: <a href="https://t.me/MonOnSun">«Понедельник начинается в воскресенье»</a></p>
-
-            <!--
-
-            <h3>На сайте можно:</h3>
-
-            <div class="content_container">
-                <figure>
-                    <img src="/HebrewSongs/media/images/ScreenShot_VideoPlay.png" class="screenshot">
-                    <figcaption>Включить песню с субтитрами</figcaption>
-                </figure>
-                <figure>
-                    <img src="/HebrewSongs/media/images/ScreenShot_Speed1.png" class="screenshot">
-                    <figcaption>Настроить скорость видео</figcaption>
-                </figure>
-                <figure>
-                    <img src="/HebrewSongs/media/images/ScreenShot_WordTranslation.png" class="screenshot">
-                    <figcaption>Увидеть перевод слова</figcaption>
-                </figure>
-            </div>
-
-            <h2 class="song_translator">22.02.2024 Сайт открыт, добро пожаловать!</h2>
-            <p>
-            В песнях
-                <a href="/HebrewSongs/song/IfYouHaveNoAunt">«Если у вас нету тёти»</a>
-                и
-                <a href="/HebrewSongs/song/MoscowOdessa">«Москва — Одесса»</a>
-                уже есть перевод и подробный разбор всех слов в тексте. Чтобы увидеть его, наведите курсор на любое слово в правой колонке со словами песни. Скоро подобное будет и в других песнях!
-            </p>
-
-          
-            <p>
-            С ошибками, предложениями и комментариями обращайтесь ко мне: <a href="https://t.me/misha_iomdin" target="_blank">@misha_iomdin</a>
-            </p>
-          -->
-
-            <!--<div class="content_column lyrics_column" style="visibility: hidden"></div>-->
-
         </div>
     </div>
     
@@ -160,184 +130,6 @@
       openCloseContents(); // will open
     }
   </script>
-
-  <!-- VIDEO CONTROLS CALLBACKS -->
-  <script>
-    var myVideo = document.getElementById("the_video");
-    var hoveredSubtitles = false;
-
-    function playPause() {
-      if (player.getPlayerState() == 1) { // playing
-        player.pauseVideo();
-      }
-      else {
-        player.playVideo();
-      }
-    }
-
-    function setSpeed(newSpeed) {
-      player.setPlaybackRate(newSpeed);
-    }
-
-    function goForward(sec) {
-      player.seekTo(player.playerInfo.currentTime + sec);
-    }
-
-    function setTime(min, sec) {
-      player.seekTo(min * 60 + sec);
-    }
-
-    function showControls() {
-      myVideo.controls = true;
-    }
-
-    function hideControls() {
-      myVideo.controls = false;
-    }
-
-    function subtitlesHover() {
-      if (!myVideo.paused) {
-        hideControls(); // otherwise they annoyingly show
-        myVideo.pause();
-        hoveredSubtitles = true;
-      }
-    }
-
-    function subtitlesUnHover() {
-      if (hoveredSubtitles) {
-        hideControls(); // otherwise they annoyingly show
-        myVideo.play();
-        hoveredSubtitles = false;
-      }
-    }
-  </script>
-
-  <!-- ANALYSIS FILE -->
-  <script type="text/javascript" src="../media/analysis/BremenMusicians_analysis.json"></script>
-
-  <!-- VTT-TO-JSON LIBRARY -->
-  <script src="https://unpkg.com/vtt-to-json@0.1.1/index.js"></script>
-
-  <!-- VIDEO AND SUBTITLES FUNCTIONS -->
-  <script>
-    // Includes Youtube API
-    var tag = document.createElement('script');
-    tag.src = "https://www.youtube.com/player_api";
-    var firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-    // Includes video
-    var player;
-
-    function onYouTubePlayerAPIReady() {
-      player = new YT.Player('the_video', {
-        //videoId: 'Hlbxl3rNLN8',
-        videoId: 'Ha-eig6xhzs',
-        playerVars: {
-        'rel': 0,
-        'cc_load_policy': 0,
-        'fs': 0,
-        },
-      });
-      player.unloadModule("cc");
-      player.unloadModule("captions");
-      player.unloadModule("subtitles");
-    }
-
-
-    // fetch and parse the .vtt file using vtt.js
-    async function fetchAndParseVTT(vttUrl) {
-      const response = await fetch(vttUrl);
-      const vttText = await response.text();
-      return convertVttToJson(vttText);
-    }
-
-    function getSubtitleAtTime(cues, currentTimeInSeconds) {
-      const currentCue = cues.find(cue => (currentTimeInSeconds >= cue.start) && (currentTimeInSeconds <= cue.end));
-      return currentCue ? currentCue.part : '';
-    }
-
-    const vttUrl = '../media/subtitles/BremenMusicians_Hebrew.vtt';
-
-    var cues = fetchAndParseVTT(vttUrl).then(cues => {
-      var subtitles_wrap_id = 'subtitles_he_wrap';
-      var div1 = document.getElementById("subtitles_he");
-      function showSubtitlesByTime() {
-        line = getSubtitleAtTime(cues, player.playerInfo.currentTime * 1000);
-        if (div1.dataset.line != line) {
-          div1.innerHTML = makeInteractive(line);
-          div1.dataset.line = line;
-        }
-      }
-      var t = setInterval(showSubtitlesByTime, 100);
-    });
-
-    const vttUrl_ru = '../media/subtitles/BremenMusicians_Russian.vtt';
-
-    var cues_ru = fetchAndParseVTT(vttUrl_ru).then(cues_ru => {
-      var div_ru = document.getElementById("subtitles_ru");
-      function showSubtitlesByTime() {
-        line = getSubtitleAtTime(cues_ru, player.playerInfo.currentTime * 1000);
-        if (div_ru.dataset.line != line) {
-          div_ru.innerHTML = line;
-          div_ru.dataset.line = line;
-        }
-      }
-      var t_ru = setInterval(showSubtitlesByTime, 100);
-    });
-
-    function show(data) {
-      if (!data) {
-        return "";
-      }
-      return data;
-    }
-
-    function show_suff(suffix) {
-      if (!suffix) {
-        return "";
-      }
-      return "+ " + suffix;
-    }
-
-    function designAnalysis(word) {
-      return `<span class="tooltip" ontouchstart="this.querySelector("#${word}_analysis").visibility = "visible">
-          ${word.word} <span class="tooltiptext_analysis" id="${word}_analysis">
-          <table class="word_analysis_table">
-        <tr>
-          <td class="heb_td">
-          ${show(word.prefix)}
-          ${show(word.lemma)}
-          ${show_suff(word.suffix)}
-          </td>
-        </tr>
-        <tr>
-          <td>${show(word.pattern)}</td>
-        </tr>
-        <tr>
-          <td class="heb_td">${show(word.root)}</td>
-        </tr>
-        <tr>
-          <td class="translation">${show(word.translation)}</td>
-        </tr>
-      </table>
-      </span>
-      </span>`;
-    }
-
-    function makeInteractive(line) {
-      let new_line = "";
-      let words = analysis.filter(item => item.line === line);
-      if (words.length > 0) {
-        for (let word of words) {
-          new_line += designAnalysis(word) + " ";
-        }
-        return new_line;
-      }
-      return line;
-    }
-  </script>
-
 
 </body>
 </html>

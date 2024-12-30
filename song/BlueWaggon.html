@@ -3,8 +3,16 @@
 
 <!-- SETTINGS -->
 <head>
+  <!-- settings -->
   <meta charset=utf-8>
+
+  <!-- favicon -->
   <link rel="icon" type="image/x-icon" href="/HebrewSongs/media/images/NotesLogo.png">
+
+  <!-- title -->
+  <title>Голубой вагон</title>
+
+  <!-- stylesheets -->
   <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/HebrewSongs/stylesheet1.css">
   <style type="text/css">
@@ -36,8 +44,11 @@
       <div class="song_info" id="song_info" style="display: none">
          <button class="open_close_button song_info_close_button" onclick="openCloseSongInfo()">✕</button>
         <ul style="list-style: none;">
-          <!-- SONG DATA HERE -->
-          </ul>
+          <li><span class="strong">Оригинал: </span>Владимир Шаинский, Эдуард Успенский</li>
+          <li><span class="strong">Исполнение оригинала: </span>Владимир Ферапонтов</li>
+          <li><span class="strong">Перевод: </span>Зеэв Гейзель</li>
+          <li><span class="strong">Исполнение: </span>Зеэв Гейзель</li>
+        </ul>
       </div>
   </header>
     
@@ -89,6 +100,8 @@
     <button id="menu_button" class="open_close_button" onclick="openCloseMenu();" data-open="closed">☰</button>
   </div>
 
+  
+
   <!-- ACTUAL CONTENT -->
   <div class="content_container">
 
@@ -97,10 +110,9 @@
       <a href="/HebrewSongs/">☜ Главная страница</a>
       <h3>Песни на сайте</h3>
         <ul>
-          <li><a href="/HebrewSongs/song/BremenMusicians">Бременские музыканты</a></li>
-          <li><a href="/HebrewSongs/song/BlueWaggon">Голубой вагон</a></li>
-           <li>... скоро будут!</li>
-        </ul>
+<li><a href="/HebrewSongs/song/BremenMusicians">Бременские музыканты</a></li>
+<li><a href="/HebrewSongs/song/BlueWaggon">Голубой вагон</a></li>
+</ul>
     </div>
 
     <!-- VIDEO COLUMN --->
@@ -135,8 +147,13 @@
           </div>
       </div>
     </div>
+
     
 
+  </div>
+
+
+    
   <!-- OPENING/CLOSING ACCORDING TO DEVICE SIZE -->
   <script>
     if (window.matchMedia("(min-width: 800px)").matches) {
@@ -199,7 +216,7 @@
   </script>
 
   <!-- ANALYSIS FILE -->
-  <script type="text/javascript" src="../media/analysis/BlueWaggon_analysis.json"></script>
+  <script type="text/javascript" src="/HebrewSongs/media/analysis/BlueWaggon_analysis.json"></script>
 
   <!-- VTT-TO-JSON LIBRARY -->
   <script src="https://unpkg.com/vtt-to-json@0.1.1/index.js"></script>
@@ -242,7 +259,7 @@
       return currentCue ? currentCue.part : '';
     }
 
-    const vttUrl = '../media/subtitles/BlueWaggon_Hebrew.vtt';
+    const vttUrl = '/HebrewSongs/media/subtitles/BlueWaggon_Hebrew.vtt';
 
     var cues = fetchAndParseVTT(vttUrl).then(cues => {
       var subtitles_wrap_id = 'subtitles_he_wrap';
@@ -257,7 +274,7 @@
       var t = setInterval(showSubtitlesByTime, 100);
     });
 
-    const vttUrl_ru = '../media/subtitles/BlueWaggon_Russian.vtt';
+    const vttUrl_ru = '/HebrewSongs/media/subtitles/BlueWaggon_Russian.vtt';
 
     var cues_ru = fetchAndParseVTT(vttUrl_ru).then(cues_ru => {
       var div_ru = document.getElementById("subtitles_ru");
