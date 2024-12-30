@@ -137,6 +137,7 @@ li {
   /*flex: 2;*/ /* UNCOMMENT! */
   background-color: #63b5cf;
   border-radius: 25px;
+  min-height: 500px;
 }
 
 /*middle columnn, 1/2 width*/
