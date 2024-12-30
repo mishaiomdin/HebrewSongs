@@ -10,7 +10,7 @@
   <link rel="icon" type="image/x-icon" href="/HebrewSongs/media/images/NotesLogo.png">
 
   <!-- title -->
-  <title>Бременские музыканты</title>
+  <title>Никого не будет в доме</title>
 
   <!-- stylesheets -->
   <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
@@ -37,17 +37,17 @@
   <header>
       <span class="title">
         <h1 class="song_title">
-          Бременские музыканты <sup onclick='openCloseSongInfo()'class="info_circle">ⓘ</sup>
+          Никого не будет в доме <sup onclick='openCloseSongInfo()'class="info_circle">ⓘ</sup>
         </h1>
       </span>
 
       <div class="song_info" id="song_info" style="display: none">
          <button class="open_close_button song_info_close_button" onclick="openCloseSongInfo()">✕</button>
         <ul style="list-style: none;">
-          <li><span class="strong">Оригинал: </span>Василий Ливанов, Юрий Энтин, ...</li>
-          <li><span class="strong">Исполнение оригинала: </span>Олег Анофриев, Муслим Магомаев, ...</li>
-          <li><span class="strong">Перевод: </span>неизвестно</li>
-          <li><span class="strong">Исполнение: </span>неизвестно</li>
+          <li><span class="strong">Оригинал: </span>Борис Пастернак, Микаэл Таривердиев</li>
+          <li><span class="strong">Исполнение оригинала: </span>Сергей Никитин</li>
+          <li><span class="strong">Перевод: </span>Зеэв Гейзель</li>
+          <li><span class="strong">Исполнение: </span>Дина Либман, Александр Крупицкий</li>
         </ul>
       </div>
   </header>
@@ -100,10 +100,7 @@
     <button id="menu_button" class="open_close_button" onclick="openCloseMenu();" data-open="closed">☰</button>
   </div>
 
-  <!-- OPEN/CLOSE VIDEO CONTENTS -->
-  <div style="float: right;">
-      <button id="contents_button" class="open_close_button" onclick="openCloseContents();" data-open="closed">☰ Песни в мультфильме</button>
-  </div>
+  
 
   <!-- ACTUAL CONTENT -->
   <div class="content_container">
@@ -152,26 +149,7 @@
       </div>
     </div>
 
-    <!-- CONTENTS COLUMN -->
-    <div class="content_column contents_column" id="contents_list" style="display: none">
-      <h3>Песни в мультфильме</h3>
-      <p>Нажмите, чтобы перейти к песне:</p>
-      <div id="video_moments">
-        <ul>
-          <li/> <button onclick="setTime(0, 1)">Песня друзей</button> 
-          <li/> <button onclick="setTime(6, 25)">В клетке птичка томится</button> 
-          <li/> <button onclick="setTime(7, 53)">Говорят, мы бяки-буки</button> 
-          <li/> <button onclick="setTime(10, 11)">Ох, рано встаёт охрана!</button>
-          <li/> <button onclick="setTime(11, 49)">Пиф-паф, и вы покойники</button>
-          <li/> <button onclick="setTime(13, 43)">Куда ты, тропинка</button>
-          <li/> <button onclick="setTime(21, 19)">Я гениальный сыщик</button>
-          <li/> <button onclick="setTime(22, 10)">Что за дети нынче, право</button>
-          <li/> <button onclick="setTime(27, 50)">Луч солнца золотого</button>
-          <li/> <button onclick="setTime(30, 20)">Ничего я не хочу</button>
-          <li/> <button onclick="setTime(32, 12)">Романтики с большой дороги</button>
-        </ul>
-      </div>
-    </div>
+    
   </div>
 
 
@@ -243,13 +221,13 @@
 
   <!-- ANALYSIS FILE -->
   <!--
-  <script type="text/javascript" src="/HebrewSongs/media/analysis/BremenMusicians_analysis.json"></script>
+  <script type="text/javascript" src="/HebrewSongs/media/analysis/NobodyWillCome_analysis.json"></script>
 -->
 
   <script type="text/javascript">
-    //var analysis = fetch('/HebrewSongs/media/analysis/BremenMusicians_analysis.json');
+    //var analysis = fetch('/HebrewSongs/media/analysis/NobodyWillCome_analysis.json');
     //import analysis from ''
-    fetch('/HebrewSongs/media/analysis/BremenMusicians_analysis.json').then(response => response.json()).then(data => {
+    fetch('/HebrewSongs/media/analysis/NobodyWillCome_analysis.json').then(response => response.json()).then(data => {
         analysis = data; // Save the JSON object to a variable
         console.log(analysis);
     });
@@ -271,7 +249,7 @@
 
     function onYouTubePlayerAPIReady() {
       player = new YT.Player('the_video', {
-        videoId: 'Ha-eig6xhzs',
+        videoId: 'l3knus91ZKs',
         playerVars: {
         'rel': 0,
         'cc_load_policy': 0,
@@ -296,7 +274,7 @@
       return currentCue ? currentCue.part : '';
     }
 
-    const vttUrl = '/HebrewSongs/media/subtitles/BremenMusicians_Hebrew.vtt';
+    const vttUrl = '/HebrewSongs/media/subtitles/NobodyWillCome_Hebrew.vtt';
 
     var cues = fetchAndParseVTT(vttUrl).then(cues => {
       var subtitles_wrap_id = 'subtitles_he_wrap';
@@ -311,7 +289,7 @@
       var t = setInterval(showSubtitlesByTime, 100);
     });
 
-    const vttUrl_ru = '/HebrewSongs/media/subtitles/BremenMusicians_Russian.vtt';
+    const vttUrl_ru = '/HebrewSongs/media/subtitles/NobodyWillCome_Russian.vtt';
 
     var cues_ru = fetchAndParseVTT(vttUrl_ru).then(cues_ru => {
       var div_ru = document.getElementById("subtitles_ru");

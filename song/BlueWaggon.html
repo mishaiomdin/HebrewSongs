@@ -112,6 +112,7 @@
         <ul>
 <li><a href="/HebrewSongs/song/BremenMusicians">Бременские музыканты</a></li>
 <li><a href="/HebrewSongs/song/BlueWaggon">Голубой вагон</a></li>
+<li><a href="/HebrewSongs/song/NobodyWillCome">Никого не будет в доме</a></li>
 </ul>
     </div>
 
@@ -149,7 +150,6 @@
     </div>
 
     
-
   </div>
 
 
@@ -220,7 +220,18 @@
   </script>
 
   <!-- ANALYSIS FILE -->
+  <!--
   <script type="text/javascript" src="/HebrewSongs/media/analysis/BlueWaggon_analysis.json"></script>
+-->
+
+  <script type="text/javascript">
+    //var analysis = fetch('/HebrewSongs/media/analysis/BlueWaggon_analysis.json');
+    //import analysis from ''
+    fetch('/HebrewSongs/media/analysis/BlueWaggon_analysis.json').then(response => response.json()).then(data => {
+        analysis = data; // Save the JSON object to a variable
+        console.log(analysis);
+    });
+  </script>
 
   <!-- VTT-TO-JSON LIBRARY -->
   <script src="https://unpkg.com/vtt-to-json@0.1.1/index.js"></script>
@@ -331,6 +342,8 @@
       </span>`;
     }
 
+    /*
+    //OLD VERSION: doesn't consider situation where analysis is undefined
     function makeInteractive(line) {
       let new_line = "";
       let words = analysis.filter(item => item.line === line);
@@ -342,6 +355,26 @@
       }
       return line;
     }
+    */
+
+
+    function makeInteractive(line) {
+      if (typeof analysis === 'undefined') {
+        console.log("Undefined analysis!");
+        return line;
+      }
+      let new_line = "";
+      let words = analysis.filter(item => item.line === line);
+      if (words.length > 0) {
+        for (let word of words) {
+          new_line += designAnalysis(word) + " ";
+        }
+        return new_line;
+      }
+      return line;
+    }
+
+
   </script>
 
 
