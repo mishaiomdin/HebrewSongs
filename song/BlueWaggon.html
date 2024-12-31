@@ -113,6 +113,7 @@
 <li><a href="/HebrewSongs/song/BremenMusicians">Бременские музыканты</a></li>
 <li><a href="/HebrewSongs/song/BlueWaggon">Голубой вагон</a></li>
 <li><a href="/HebrewSongs/song/NobodyWillCome">Никого не будет в доме</a></li>
+<li><a href="/HebrewSongs/song/IfYouHaveNoAunt">Если у вас нету тёти</a></li>
 </ul>
     </div>
 
@@ -227,6 +228,9 @@
   <script type="text/javascript">
     //var analysis = fetch('/HebrewSongs/media/analysis/BlueWaggon_analysis.json');
     //import analysis from ''
+    
+    //analysis = await fetch('/HebrewSongs/media/analysis/BlueWaggon_analysis.json').then(r => r.json());
+    
     fetch('/HebrewSongs/media/analysis/BlueWaggon_analysis.json').then(response => response.json()).then(data => {
         analysis = data; // Save the JSON object to a variable
         console.log(analysis);
