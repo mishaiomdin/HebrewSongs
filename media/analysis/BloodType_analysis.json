@@ -276,6 +276,18 @@
         "line": "יום שמש בהיר בחלומות"
     },
     {
+        "word": "בהיר",
+        "word_menukad": "בָּהִיר",
+        "translation": "ясный",
+        "prefix": null,
+        "lemma": "בָּהִיר",
+        "suffix": null,
+        "root": "ב - ה - ר",
+        "pattern": "катиль",
+        "pealim_id": "3421",
+        "line": "יום שמש בהיר בחלומות"
+    },
+    {
         "word": "בחלומות",
         "word_menukad": "חֲלוֹמוֹת",
         "translation": "во снах",
@@ -482,7 +494,7 @@
     {
         "word": "לא",
         "word_menukad": "לֹא",
-        "translation": "нет",
+        "translation": "не",
         "prefix": null,
         "lemma": "לֹא",
         "suffix": null,
@@ -758,7 +770,7 @@
     {
         "word": "לא",
         "word_menukad": "לֹא",
-        "translation": "нет",
+        "translation": "не",
         "prefix": null,
         "lemma": "לֹא",
         "suffix": null,
