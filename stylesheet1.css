@@ -321,3 +321,8 @@ button:hover {
   background: #555;
   color: #f1f1f1;
 }
+
+.current_page_link {
+  color:  #301934;
+  font-weight: 1000;
+}
