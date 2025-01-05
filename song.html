@@ -1,0 +1,119 @@
+<!DOCTYPE html> 
+<html> 
+
+<!-- SETTINGS -->
+<head>
+  <!-- settings -->
+  <meta charset=utf-8>
+
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="/HebrewSongs/media/images/NotesLogo.png">
+
+  <!-- title -->
+  <title id="title"></title>
+
+  <!-- stylesheets -->
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/HebrewSongs/stylesheet1.css">
+
+  <!-- CSS style -->
+  <style type="text/css">
+  </style>
+</head>
+
+<!-- ATTRIBUTION -->
+<div class="misha_iomdin" id="attribution">
+  <div class="content_container">
+    <img height="40" src="/HebrewSongs/media/images/Misha_Leonid.png" height="175" style="margin-right: 10px">
+    <div>
+      Сайт: <strong>Миша Иомдин</strong>, <a href="https://t.me/MonOnSun" target="_blank">@MonOnSun</a>
+      <br>
+      Имени моего дедушки <strong>Леонида Иомдина</strong> (1947–2024), лингвиста, автора статей, словарей и корпусов
+    </div>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<body>
+  <!-- HEADER OF THE SONG -->
+  <header>
+      <span class="title">
+        <h1 id="song_name" class="song_title">
+          <sup onclick="openCloseSongInfo()"class="info_circle">ⓘ</sup>
+        </h1>
+      </span>
+
+      <div class="song_info" id="song_info" style="display: none">
+         <button class="open_close_button song_info_close_button" onclick="openCloseSongInfo()">✕</button>
+        <ul id="song_info_ul" style="list-style: none;">
+        </ul>
+      </div>
+  </header>
+
+  <!-- OPEN/CLOSE MENU -->
+  <div style="float: left;">
+    <button id="menu_button" class="open_close_button" onclick="openCloseMenu();" data-open="closed">☰</button>
+  </div>
+
+  <!-- OPEN/CLOSE CONTENTS -->
+  <span id="contents_button_wrap">
+    <!-- Here is contents_button, if needed -->
+  </span>
+
+  <!-- ACTUAL CONTENT -->
+  <div class="content_container">
+
+    <!-- MENU COLUMN --->
+    <div class="content_column list_of_contents" id="menu_list" style="display: none">
+      <a href="/HebrewSongs/">☜ Главная страница</a>
+      <h2>Песни на сайте</h2>
+        <span id="songs_ul"></span>
+    </div>
+
+    <!-- VIDEO COLUMN --->
+    <div class="content_column video_column">
+      <p class="song_info" style="text-align: center; margin-top: 0px; margin-bottom: 10px; padding: 10px">
+        Наведите курсор или нажмите на слово, чтобы увидеть его перевод
+      </p>
+      <div class="my_controls">
+        <button onclick="playPause()">▶</button> 
+        <button onclick="setSpeed(0.5)">0.5</button> 
+        <button onclick="setSpeed(0.75)">0.75</button> 
+        <button onclick="setSpeed(1)">1</button>
+        <button onclick="goForward(-3)">⤾ 3 сек.</button>
+        <button onclick="goForward(3)">⤿ 3 сек.</button>
+      </div id="my_controls">
+
+      <!-- video -->
+      <div id="video_wrap" class="video_wrap">
+        <div id="the_video">
+          <!-- here is the video -->
+        </div>
+      </div>
+
+      <!-- subtitles HE -->
+      <div id="subtitles_he_wrap" class="subtitles_wrap">
+          <div id="subtitles_he" class="subtitles" dir="rtl">
+            <!-- here are the Hebrew subtitles -->
+          </div>
+      </div>
+
+      <!-- subtitles RU -->
+      <div id="subtitles_ru_wrap" class="subtitles_wrap">
+          <div id="subtitles_ru" class="subtitles">
+            <!-- here are the Russian subtitles -->
+          </div>
+      </div>
+    </div>
+
+    <span id="contents_wrap">
+      <!-- here are the contents -->
+    </span>
+  </div>
+</body>
+
+<!-- VTT-TO-JSON LIBRARY -->
+<script src="https://unpkg.com/vtt-to-json@0.1.1/index.js"></script>
+<script src="/HebrewSongs/new/code.js"></script>
+
+</html>
