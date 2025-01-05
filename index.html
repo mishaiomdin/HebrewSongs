@@ -10,29 +10,31 @@
   <link rel="icon" type="image/x-icon" href="/HebrewSongs/media/images/NotesLogo.png">
 
   <!-- title -->
-  <title>Песни и переводы</title>
+  <title id="title">Песни и переводы</title>
 
   <!-- stylesheets -->
-  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/HebrewSongs/stylesheet1.css">
+
+  <!-- CSS style -->
   <style type="text/css">
   </style>
 </head>
 
 <!-- ATTRIBUTION -->
-<div class='misha_iomdin'>
+<div class="misha_iomdin" id="attribution">
   <div class="content_container">
     <img height="40" src="/HebrewSongs/media/images/Misha_Leonid.png" height="175" style="margin-right: 10px">
     <div>
-      Сайт: <strong>Миша Иомдин</strong>, <a href='https://t.me/MonOnSun' target="_blank">@MonOnSun</a>
+      Сайт: <strong>Миша Иомдин</strong>, <a href="https://t.me/MonOnSun" target="_blank">@MonOnSun</a>
       <br>
       Имени моего дедушки <strong>Леонида Иомдина</strong> (1947–2024), лингвиста, автора статей, словарей и корпусов
     </div>
   </div>
 </div>
 
+<!-- MAIN CONTENT -->
 <body>
-  
   <!-- HEADER -->
   <header>
       <span class="title">
@@ -44,54 +46,16 @@
         </h1>
       </span>
   </header>
-    
-  <!-- OPEN/CLOSE CALLBACKS -->
-  <script>
-    function openCloseMenu() {
-      var button = document.getElementById("menu_button");
-      var menu = document.getElementById("menu_list");
-      if (button.dataset.open === "closed") {
-        menu.style.display = "block";
-        button.innerHTML = "✕";
-        button.dataset.open = "open";
-      }
-      else {
-        menu.style.display = "none";
-        button.innerHTML = "☰";
-        button.dataset.open = "closed";
-      }
-    }
-
-    function openCloseContents() {
-      var button = document.getElementById("contents_button");
-      var contents = document.getElementById("contents_list");
-      if (button.dataset.open === "closed") {
-        contents.style.display = "block";
-        button.innerHTML = "✕ Песни в мультфильме";
-        button.dataset.open = "open";
-      }
-      else {
-        contents.style.display = "none";
-        button.innerHTML = "☰ Песни в мультфильме";
-        button.dataset.open = "closed";
-      }
-    }
-
-    function openCloseSongInfo() {
-      var song_info = document.getElementById("song_info");
-      if (song_info.style.display === "block") {
-        song_info.style.display = "none";
-      }
-      else {
-        song_info.style.display = "block";
-      }
-    }
-  </script>
 
   <!-- OPEN/CLOSE MENU -->
   <div style="float: left;">
     <button id="menu_button" class="open_close_button" onclick="openCloseMenu();" data-open="closed">☰</button>
   </div>
+
+  <!-- OPEN/CLOSE CONTENTS -->
+  <span id="contents_button_wrap">
+    <!-- Here is contents_button, if needed -->
+  </span>
 
   <!-- ACTUAL CONTENT -->
   <div class="content_container">
@@ -100,12 +64,7 @@
     <div class="content_column list_of_contents" id="menu_list" style="display: none">
       <a href="/HebrewSongs/">☜ Главная страница</a>
       <h2>Песни на сайте</h2>
-        <h3>🎄 Новый год</h3>
-<ul><li><a href="/HebrewSongs/song/NobodyWillCome">Никого не будет в доме</a></li><li><a href="/HebrewSongs/song/IfYouHaveNoAunt">Если у вас нету тёти</a></li><li><a href="/HebrewSongs/song/NotJustVodka">Новый год — не только водка</a></li><li><a href="/HebrewSongs/song/DifferentNewYear">Чем отличается этот Новый год?</a></li></ul>
-<h3>👤 Виктор Цой</h3>
-<ul><li><a href="/HebrewSongs/song/BloodType">Группа крови</a></li></ul>
-<h3>📽️ Песни из мультфильмов</h3>
-<ul><li><a href="/HebrewSongs/song/BremenMusicians">Бременские музыканты</a></li><li><a href="/HebrewSongs/song/BlueWaggon">Голубой вагон</a></li></ul>
+        <span id="songs_ul"></span>
     </div>
 
     <!-- VIDEO COLUMN --->
@@ -137,14 +96,15 @@
         </div>
     </div>
   </div>
-    
-
-  <!-- OPENING/CLOSING ACCORDING TO DEVICE SIZE -->
-  <script>
-    if (window.matchMedia("(min-width: 800px)").matches) {
-      openCloseMenu(); // will open
-    }
-  </script>
-
 </body>
+
+<!-- VTT-TO-JSON LIBRARY -->
+<script src="https://unpkg.com/vtt-to-json@0.1.1/index.js"></script>
+
+<!-- My JS -->
+<script src="/HebrewSongs/code.js"></script>
+<script>
+  index();
+</script>
+
 </html>

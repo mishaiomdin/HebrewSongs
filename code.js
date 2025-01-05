@@ -7,8 +7,7 @@
 // Generates one song link
 function getLink(code, name, current) {
     if (code === current) {
-        return `<li><a class='current_page_link' href="/HebrewSongs/song?song=${code}">${name}</a></li>`;
-        //return `<li><a class='current_page_link' href="/HebrewSongs/song/${code}">${name}</a></li>`;
+        return `<li><a class="current_page_link" style="text-decoration:none" href="/HebrewSongs/song?song=${code}">${name}</a></li>`;
     }
     return `<li><a href="/HebrewSongs/song?song=${code}">${name}</a></li>`;
 }
@@ -107,13 +106,7 @@ function get_songs() {
     return fetch('/HebrewSongs/Songs.json').then(response => response.json()).then(data => {
         songs = data;
         console.log('Got songs');
-        const urlParams = new URLSearchParams(window.location.search);
-        var code = urlParams.get('song');
-        if (!code) {
-          window.location.href = "/HebrewSongs/404";
-        }
         window.songs = songs;
-        update_song(code, songs);
         return Promise.resolve(null);
     });
 }
@@ -230,7 +223,15 @@ function onYouTubePlayerAPIReady() {
     player.unloadModule("subtitles");
     }
 
-get_songs().then(x => {
+function song() {
+    get_songs().then(x => {
+    const urlParams = new URLSearchParams(window.location.search);
+    var code = urlParams.get('song');
+    if (!code) {
+        window.location.href = "/HebrewSongs/404";
+    }
+    update_song(code, window.songs);
+
     console.log(window.song);
 
     // Fetches analysis
@@ -340,4 +341,12 @@ get_songs().then(x => {
       return line;
     }
 });
+}
+
+function index() {
+    get_songs().then(x => {
+        document.getElementById("songs_ul").innerHTML = getSongsUL(window.songs);
+    });
+}
+
 
