@@ -7,10 +7,10 @@
 // Generates one song link
 function getLink(code, name, current) {
     if (code === current) {
-        return `<li><a class='current_page_link' href="/HebrewSongs/new/song?song=${code}">${name}</a></li>`;
+        return `<li><a class='current_page_link' href="/HebrewSongs/song?song=${code}">${name}</a></li>`;
         //return `<li><a class='current_page_link' href="/HebrewSongs/song/${code}">${name}</a></li>`;
     }
-    return `<li><a href="/HebrewSongs/new/song?song=${code}">${name}</a></li>`;
+    return `<li><a href="/HebrewSongs/song?song=${code}">${name}</a></li>`;
 }
 
 // Generates unordered list of song links for menu
@@ -104,7 +104,7 @@ function update_song(song_code, songs) {
 }
 
 function get_songs() {
-    return fetch('/HebrewSongs/new/Songs.json').then(response => response.json()).then(data => {
+    return fetch('/HebrewSongs/Songs.json').then(response => response.json()).then(data => {
         songs = data;
         console.log('Got songs');
         const urlParams = new URLSearchParams(window.location.search);
