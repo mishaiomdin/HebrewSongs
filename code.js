@@ -12,10 +12,27 @@ function getLink(code, name, current) {
     return `<li><a href="/HebrewSongs/song?song=${code}">${name}</a></li>`;
 }
 
-// Generates unordered list of song links for menu
-function getSongsULOld(songs, current = '') {
-    const links = songs.map(song => getLink(song.code, song.name, current));
-    return `<ul>\n${links.join('\n')}\n</ul>`;
+
+// Generates unordered list of song links for menu, sorted by part
+function getSongsUL_old(songs, current = '') {
+    // Add the "link" property to each song
+    songs.forEach(song => {
+        song.link = getLink(song.code, song.name, current);
+    });
+
+    // Group songs by part
+    const parts = songs.reduce((acc, song) => {
+        if (!acc[song.part]) {
+            acc[song.part] = [];
+        }
+        acc[song.part].push(song.link);
+        return acc;
+    }, {});
+
+    // Generate the HTML
+    return Object.entries(parts)
+        .map(([part, links]) => `<h3>${part}</h3>\n<ul>${links.join('')}</ul>`)
+        .join('\n');
 }
 
 // Generates unordered list of song links for menu, sorted by part
@@ -36,7 +53,7 @@ function getSongsUL(songs, current = '') {
 
     // Generate the HTML
     return Object.entries(parts)
-        .map(([part, links]) => `<h3>${part}</h3>\n<ul>${links.join('')}</ul>`)
+        .map(([part, links]) => `<h3>▼ ${part}</h3>\n<ul>${links.join('')}</ul>`)
         .join('\n');
 }
 

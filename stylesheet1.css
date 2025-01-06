@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   background-color: lightblue;
   font-size: 16px;
   margin-left: 50px;
@@ -16,6 +16,7 @@ h1 {
   color: navy;
 }
 
+/* Links */
 a {
   color: navy;
   text-decoration: underline dotted;
@@ -26,28 +27,29 @@ li {
   margin-top: 10px;
 }
 
-.title {
-  margin-bottom: 20px;
-}
-
 .strong {
   color: navy;
   font-weight: 900;
 
 }
 
+/* CONTAINERS */
+.content_container {
+  display: flex;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.main_page_container {
+  flex: 9.5;
+  padding: 0px;
+}
+
 /* SIGNATURE OVER THE TITLE */
 .misha_iomdin {
   width: 100%;
-  /*background-color: #FFF9C7;*/
-
-  /*
-  background-color: navy;
-  color: #FFF9C7;
-  */
-
   background-color: #63b5cf;
-
   border-radius: 5px;
   padding: 2px;
   margin-bottom: 40px;
@@ -68,6 +70,10 @@ li {
   display: inline-block;
   cursor: pointer;
   /*border-bottom: 1px dotted black;*/
+}
+
+.title {
+  margin-bottom: 20px;
 }
 
 .song_author {
@@ -112,18 +118,9 @@ li {
   float:right;
 }
 
-
 .img_and_text, .two_parts {
     display: flex;
     justify-content: left
-}
-
-
-.content_container {
-  display: flex;
-  width: 100%;
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 .content_column {
@@ -133,8 +130,8 @@ li {
 }
 
 /*left columnn, 1/4 width*/
-.list_of_contents { 
-  /*flex: 2;*/ /* UNCOMMENT! */
+.menu_column {
+  flex: 1;
   background-color: #63b5cf;
   border-radius: 25px;
   min-height: 540px;
@@ -142,22 +139,15 @@ li {
 
 /*middle columnn, 1/2 width*/
 .video_column { 
-  flex: 4; /* UNCOMMENT! */
+  flex: 3;
   width: 640px;
   padding: 0px;
 }
 
-.main_page_container {
-  flex: 9.5;
-  padding: 0px;
-}
-
-
 /*right column, 1/4 width*/
 .contents_column { 
-  /*flex: 2;*/ /* UNCOMMENT! */
+  flex: 1;
   margin-right: 0px;
-  /*background-color: #7CB9E8;*/
   border-radius: 25px;
 }
 
