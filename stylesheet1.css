@@ -319,4 +319,5 @@ button:hover {
 
 .open_triangle {
   cursor: pointer;
+  line-height: 1em;
 }
