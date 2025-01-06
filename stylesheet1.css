@@ -134,7 +134,7 @@ li {
   flex: 1;
   background-color: #63b5cf;
   border-radius: 25px;
-  min-height: 540px;
+  min-height: 500px;
 }
 
 /*middle columnn, 1/2 width*/
@@ -315,4 +315,8 @@ button:hover {
 .current_page_link {
   color:  #301934;
   font-weight: 1000;
+}
+
+.open_triangle {
+  cursor: pointer;
 }

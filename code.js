@@ -35,6 +35,53 @@ function getSongsUL_old(songs, current = '') {
         .join('\n');
 }
 
+function openClosePart(i, recursive=true) {
+    var button = document.getElementById(`part_${i}_button`);
+    var contents = document.getElementById(`part_${i}_list`);
+    console.log(button);
+    if (button.dataset.open === "closed") {
+        contents.style.display = "block";
+        button.innerHTML = "▲";
+        button.dataset.open = "open";
+    }
+    else {
+        contents.style.display = "none";
+        button.innerHTML = "▼";
+        button.dataset.open = "closed";
+    }
+    if (recursive) {
+        for (let j = 1; j < window.parts; j++) {
+            if (j != i) {
+                var other_button = document.getElementById(`part_${j}_button`);
+                if (other_button.dataset.open === "open") {
+                    openClosePart(j, recursive=false);
+                }
+            }
+        }
+    }
+}
+
+function getPart(i, part, links, open=false) {
+    var style = "";
+    var data_open = "open";
+    var triangle = "▲";
+    if (!open) {
+        style = "display: none";
+        data_open = "closed";
+        triangle = "▼";
+    }
+    return `<h3>
+    <span class="open_triangle"
+    id="part_${i}_button"
+    onclick="openClosePart(${i});"
+    data-open="${data_open}">${triangle}</span> ${part}
+    </h3>
+    \n
+    <ul id="part_${i}_list" style="${style}">
+    ${links.join('')}
+    </ul>`;
+}
+
 // Generates unordered list of song links for menu, sorted by part
 function getSongsUL(songs, current = '') {
     // Add the "link" property to each song
@@ -51,10 +98,20 @@ function getSongsUL(songs, current = '') {
         return acc;
     }, {});
 
-    // Generate the HTML
-    return Object.entries(parts)
-        .map(([part, links]) => `<h3>▼ ${part}</h3>\n<ul>${links.join('')}</ul>`)
-        .join('\n');
+    var i = 1;
+    var result = [];
+    for (const [part, links] of Object.entries(parts)) {
+        if (links.join('').includes(window.song.code)) {
+            result.push(getPart(i, part, links, open=true));
+        }
+        else {
+            result.push(getPart(i, part, links));
+        }
+        i++;
+    }
+    window.parts = i;
+
+    return result.join('\n');
 }
 
 
