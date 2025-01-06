@@ -83,6 +83,9 @@ function getPart(i, part, links, open=false) {
 
 // Generates unordered list of song links for menu, sorted by part
 function getSongsUL(songs, current = '') {
+    // Only published songs
+    songs = songs.filter(item => item.published === "1");
+
     // Add the "link" property to each song
     songs.forEach(song => {
         song.link = getLink(song.code, song.name, current);
@@ -116,6 +119,25 @@ function getSongsUL(songs, current = '') {
 
 /* SONG */
 
+function design_song_info(song) {
+    var infos = {
+        'origAuthor': 'Оригинал',
+        'origSinger': 'Исполнение оригинала',
+        'tranAuthor': 'Перевод',
+        'tranSinger': 'Исполнение',
+        'author':     'Слова',
+        'composer':   'Музыка',
+        'singer':     'Исполнение',
+    };
+    result = [];
+    for (const [key, text] of Object.entries(infos)) {
+        if (song[key]) {
+            result.push(`<li><span class="strong">${text}: </span>${song[key]}</li>`);
+        }
+    }
+    return result.join('\n');
+}
+
 function update_song(song_code, songs) {
     var song = songs.filter(
         item => item.code === song_code);
@@ -132,10 +154,7 @@ function update_song(song_code, songs) {
     document.getElementById("song_name").childNodes[0].nodeValue = song.name + ' ';
 
     // song_info_ul
-    let song_info_ul = `<li><span class="strong">Оригинал: </span>${song.origAuthor}</li>
-        <li><span class="strong">Исполнение оригинала: </span>${song.origSinger}</li>
-        <li><span class="strong">Перевод: </span>${song.translator}</li>
-        <li><span class="strong">Исполнение: </span>${song.singer}</li>`;
+    let song_info_ul = design_song_info(song);
     document.getElementById("song_info_ul").innerHTML = song_info_ul;
 
     // title
@@ -291,9 +310,9 @@ function onYouTubePlayerAPIReady() {
         'fs': 0,
         },
     });
-    player.unloadModule("cc");
-    player.unloadModule("captions");
-    player.unloadModule("subtitles");
+    //player.unloadModule("cc");
+    //player.unloadModule("captions");
+    //player.unloadModule("subtitles");
     }
 
 function song() {
@@ -421,5 +440,4 @@ function index() {
         document.getElementById("songs_ul").innerHTML = getSongsUL(window.songs);
     });
 }
-
 
