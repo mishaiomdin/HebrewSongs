@@ -38,7 +38,6 @@ function getSongsUL_old(songs, current = '') {
 function openClosePart(i, recursive=true) {
     var button = document.getElementById(`part_${i}_button`);
     var contents = document.getElementById(`part_${i}_list`);
-    console.log(button);
     if (button.dataset.open === "closed") {
         contents.style.display = "block";
         button.innerHTML = "▲";
