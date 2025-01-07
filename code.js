@@ -185,7 +185,6 @@ function openCloseMenu() {
     }
 }
 
-
 function openCloseContents() {
     var button = document.getElementById("contents_button");
     var contents = document.getElementById("contents_list");
@@ -401,6 +400,61 @@ function show_song_old() {
 });
 }
 
+function show(data) {
+    if (!data) {
+        return "";
+    }
+    return data;
+}
+
+function show_suff(suffix) {
+    if (!suffix) {
+        return "";
+      }
+      return "+ " + suffix;
+    }
+
+function designAnalysis(word) {
+      return `<span class="tooltip" ontouchstart="this.querySelector("#${word}_analysis").visibility = "visible">
+          ${word.word} <span class="tooltiptext_analysis" id="${word}_analysis">
+          <table class="word_analysis_table">
+        <tr>
+          <td class="heb_td">
+          ${show(word.prefix)}
+          ${show(word.lemma)}
+          ${show_suff(word.suffix)}
+          </td>
+        </tr>
+        <tr>
+          <td>${show(word.pattern)}</td>
+        </tr>
+        <tr>
+          <td class="heb_td">${show(word.root)}</td>
+        </tr>
+        <tr>
+          <td class="translation">${show(word.translation)}</td>
+        </tr>
+      </table>
+      </span>
+      </span>`;
+}
+
+function makeInteractive(line) {
+    if (typeof analysis === 'undefined') {
+        console.log("Undefined analysis!");
+        return line;
+      }
+      let new_line = "";
+      let words = analysis.filter(item => item.line === line);
+      if (words.length > 0) {
+        for (let word of words) {
+          new_line += designAnalysis(word) + " ";
+        }
+        return new_line;
+      }
+      return line;
+}
+
 function show_song(song) {
     window.song = song;
     update_song(song);
@@ -457,61 +511,6 @@ function show_song(song) {
       }
       var t_ru = setInterval(showSubtitlesByTime, 100);
     });
-
-    function show(data) {
-      if (!data) {
-        return "";
-      }
-      return data;
-    }
-
-    function show_suff(suffix) {
-      if (!suffix) {
-        return "";
-      }
-      return "+ " + suffix;
-    }
-
-    function designAnalysis(word) {
-      return `<span class="tooltip" ontouchstart="this.querySelector("#${word}_analysis").visibility = "visible">
-          ${word.word} <span class="tooltiptext_analysis" id="${word}_analysis">
-          <table class="word_analysis_table">
-        <tr>
-          <td class="heb_td">
-          ${show(word.prefix)}
-          ${show(word.lemma)}
-          ${show_suff(word.suffix)}
-          </td>
-        </tr>
-        <tr>
-          <td>${show(word.pattern)}</td>
-        </tr>
-        <tr>
-          <td class="heb_td">${show(word.root)}</td>
-        </tr>
-        <tr>
-          <td class="translation">${show(word.translation)}</td>
-        </tr>
-      </table>
-      </span>
-      </span>`;
-    }
-
-    function makeInteractive(line) {
-      if (typeof analysis === 'undefined') {
-        console.log("Undefined analysis!");
-        return line;
-      }
-      let new_line = "";
-      let words = analysis.filter(item => item.line === line);
-      if (words.length > 0) {
-        for (let word of words) {
-          new_line += designAnalysis(word) + " ";
-        }
-        return new_line;
-      }
-      return line;
-    }
 }
 
 function index() {
