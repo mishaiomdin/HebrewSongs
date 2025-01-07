@@ -80,7 +80,7 @@ function getSongsUL(songs, current = '') {
     var i = 1;
     var result = [];
     for (const [part, links] of Object.entries(parts)) {
-        if (links.join('').includes(window.song.code)) {
+        if (current && links.join('').includes(current)) {
             result.push(getPart(i, part, links, open=true));
         }
         else {
@@ -526,24 +526,79 @@ function index() {
                 Для каждой песни я сделал интерактивные субтитры с переводом и разбором каждого конкретного слова.
             </p>
             <p><span class="strong">На сайте можно:</span>
-            <div class="content_container">
-                <figure>
-                  <figcaption>Включить песню с субтитрами</figcaption>
-                    <img src="/HebrewSongs/media/images/ScreenshotVideo.png" width="150">
-                </figure>
-                <figure>
-                  <figcaption>Настроить скорость видео</figcaption>
-                    <img src="/HebrewSongs/media/images/ScreenshotSpeed.png" width="150">
-                </figure>
-                <figure>
-                  <figcaption>Увидеть разбор слова</figcaption>
-                    <img src="/HebrewSongs/media/images/ScreenshotAnalysis.png" width="150">
-                </figure>
-            </div>
+            <ul>
+            <li>Включить песню с субтитрами: <button>▶</button></li>
+            <li>Настроить скорость: <button>0.5</button> <button>0.75</button> <button>1</button></li>
+            <li>Навести курсор или нажать на слово, чтобы увидеть его подробный грамматический разбор:<br>
+            <div id="subtitles_he" class="subtitles" dir="rtl" data-line="לא יצליח להפתיע"><span class="tooltip" ontouchstart="this.querySelector(" #[object="" object]_analysis").visibility="visible">
+          לא <span class="tooltiptext_analysis" id="[object Object]_analysis">
+          <table class="word_analysis_table">
+        <tbody><tr>
+          <td class="heb_td">
+          
+          לֹא
+          
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="heb_td"></td>
+        </tr>
+        <tr>
+          <td class="translation">не</td>
+        </tr>
+      </tbody></table>
+      </span>
+      </span> <span class="tooltip" ontouchstart="this.querySelector(" #[object="" object]_analysis").visibility="visible">
+          יצליח <span class="tooltiptext_analysis" id="[object Object]_analysis">
+          <table class="word_analysis_table">
+        <tbody><tr>
+          <td class="heb_td">
+          
+          לְהַצְלִיחַ
+          
+          </td>
+        </tr>
+        <tr>
+          <td>hифъиль</td>
+        </tr>
+        <tr>
+          <td class="heb_td">צ - ל - ח</td>
+        </tr>
+        <tr>
+          <td class="translation">сможет</td>
+        </tr>
+      </tbody></table>
+      </span>
+      </span> <span class="tooltip" ontouchstart="this.querySelector(" #[object="" object]_analysis").visibility="visible">
+          להפתיע <span class="tooltiptext_analysis" id="[object Object]_analysis">
+          <table class="word_analysis_table">
+        <tbody><tr>
+          <td class="heb_td">
+          
+          לְהַפְתִּיעַ
+          
+          </td>
+        </tr>
+        <tr>
+          <td>hифъиль</td>
+        </tr>
+        <tr>
+          <td class="heb_td">פ - ת - ע</td>
+        </tr>
+        <tr>
+          <td class="translation">застать врасплох</td>
+        </tr>
+      </tbody></table>
+      </span>
+      </span> </div>
+            </li>
+            </ul>
             <p><span class="strong">Я — школьник Миша Иомдин.</span> Живу и учусь в Берлине, до этого — в Израиле, ещё раньше — в Москве. Учу языки, занимаюсь лингвистикой, математикой и программирую.</p>
             <p>Мой канал про иврит, немецкий и другие языки: <a href="https://t.me/MonOnSun">«Понедельник начинается в воскресенье»</a></p>
-        </div>;`;
-
+        </div>`;
     get_songs().then(x => {
         document.getElementById("songs_ul").innerHTML = getSongsUL(window.songs);
     });

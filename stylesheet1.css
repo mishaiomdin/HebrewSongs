@@ -135,6 +135,7 @@ li {
   background-color: #63b5cf;
   border-radius: 25px;
   min-height: 510px;
+  height:100%; 
 }
 
 /*middle columnn, 1/2 width*/
