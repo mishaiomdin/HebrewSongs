@@ -10,7 +10,7 @@
   <link rel="icon" type="image/x-icon" href="/HebrewSongs/media/images/NotesLogo.png">
 
   <!-- title -->
-  <title id="title">Песни и переводы</title>
+  <title id="title"></title>
 
   <!-- stylesheets -->
   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet" type="text/css">
@@ -44,14 +44,17 @@
 <body>
   <!-- HEADER -->
   <header>
-      <span class="title">
-        <h1 class="song_title">
-          <h1 class="song_title">
-            Песни и переводы
-            <sup class="info_circle" style="visibility: hidden;">ⓘ</sup>
-          </h1>
+      <span class="title" id="page_title">
+        <h1 id="song_name" class="song_title">
+          <sup onclick="openCloseSongInfo()"class="info_circle">ⓘ</sup>
         </h1>
       </span>
+
+      <div class="song_info" id="song_info" style="display: none">
+         <button class="open_close_button song_info_close_button" onclick="openCloseSongInfo()">✕</button>
+        <ul id="song_info_ul" style="list-style: none;">
+        </ul>
+      </div>
   </header>
 
   <!-- OPEN/CLOSE MENU -->
@@ -65,43 +68,54 @@
   </span>
 
   <!-- ACTUAL CONTENT -->
-  <div class="content_container">
+  <div class="content_container" id="actual_content">
 
     <!-- MENU COLUMN --->
     <div class="content_column menu_column" id="menu_list" style="display: none">
-      <a href="/HebrewSongs/">☜ Главная страница</a>
+      <a href="/HebrewSongs">☜ Главная страница</a>
       <h2>Песни на сайте</h2>
         <span id="songs_ul"></span>
     </div>
 
     <!-- VIDEO COLUMN --->
-    <div class="content_column video_column">
-      <h2>Здесь вы найдёте ивритские переводы и адаптации известных песен!</h2>
-      <div class="content_column main_page_container">
-            <p><span class="strong">Песни не мои, переводы песен не мои.</span>
-                Моя цель — собрать переводы знакомых песен и подробно разобрать текст,
-                чтобы по нему можно было учить иврит.
-                Для каждой песни я сделал интерактивные субтитры с переводом и разбором каждого конкретного слова.
-            </p>
-            <p><span class="strong">На сайте можно:</span>
-            <div class="content_container">
-                <figure>
-                  <figcaption>Включить песню с субтитрами</figcaption>
-                    <img src="/HebrewSongs/media/images/ScreenshotVideo.png" width="150">
-                </figure>
-                <figure>
-                  <figcaption>Настроить скорость видео</figcaption>
-                    <img src="/HebrewSongs/media/images/ScreenshotSpeed.png" width="150">
-                </figure>
-                <figure>
-                  <figcaption>Увидеть разбор слова</figcaption>
-                    <img src="/HebrewSongs/media/images/ScreenshotAnalysis.png" width="150">
-                </figure>
-            </div>
-            <p><span class="strong">Я — школьник Миша Иомдин.</span> Живу и учусь в Берлине, до этого — в Израиле, ещё раньше — в Москве. Учу языки, занимаюсь лингвистикой, математикой и программирую.</p>
-            <p>Мой канал про иврит, немецкий и другие языки: <a href="https://t.me/MonOnSun">«Понедельник начинается в воскресенье»</a></p>
+    <div class="content_column video_column" id="main_column">
+      <p class="song_info" style="text-align: center; margin-top: 0px; margin-bottom: 10px; padding: 10px">
+        Наведите курсор или нажмите на слово, чтобы увидеть его перевод
+      </p>
+      <div class="my_controls">
+        <button onclick="playPause()">▶</button> 
+        <button onclick="setSpeed(0.5)">0.5</button> 
+        <button onclick="setSpeed(0.75)">0.75</button> 
+        <button onclick="setSpeed(1)">1</button>
+        <button onclick="goForward(-3)">⤾ 3 сек.</button>
+        <button onclick="goForward(3)">⤿ 3 сек.</button>
+      </div id="my_controls">
+
+      <!-- video -->
+      <div id="video_wrap" class="video_wrap">
+        <div id="the_video">
+          <!-- here is the video -->
         </div>
+      </div>
+
+      <!-- subtitles HE -->
+      <div id="subtitles_he_wrap" class="subtitles_wrap">
+          <div id="subtitles_he" class="subtitles" dir="rtl">
+            <!-- here are the Hebrew subtitles -->
+          </div>
+      </div>
+
+      <!-- subtitles RU -->
+      <div id="subtitles_ru_wrap" class="subtitles_wrap">
+          <div id="subtitles_ru" class="subtitles">
+            <!-- here are the Russian subtitles -->
+          </div>
+      </div>
     </div>
+
+    <span id="contents_wrap">
+      <!-- here are the contents -->
+    </span>
   </div>
 </body>
 
@@ -111,7 +125,7 @@
 <!-- My JS -->
 <script src="/HebrewSongs/code.js"></script>
 <script>
-  index();
+  page();
 </script>
 
 </html>

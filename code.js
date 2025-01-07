@@ -7,9 +7,9 @@
 // Generates one song link
 function getLink(code, name, current) {
     if (code === current) {
-        return `<li><a class="current_page_link" style="text-decoration:none" href="/HebrewSongs/song?song=${code}">${name}</a></li>`;
+        return `<li><a class="current_page_link" style="text-decoration:none" href="/HebrewSongs?song=${code}">${name}</a></li>`;
     }
-    return `<li><a href="/HebrewSongs/song?song=${code}">${name}</a></li>`;
+    return `<li><a href="/HebrewSongs?song=${code}">${name}</a></li>`;
 }
 
 
@@ -145,7 +145,7 @@ function update_song(song_code, songs) {
         window.song = song[0];
     }
     else {
-        window.location.href = "/HebrewSongs/";
+        window.location.href = "/HebrewSongs";
         window.song = '';
     }
     song = window.song;
@@ -436,8 +436,57 @@ function song() {
 }
 
 function index() {
+    document.getElementById("title").innerHTML = 'Песни и переводы';
+    document.getElementById("song_name").innerHTML = 'Песни и переводы <sup onclick="openCloseSongInfo()"class="info_circle" style="visibility: hidden;">ⓘ</sup>';
+    document.getElementById("main_column").innerHTML = `<h2>Здесь вы найдёте ивритские переводы и адаптации известных песен!</h2>
+      <div class="content_column main_page_container">
+            <p><span class="strong">Песни не мои, переводы песен не мои.</span>
+                Моя цель — собрать переводы знакомых песен и подробно разобрать текст,
+                чтобы по нему можно было учить иврит.
+                Для каждой песни я сделал интерактивные субтитры с переводом и разбором каждого конкретного слова.
+            </p>
+            <p><span class="strong">На сайте можно:</span>
+            <div class="content_container">
+                <figure>
+                  <figcaption>Включить песню с субтитрами</figcaption>
+                    <img src="/HebrewSongs/media/images/ScreenshotVideo.png" width="150">
+                </figure>
+                <figure>
+                  <figcaption>Настроить скорость видео</figcaption>
+                    <img src="/HebrewSongs/media/images/ScreenshotSpeed.png" width="150">
+                </figure>
+                <figure>
+                  <figcaption>Увидеть разбор слова</figcaption>
+                    <img src="/HebrewSongs/media/images/ScreenshotAnalysis.png" width="150">
+                </figure>
+            </div>
+            <p><span class="strong">Я — школьник Миша Иомдин.</span> Живу и учусь в Берлине, до этого — в Израиле, ещё раньше — в Москве. Учу языки, занимаюсь лингвистикой, математикой и программирую.</p>
+            <p>Мой канал про иврит, немецкий и другие языки: <a href="https://t.me/MonOnSun">«Понедельник начинается в воскресенье»</a></p>
+        </div>;`;
+
     get_songs().then(x => {
         document.getElementById("songs_ul").innerHTML = getSongsUL(window.songs);
     });
+}
+
+function page() {
+    const urlParams = new URLSearchParams(window.location.search);
+    var code = urlParams.get('song');
+    if (!code) {
+        // no song at all
+        index();
+    }
+    else {
+        get_songs().then(x => {
+            var found_songs = songs.filter(
+                item => item.code === code);
+            if (found_songs.length == 0) {
+                index();
+            }
+            else {
+                song();
+            }
+        });
+    }
 }
 
