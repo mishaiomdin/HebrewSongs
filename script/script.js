@@ -7,9 +7,9 @@
 // Generates one song link
 function getLink(code, name, current) {
     if (code === current) {
-        return `<li><a class="current_page_link" style="text-decoration:none" href="/HebrewSongs?song=${code}">${name}</a></li>`;
+        return `<li><a class="current_page_link" style="text-decoration:none" href="?song=${code}">${name}</a></li>`;
     }
-    return `<li><a href="/HebrewSongs?song=${code}">${name}</a></li>`;
+    return `<li><a href="?song=${code}">${name}</a></li>`;
 }
 
 function openClosePart(i, recursive=true) {
@@ -96,6 +96,116 @@ function getSongsUL(songs, current = '') {
 
 /* SONG */
 
+function convertVttToJson(vttString) {
+  return new Promise((resolve, reject) => {
+  var current = {}
+  var sections = []
+  var start = false;
+  var vttArray = vttString.split('\n');
+   vttArray.forEach((line, index) => {
+    if (line.replace(/<\/?[^>]+(>|$)/g, "") === " "){
+    } else if (line.replace(/<\/?[^>]+(>|$)/g, "") == "") {
+    } else if (line.indexOf('-->') !== -1 ) {
+      start = true;
+
+      if (current.start) {
+        sections.push(clone(current))
+      }
+
+      current = {
+        start: timeString2ms(line.split("-->")[0].trimRight().split(" ").pop()),
+        end: timeString2ms(line.split("-->")[1].trimLeft().split(" ").shift()),
+        part: ''
+      }
+    } else if (line.replace(/<\/?[^>]+(>|$)/g, "") === ""){
+    } else if (line.replace(/<\/?[^>]+(>|$)/g, "") === " "){
+    } else {
+      if (start){
+        if (sections.length !== 0) {
+          if (sections[sections.length - 1].part.replace(/<\/?[^>]+(>|$)/g, "") === line.replace(/<\/?[^>]+(>|$)/g, "")) {
+          } else {
+            if (current.part.length === 0) {
+              current.part = line
+            } else {
+              current.part = `${current.part} ${line}`
+            }
+            // If it's the last line of the subtitles
+            if (index === vttArray.length - 1) {
+              sections.push(clone(current))
+            }
+          }
+        } else {
+          current.part = line
+          sections.push(clone(current))
+          current.part = ''
+        }
+      }
+    }
+  })
+
+  current = []
+
+  var regex = /(<([0-9:.>]+)>)/ig
+  sections.forEach(section => {
+    strs = section.part.split()
+    var results = strs.map(function(s){
+        return s.replace(regex, function(n){
+          return n.split('').reduce(function(s,i){ return `==${n.replace("<", "").replace(">", "")}` }, 0)
+        })
+    });
+    cleanText = results[0].replace(/<\/?[^>]+(>|$)/g, "");
+    cleanArray = cleanText.split(" ")
+    resultsArray = [];
+    cleanArray.forEach(function(item){
+      if (item.indexOf('==') > -1) {
+        var pair = item.split("==")
+        var key = pair[0]
+        var value = pair[1]
+        if(key == "" || key == "##") {
+          return;
+        }
+        resultsArray.push({
+          word: cleanWord(item.split("==")[0]),
+          time: timeString2ms(item.split("==")[1]),
+        })
+      } else {
+        resultsArray.push({
+          word: cleanWord(item),
+          time: undefined,
+        })
+      }
+    })
+    section.words = resultsArray;
+    section.part = section.part.replace(/<\/?[^>]+(>|$)/g, "")
+  })
+    resolve(sections);
+  })
+}
+
+// helpers
+//   http://codereview.stackexchange.com/questions/45335/milliseconds-to-time-string-time-string-to-milliseconds
+function timeString2ms(a,b){// time(HH:MM:SS.mss) // optimized
+ return a=a.split('.'), // optimized
+  b=a[1]*1||0, // optimized
+  a=a[0].split(':'),
+  b+(a[2]?a[0]*3600+a[1]*60+a[2]*1:a[1]?a[0]*60+a[1]*1:a[0]*1)*1e3 // optimized
+}
+
+// removes everything but characters and apostrophe and dash
+function cleanWord(word) {
+  return word.replace(/[^0-9a-z'-]/gi, '').toLowerCase()
+}
+
+function clone(obj) {
+    if (null == obj || "object" != typeof obj) return obj;
+    var copy = obj.constructor();
+    for (var attr in obj) {
+        if (obj.hasOwnProperty(attr)) copy[attr] = obj[attr];
+    }
+    return copy;
+}
+
+
 function design_song_info(song) {
     var infos = {
         'origAuthor': 'Оригинал',
@@ -161,7 +271,7 @@ function update_song(song) {
 }
 
 function get_songs() {
-    return fetch('/HebrewSongs/Songs.json').then(response => response.json()).then(data => {
+    return fetch('Songs.json').then(response => response.json()).then(data => {
         songs = data;
         console.log('Got songs');
         window.songs = songs;
@@ -285,14 +395,14 @@ function show_song_old() {
     const urlParams = new URLSearchParams(window.location.search);
     var code = urlParams.get('song');
     if (!code) {
-        window.location.href = "/HebrewSongs/404";
+        window.location.href = "404";
     }
     update_song(code, window.songs);
 
     console.log(window.song);
 
     // Fetches analysis
-    fetch(`/HebrewSongs/media/analysis/${window.song.code}_analysis.json`).then(response => response.json()).then(data => {
+    fetch(`media/analysis/${window.song.code}_analysis.json`).then(response => response.json()).then(data => {
         analysis = data; // Save the JSON object to a variable
     });
 
@@ -314,7 +424,7 @@ function show_song_old() {
       return currentCue ? currentCue.part : '';
     }
 
-    const vttUrl = `/HebrewSongs/media/subtitles/${window.song.code}_Hebrew.vtt`;
+    const vttUrl = `media/subtitles/${window.song.code}_Hebrew.vtt`;
 
     var cues = fetchAndParseVTT(vttUrl).then(cues => {
       var subtitles_wrap_id = 'subtitles_he_wrap';
@@ -329,7 +439,7 @@ function show_song_old() {
       var t = setInterval(showSubtitlesByTime, 100);
     });
 
-    const vttUrl_ru = `/HebrewSongs/media/subtitles/${window.song.code}_Russian.vtt`;
+    const vttUrl_ru = `media/subtitles/${window.song.code}_Russian.vtt`;
 
     var cues_ru = fetchAndParseVTT(vttUrl_ru).then(cues_ru => {
       var div_ru = document.getElementById("subtitles_ru");
@@ -461,7 +571,7 @@ function show_song(song) {
     console.log(window.song);
 
     // Fetches analysis
-    fetch(`/HebrewSongs/media/analysis/${window.song.code}_analysis.json`).then(response => response.json()).then(data => {
+    fetch(`media/analysis/${window.song.code}_analysis.json`).then(response => response.json()).then(data => {
         analysis = data; // Save the JSON object to a variable
     });
 
@@ -483,7 +593,7 @@ function show_song(song) {
       return currentCue ? currentCue.part : '';
     }
 
-    const vttUrl = `/HebrewSongs/media/subtitles/${window.song.code}_Hebrew.vtt`;
+    const vttUrl = `media/subtitles/${window.song.code}_Hebrew.vtt`;
 
     var cues = fetchAndParseVTT(vttUrl).then(cues => {
       var subtitles_wrap_id = 'subtitles_he_wrap';
@@ -498,7 +608,7 @@ function show_song(song) {
       var t = setInterval(showSubtitlesByTime, 100);
     });
 
-    const vttUrl_ru = `/HebrewSongs/media/subtitles/${window.song.code}_Russian.vtt`;
+    const vttUrl_ru = `media/subtitles/${window.song.code}_Russian.vtt`;
 
     var cues_ru = fetchAndParseVTT(vttUrl_ru).then(cues_ru => {
       var div_ru = document.getElementById("subtitles_ru");
