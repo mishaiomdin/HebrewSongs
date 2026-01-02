@@ -1,0 +1,1096 @@
+[
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "pealim_id": "3191",
+    "line": "כאן ביתי פה אני נולדתי"
+  },
+  {
+    "word": "ביתי",
+    "word_menukad": "בֵּיתִי",
+    "translation": "мой дом",
+    "lemma": "בַּיִת",
+    "suffix": "י",
+    "root": "ב - י - ת",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4444",
+    "line": "כאן ביתי פה אני נולדתי"
+  },
+  {
+    "word": "פה",
+    "word_menukad": "פֹּה",
+    "translation": "здесь",
+    "lemma": "פֹּה",
+    "pealim_id": "3192",
+    "line": "כאן ביתי פה אני נולדתי"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "pealim_id": "4643",
+    "line": "כאן ביתי פה אני נולדתי"
+  },
+  {
+    "word": "נולדתי",
+    "word_menukad": "נוֹלַדְתִּי",
+    "translation": "(я) родился",
+    "lemma": "לְהִיווָּלֵד",
+    "root": "י - ל - ד",
+    "pattern": "нифъаль",
+    "pealim_id": "800",
+    "line": "כאן ביתי פה אני נולדתי"
+  },
+  {
+    "word": "במישור",
+    "word_menukad": "מִישׁוֹר",
+    "translation": "равнина",
+    "prefix": "ב־ +",
+    "lemma": "מִישׁוֹר",
+    "root": "י - שׁ - ר",
+    "pattern": "миктоль, м. р.",
+    "pealim_id": "6744",
+    "line": "במישור אשר על שפת הים"
+  },
+  {
+    "word": "אשר",
+    "word_menukad": "אֲשֶׁר",
+    "translation": "который",
+    "lemma": "אֲשֶׁר",
+    "pealim_id": "4822",
+    "line": "במישור אשר על שפת הים"
+  },
+  {
+    "word": "על",
+    "word_menukad": "עַל",
+    "translation": "на",
+    "lemma": "עַל",
+    "pealim_id": "6012",
+    "line": "במישור אשר על שפת הים"
+  },
+  {
+    "word": "שפת",
+    "word_menukad": "שְׂפַת־",
+    "translation": "берег",
+    "lemma": "שָׂפָה",
+    "root": "שׂ - פ - ה",
+    "pattern": "каталь, ж. р.",
+    "pealim_id": "5171",
+    "line": "במישור אשר על שפת הים"
+  },
+  {
+    "word": "הים",
+    "word_menukad": "יָם",
+    "translation": "море",
+    "prefix": "ה־ +",
+    "lemma": "יָם",
+    "root": "י - מ - ם",
+    "pattern": "м. р.",
+    "pealim_id": "4137",
+    "line": "במישור אשר על שפת הים"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "pealim_id": "3191",
+    "line": "כאן החברים איתם גדלתי"
+  },
+  {
+    "word": "החברים",
+    "word_menukad": "חֲבֵרִים",
+    "translation": "друзья",
+    "prefix": "ה־ +",
+    "lemma": "חָבֵר",
+    "root": "ח - ב - ר",
+    "pattern": "катель, м. р.",
+    "pealim_id": "4744",
+    "line": "כאן החברים איתם גדלתי"
+  },
+  {
+    "word": "איתם",
+    "word_menukad": "אִתָּם",
+    "translation": "с которыми",
+    "lemma": "עִם",
+    "suffix": "הם",
+    "pealim_id": "4112",
+    "line": "כאן החברים איתם גדלתי"
+  },
+  {
+    "word": "גדלתי",
+    "word_menukad": "גָּדַלְתִּי",
+    "translation": "(я) росла",
+    "lemma": "לִגְדּוֹל",
+    "root": "ג - ד - ל",
+    "pattern": "пааль",
+    "pealim_id": "298",
+    "line": "כאן החברים איתם גדלתי"
+  },
+  {
+    "word": "ואין",
+    "word_menukad": "אֵין",
+    "translation": "и нет",
+    "prefix": "ו־ +",
+    "lemma": "אֵין",
+    "pealim_id": "6052",
+    "line": "ואין לי שום מקום אחר בעולם"
+  },
+  {
+    "word": "לי",
+    "word_menukad": "לִי",
+    "translation": "у меня",
+    "lemma": "לְ",
+    "suffix": "י",
+    "pealim_id": "6014",
+    "line": "ואין לי שום מקום אחר בעולם"
+  },
+  {
+    "word": "שום",
+    "word_menukad": "שׁוּם",
+    "translation": "никакой",
+    "lemma": "שׁוּם",
+    "line": "ואין לי שום מקום אחר בעולם"
+  },
+  {
+    "word": "מקום",
+    "word_menukad": "מָקוֹם",
+    "translation": "место",
+    "lemma": "מָקוֹם",
+    "root": "ק - ו - ם",
+    "pattern": "микталь, м. р.",
+    "pealim_id": "3727",
+    "line": "ואין לי שום מקום אחר בעולם"
+  },
+  {
+    "word": "אחר",
+    "word_menukad": "אַחֵר",
+    "translation": "другой",
+    "lemma": "אַחֵר",
+    "root": "א - ח - ר",
+    "pealim_id": "4630",
+    "line": "ואין לי שום מקום אחר בעולם"
+  },
+  {
+    "word": "בעולם",
+    "word_menukad": "עוֹלָם",
+    "translation": "в мире",
+    "prefix": "ב־ +",
+    "lemma": "עוֹלָם",
+    "root": "ע - ל - ם",
+    "pattern": "коталь, м. р.",
+    "pealim_id": "4106",
+    "line": "ואין לי שום מקום אחר בעולם"
+  },
+  {
+    "word": "אין",
+    "word_menukad": "אֵין",
+    "translation": "нет",
+    "lemma": "אֵין",
+    "pealim_id": "6052",
+    "line": "אין לי שום מקום אחר בעולם"
+  },
+  {
+    "word": "לי",
+    "word_menukad": "לִי",
+    "translation": "у меня",
+    "lemma": "לְ",
+    "suffix": "י",
+    "pealim_id": "6014",
+    "line": "אין לי שום מקום אחר בעולם"
+  },
+  {
+    "word": "שום",
+    "word_menukad": "שׁוּם",
+    "translation": "никакой",
+    "lemma": "שׁוּם",
+    "line": "אין לי שום מקום אחר בעולם"
+  },
+  {
+    "word": "מקום",
+    "word_menukad": "מָקוֹם",
+    "translation": "место",
+    "lemma": "מָקוֹם",
+    "root": "ק - ו - ם",
+    "pattern": "микталь, м. р.",
+    "pealim_id": "3727",
+    "line": "אין לי שום מקום אחר בעולם"
+  },
+  {
+    "word": "אחר",
+    "word_menukad": "אַחֵר",
+    "translation": "другой",
+    "lemma": "אַחֵר",
+    "root": "א - ח - ר",
+    "pealim_id": "4630",
+    "line": "אין לי שום מקום אחר בעולם"
+  },
+  {
+    "word": "בעולם",
+    "word_menukad": "עוֹלָם",
+    "translation": "в мире",
+    "prefix": "ב־ +",
+    "lemma": "עוֹלָם",
+    "root": "ע - ל - ם",
+    "pattern": "коталь, м. р.",
+    "pealim_id": "4106",
+    "line": "אין לי שום מקום אחר בעולם"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "pealim_id": "3191",
+    "line": "כאן ביתי פה אני שיחקתי"
+  },
+  {
+    "word": "ביתי",
+    "word_menukad": "בֵּיתִי",
+    "translation": "мой дом",
+    "lemma": "בַּיִת",
+    "suffix": "י",
+    "root": "ב - י - ת",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4444",
+    "line": "כאן ביתי פה אני שיחקתי"
+  },
+  {
+    "word": "פה",
+    "word_menukad": "פֹּה",
+    "translation": "здесь",
+    "lemma": "פֹּה",
+    "pealim_id": "3192",
+    "line": "כאן ביתי פה אני שיחקתי"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "pealim_id": "4643",
+    "line": "כאן ביתי פה אני שיחקתי"
+  },
+  {
+    "word": "שיחקתי",
+    "word_menukad": "שִׂחַקְתִּי",
+    "translation": "(я) играл",
+    "lemma": "לְשַׂחֵק",
+    "root": "שׂ - ח - ק",
+    "pattern": "пиэль",
+    "pealim_id": "2172",
+    "line": "כאן ביתי פה אני שיחקתי"
+  },
+  {
+    "word": "בשפלה",
+    "word_menukad": "שִׁפְלָהּ",
+    "translation": "на равнине",
+    "prefix": "ב־ +",
+    "lemma": "שֵׁפֶל",
+    "suffix": "ה",
+    "root": "שׁ - פ - ל",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "7398",
+    "line": "בשפלה אשר על גב ההר"
+  },
+  {
+    "word": "אשר",
+    "word_menukad": "אֲשֶׁר",
+    "translation": "который",
+    "lemma": "אֲשֶׁר",
+    "pealim_id": "4822",
+    "line": "בשפלה אשר על גב ההר"
+  },
+  {
+    "word": "על גב",
+    "word_menukad": "עַל גַּב",
+    "translation": "на",
+    "lemma": "עַל גַּב",
+    "pealim_id": "4819",
+    "line": "בשפלה אשר על גב ההר"
+  },
+  {
+    "word": "ההר",
+    "word_menukad": "הָר",
+    "translation": "гора",
+    "prefix": "ה־ +",
+    "lemma": "הָר",
+    "root": "ה - ר - ר",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4163",
+    "line": "בשפלה אשר על גב ההר"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "pealim_id": "3191",
+    "line": "כאן מן הבאר שתיתי מים"
+  },
+  {
+    "word": "מן",
+    "word_menukad": "מִן",
+    "translation": "из",
+    "lemma": "מִן",
+    "pealim_id": "6051",
+    "line": "כאן מן הבאר שתיתי מים"
+  },
+  {
+    "word": "הבאר",
+    "word_menukad": "בְּאֵר",
+    "translation": "колодец",
+    "prefix": "ה־ +",
+    "lemma": "בְּאֵר",
+    "root": "ב - א - ר",
+    "pattern": "ктель, ж. р.",
+    "pealim_id": "3732",
+    "line": "כאן מן הבאר שתיתי מים"
+  },
+  {
+    "word": "שתיתי",
+    "word_menukad": "שָׁתִיתִי",
+    "translation": "(я) пил",
+    "lemma": "לִשְׁתּוֹת",
+    "root": "שׁ - ת - ה",
+    "pattern": "пааль",
+    "pealim_id": "31",
+    "line": "כאן מן הבאר שתיתי מים"
+  },
+  {
+    "word": "מים",
+    "word_menukad": "מַיִם",
+    "translation": "вода",
+    "lemma": "מַיִם",
+    "pattern": "м. р., мн. ч.",
+    "pealim_id": "4270",
+    "line": "כאן מן הבאר שתיתי מים"
+  },
+  {
+    "word": "ושתלתי",
+    "word_menukad": "שָׁתַלְתִּי",
+    "translation": "и (я) сажал",
+    "prefix": "ו־ +",
+    "lemma": "לִשְׁתּוֹל",
+    "root": "שׁ - ת - ל",
+    "pattern": "пааль",
+    "pealim_id": "2330",
+    "line": "ושתלתי דשא במדבר"
+  },
+  {
+    "word": "דשא",
+    "word_menukad": "דֶּשֶׁא",
+    "translation": "трава",
+    "lemma": "דֶּשֶׁא",
+    "root": "ד - שׁ - א",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "3247",
+    "line": "ושתלתי דשא במדבר"
+  },
+  {
+    "word": "במדבר",
+    "word_menukad": "מִדְבָּר",
+    "translation": "в пустыне",
+    "prefix": "ב־ +",
+    "lemma": "מִדְבָּר",
+    "root": "ד - ב - ר",
+    "pattern": "микталь, м. р.",
+    "pealim_id": "5299",
+    "line": "ושתלתי דשא במדבר"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "pealim_id": "3191",
+    "line": "כאן נולדתי, כאן נולדו לי ילדיי"
+  },
+  {
+    "word": "נולדתי,",
+    "word_menukad": "נוֹלַדְתִּי",
+    "translation": "(я) родился",
+    "lemma": "לְהִיווָּלֵד",
+    "root": "י - ל - ד",
+    "pattern": "нифъаль",
+    "pealim_id": "800",
+    "line": "כאן נולדתי, כאן נולדו לי ילדיי"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "pealim_id": "3191",
+    "line": "כאן נולדתי, כאן נולדו לי ילדיי"
+  },
+  {
+    "word": "נולדו",
+    "word_menukad": "נוֹלְדוּ",
+    "translation": "(они) родились",
+    "lemma": "לְהִיווָּלֵד",
+    "root": "י - ל - ד",
+    "pattern": "нифъаль",
+    "pealim_id": "800",
+    "line": "כאן נולדתי, כאן נולדו לי ילדיי"
+  },
+  {
+    "word": "לי",
+    "word_menukad": "לִי",
+    "translation": "у меня",
+    "lemma": "לְ",
+    "suffix": "י",
+    "pealim_id": "6014",
+    "line": "כאן נולדתי, כאן נולדו לי ילדיי"
+  },
+  {
+    "word": "ילדיי",
+    "word_menukad": "יְלָדַי",
+    "translation": "мои дети",
+    "lemma": "יֶלֶד",
+    "suffix": "י",
+    "root": "י - ל - ד",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "2650",
+    "line": "כאן נולדתי, כאן נולדו לי ילדיי"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "pealim_id": "3191",
+    "line": "כאן בניתי את ביתי בשתי ידיי"
+  },
+  {
+    "word": "בניתי",
+    "word_menukad": "בָּנִיתִי",
+    "translation": "(я) строил",
+    "lemma": "לִבְנוֹת",
+    "root": "ב - נ - ה",
+    "pattern": "пааль",
+    "pealim_id": "234",
+    "line": "כאן בניתי את ביתי בשתי ידיי"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "pealim_id": "2710",
+    "line": "כאן בניתי את ביתי בשתי ידיי"
+  },
+  {
+    "word": "ביתי",
+    "word_menukad": "בֵּיתִי",
+    "translation": "мой дом",
+    "lemma": "בַּיִת",
+    "suffix": "י",
+    "root": "ב - י - ת",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4444",
+    "line": "כאן בניתי את ביתי בשתי ידיי"
+  },
+  {
+    "word": "בשתי",
+    "word_menukad": "בשתי",
+    "translation": "двумя",
+    "prefix": "ב־ +",
+    "lemma": "שתיים",
+    "suffix": "י",
+    "line": "כאן בניתי את ביתי בשתי ידיי"
+  },
+  {
+    "word": "ידיי",
+    "word_menukad": "יָדַי",
+    "translation": "мои руки",
+    "lemma": "יָד",
+    "suffix": "י",
+    "pattern": "ж. р.",
+    "pealim_id": "4085",
+    "line": "כאן בניתי את ביתי בשתי ידיי"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "pealim_id": "3191",
+    "line": "כאן גם אתה איתי וכאן כל אלף ידידיי"
+  },
+  {
+    "word": "גם",
+    "word_menukad": "גַּם",
+    "translation": "тоже",
+    "lemma": "גַּם",
+    "pealim_id": "3304",
+    "line": "כאן גם אתה איתי וכאן כל אלף ידידיי"
+  },
+  {
+    "word": "אתה",
+    "word_menukad": "אַתָּה",
+    "translation": "ты",
+    "lemma": "אַתָּה",
+    "pealim_id": "4644",
+    "line": "כאן גם אתה איתי וכאן כל אלף ידידיי"
+  },
+  {
+    "word": "איתי",
+    "word_menukad": "אִתִּי",
+    "translation": "со мной",
+    "lemma": "עִם",
+    "suffix": "י",
+    "pealim_id": "4112",
+    "line": "כאן גם אתה איתי וכאן כל אלף ידידיי"
+  },
+  {
+    "word": "וכאן",
+    "word_menukad": "כָּאן",
+    "translation": "и здесь",
+    "prefix": "ו־ +",
+    "lemma": "כָּאן",
+    "pealim_id": "3191",
+    "line": "כאן גם אתה איתי וכאן כל אלף ידידיי"
+  },
+  {
+    "word": "כל",
+    "word_menukad": "כֹּל",
+    "translation": "весь",
+    "lemma": "כּוֹל",
+    "root": "כ - ל - ל",
+    "pattern": "котель, м. р.",
+    "pealim_id": "4158",
+    "line": "כאן גם אתה איתי וכאן כל אלף ידידיי"
+  },
+  {
+    "word": "אלף",
+    "word_menukad": "אֶלֶף",
+    "translation": "тысяча",
+    "lemma": "אֶלֶף",
+    "root": "א - ל - ף",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "5879",
+    "line": "כאן גם אתה איתי וכאן כל אלף ידידיי"
+  },
+  {
+    "word": "ידידיי",
+    "word_menukad": "יְדִידַי",
+    "translation": "мои друзья",
+    "lemma": "יָדִיד",
+    "suffix": "י",
+    "root": "י - ד - ד",
+    "pattern": "катиль, м. р.",
+    "pealim_id": "5580",
+    "line": "כאן גם אתה איתי וכאן כל אלף ידידיי"
+  },
+  {
+    "word": "ואחרי",
+    "word_menukad": "אַחֲרֵי",
+    "translation": "и после",
+    "prefix": "ו־ +",
+    "lemma": "אַחַר",
+    "root": "א - ח - ר",
+    "pealim_id": "4276",
+    "line": "ואחרי שנים אלפיים סוף לנדודיי"
+  },
+  {
+    "word": "שנים",
+    "word_menukad": "שָׁנִים",
+    "translation": "годы",
+    "lemma": "שָׁנָה",
+    "pattern": "ж. р.",
+    "pealim_id": "4065",
+    "line": "ואחרי שנים אלפיים סוף לנדודיי"
+  },
+  {
+    "word": "אלפיים",
+    "word_menukad": "אַלְפַּיִם",
+    "translation": "две тысячи",
+    "lemma": "אַלְפַּייִם",
+    "root": "א - ל - ף",
+    "pealim_id": "7725",
+    "line": "ואחרי שנים אלפיים סוף לנדודיי"
+  },
+  {
+    "word": "סוף",
+    "word_menukad": "סוֹף",
+    "translation": "конец",
+    "lemma": "סוֹף",
+    "root": "ס - ו - ף",
+    "pattern": "м. р.",
+    "pealim_id": "5543",
+    "line": "ואחרי שנים אלפיים סוף לנדודיי"
+  },
+  {
+    "word": "לנדודיי",
+    "word_menukad": "לנדודיי",
+    "translation": "моим странствиям",
+    "lemma": "נְדוּדִים",
+    "suffix": "י",
+    "root": "נ - ד - ד",
+    "pattern": "мн. ч.",
+    "line": "ואחרי שנים אלפיים סוף לנדודיי"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "pealim_id": "3191",
+    "line": "כאן את כל שיריי אני ניגנתי"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "pealim_id": "2710",
+    "line": "כאן את כל שיריי אני ניגנתי"
+  },
+  {
+    "word": "כל",
+    "word_menukad": "כֹּל",
+    "translation": "все",
+    "lemma": "כּוֹל",
+    "root": "כ - ל - ל",
+    "pattern": "котель, м. р.",
+    "pealim_id": "4158",
+    "line": "כאן את כל שיריי אני ניגנתי"
+  },
+  {
+    "word": "שיריי",
+    "word_menukad": "שִׁירַי",
+    "translation": "мои песни",
+    "lemma": "שִׁיר",
+    "suffix": "י",
+    "root": "שׁ - י - ר",
+    "pattern": "м. р.",
+    "pealim_id": "4337",
+    "line": "כאן את כל שיריי אני ניגנתי"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "pealim_id": "4643",
+    "line": "כאן את כל שיריי אני ניגנתי"
+  },
+  {
+    "word": "ניגנתי",
+    "word_menukad": "נִגַּנְתִּי",
+    "translation": "(я) играл",
+    "lemma": "לְנַגֵּן",
+    "root": "נ - ג - ן",
+    "pattern": "пиэль",
+    "pealim_id": "14",
+    "line": "כאן את כל שיריי אני ניגנתי"
+  },
+  {
+    "word": "והלכתי",
+    "word_menukad": "הָלַכְתִּי",
+    "translation": "и (я) шёл",
+    "prefix": "ו־ +",
+    "lemma": "לָלֶכֶת",
+    "root": "ה - ל - ך",
+    "pattern": "пааль",
+    "pealim_id": "7",
+    "line": "והלכתי במסע לילי"
+  },
+  {
+    "word": "במסע",
+    "word_menukad": "מַסָּע",
+    "translation": "в поход",
+    "prefix": "ב־ +",
+    "lemma": "מַסָּע",
+    "root": "נ - ס - ע",
+    "pattern": "микталь, м. р.",
+    "pealim_id": "3130",
+    "line": "והלכתי במסע לילי"
+  },
+  {
+    "word": "לילי",
+    "word_menukad": "לֵילִי",
+    "translation": "ночной",
+    "lemma": "לֵילִי",
+    "root": "ל - י - ל",
+    "pealim_id": "4951",
+    "line": "והלכתי במסע לילי"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "pealim_id": "3191",
+    "line": "כאן בנעוריי אני הגנתי"
+  },
+  {
+    "word": "בנעוריי",
+    "word_menukad": "נְעוּרַי",
+    "translation": "в моей молодости",
+    "prefix": "ב־ +",
+    "lemma": "נְעוּרִים",
+    "suffix": "י",
+    "root": "נ - ע - ר",
+    "pattern": "ктуль, м. р., мн. ч.",
+    "pealim_id": "5337",
+    "line": "כאן בנעוריי אני הגנתי"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "pealim_id": "4643",
+    "line": "כאן בנעוריי אני הגנתי"
+  },
+  {
+    "word": "הגנתי",
+    "word_menukad": "הֵגַנְתִּי",
+    "translation": "(я) защищал",
+    "lemma": "לְהָגֵן",
+    "root": "ג - נ - ן",
+    "pattern": "hифъиль",
+    "pealim_id": "365",
+    "line": "כאן בנעוריי אני הגנתי"
+  },
+  {
+    "word": "על",
+    "word_menukad": "עַל",
+    "translation": "на",
+    "lemma": "עַל",
+    "pealim_id": "6012",
+    "line": "על חלקת האלוהים שלי"
+  },
+  {
+    "word": "חלקת",
+    "word_menukad": "חֲלֻקַּת־",
+    "translation": "часть",
+    "lemma": "חֲלוּקָּה",
+    "root": "ח - ל - ק",
+    "pattern": "ктульла, ж. р.",
+    "pealim_id": "3945",
+    "line": "על חלקת האלוהים שלי"
+  },
+  {
+    "word": "האלוהים",
+    "word_menukad": "אֱלֹהִים",
+    "translation": "бог",
+    "prefix": "ה־ +",
+    "lemma": "אֱלוֹהִים",
+    "pattern": "м. р.",
+    "pealim_id": "4592",
+    "line": "על חלקת האלוהים שלי"
+  },
+  {
+    "word": "שלי",
+    "word_menukad": "שֶׁלִּי",
+    "translation": "мой",
+    "lemma": "שֶׁל",
+    "suffix": "י",
+    "pealim_id": "2643",
+    "line": "על חלקת האלוהים שלי"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "pealim_id": "3191",
+    "line": "כאן"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "pealim_id": "3191",
+    "line": "כאן את שולחני אני ערכתי"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "pealim_id": "2710",
+    "line": "כאן את שולחני אני ערכתי"
+  },
+  {
+    "word": "שולחני",
+    "word_menukad": "שֻׁלְחָנִי",
+    "translation": "мой стол",
+    "lemma": "שׁוּלְחָן",
+    "suffix": "י",
+    "pattern": "м. р.",
+    "pealim_id": "4939",
+    "line": "כאן את שולחני אני ערכתי"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "pealim_id": "4643",
+    "line": "כאן את שולחני אני ערכתי"
+  },
+  {
+    "word": "ערכתי",
+    "word_menukad": "עָרַכְתִּי",
+    "translation": "(я) накрывал",
+    "lemma": "לַעֲרוֹךְ",
+    "root": "ע - ר - ך",
+    "pattern": "пааль",
+    "pealim_id": "1561",
+    "line": "כאן את שולחני אני ערכתי"
+  },
+  {
+    "word": "פת",
+    "word_menukad": "פַּת",
+    "translation": "ломоть",
+    "lemma": "פַּת",
+    "root": "פ - ת - ת",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "3036",
+    "line": "פת של לחם, פרח רענן"
+  },
+  {
+    "word": "של",
+    "word_menukad": "שֶׁל",
+    "translation": "[род. п.]",
+    "lemma": "שֶׁל",
+    "pealim_id": "2643",
+    "line": "פת של לחם, פרח רענן"
+  },
+  {
+    "word": "לחם,",
+    "word_menukad": "לֶחֶם",
+    "translation": "хлеб",
+    "lemma": "לֶחֶם",
+    "root": "ל - ח - ם",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "3038",
+    "line": "פת של לחם, פרח רענן"
+  },
+  {
+    "word": "פרח",
+    "word_menukad": "פֶּרַח",
+    "translation": "цветок",
+    "lemma": "פֶּרַח",
+    "root": "פ - ר - ח",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "6071",
+    "line": "פת של לחם, פרח רענן"
+  },
+  {
+    "word": "רענן",
+    "word_menukad": "רַעֲנָן",
+    "translation": "свежий",
+    "lemma": "רַעֲנָן",
+    "root": "ר - ע - נ - ן",
+    "pealim_id": "6717",
+    "line": "פת של לחם, פרח רענן"
+  },
+  {
+    "word": "דלת",
+    "word_menukad": "דֶּלֶת",
+    "translation": "дверь",
+    "lemma": "דֶּלֶת",
+    "root": "ד - ל - ת",
+    "pattern": "кетель, ж. р.",
+    "pealim_id": "5310",
+    "line": "דלת לשכנים אני פתחתי"
+  },
+  {
+    "word": "לשכנים",
+    "word_menukad": "שְׁכֵנִים",
+    "translation": "соседям",
+    "prefix": "ל־ +",
+    "lemma": "שָׁכֵן",
+    "root": "ש - כ - ן",
+    "pattern": "катель, м. р.",
+    "pealim_id": "6340",
+    "line": "דלת לשכנים אני פתחתי"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "pealim_id": "4643",
+    "line": "דלת לשכנים אני פתחתי"
+  },
+  {
+    "word": "פתחתי",
+    "word_menukad": "פָּתַחְתִּי",
+    "translation": "(я) открывал",
+    "lemma": "לִפְתּוֹחַ",
+    "root": "פ - ת - ח",
+    "pattern": "пааль",
+    "pealim_id": "1747",
+    "line": "דלת לשכנים אני פתחתי"
+  },
+  {
+    "word": "ומי",
+    "word_menukad": "מִי",
+    "translation": "и кто",
+    "prefix": "ו־ +",
+    "lemma": "מִי",
+    "pealim_id": "5401",
+    "line": "ומי שבא נאמר לו ״אהלן!״"
+  },
+  {
+    "word": "שבא",
+    "word_menukad": "בָּא",
+    "translation": "который приходит",
+    "prefix": "ש־ +",
+    "lemma": "לָבוֹא",
+    "root": "ב - ו - א",
+    "pattern": "пааль",
+    "pealim_id": "28",
+    "line": "ומי שבא נאמר לו ״אהלן!״"
+  },
+  {
+    "word": "נאמר",
+    "word_menukad": "נֹאמַר",
+    "translation": "скажем",
+    "lemma": "לוֹמַר",
+    "root": "א - מ - ר",
+    "pattern": "пааль",
+    "pealim_id": "55",
+    "line": "ומי שבא נאמר לו ״אהלן!״"
+  },
+  {
+    "word": "לו",
+    "word_menukad": "לוֹ",
+    "translation": "ему",
+    "lemma": "לְ",
+    "suffix": "ו",
+    "pealim_id": "6014",
+    "line": "ומי שבא נאמר לו ״אהלן!״"
+  },
+  {
+    "word": "״אהלן!״",
+    "word_menukad": "אהלן",
+    "translation": "привет",
+    "lemma": "أهلا",
+    "pattern": "араб. сленг",
+    "line": "ומי שבא נאמר לו ״אהלן!״"
+  },
+  {
+    "word": "ואחרי",
+    "word_menukad": "אַחֲרֵי",
+    "translation": "и после",
+    "prefix": "ו־ +",
+    "lemma": "אַחַר",
+    "root": "א - ח - ר",
+    "pealim_id": "4276",
+    "line": "ואחרי שנים אלפיים, אחרי שנים אלפיים"
+  },
+  {
+    "word": "שנים",
+    "word_menukad": "שָׁנִים",
+    "translation": "годы",
+    "lemma": "שָׁנָה",
+    "pattern": "ж. р.",
+    "pealim_id": "4065",
+    "line": "ואחרי שנים אלפיים, אחרי שנים אלפיים"
+  },
+  {
+    "word": "אלפיים,",
+    "word_menukad": "אַלְפַּיִם",
+    "translation": "две тысячи",
+    "lemma": "אַלְפַּייִם",
+    "root": "א - ל - ף",
+    "pealim_id": "7725",
+    "line": "ואחרי שנים אלפיים, אחרי שנים אלפיים"
+  },
+  {
+    "word": "אחרי",
+    "word_menukad": "אַחֲרֵי",
+    "translation": "после",
+    "lemma": "אַחַר",
+    "root": "א - ח - ר",
+    "pealim_id": "4276",
+    "line": "ואחרי שנים אלפיים, אחרי שנים אלפיים"
+  },
+  {
+    "word": "שנים",
+    "word_menukad": "שָׁנִים",
+    "translation": "годы",
+    "lemma": "שָׁנָה",
+    "pattern": "ж. р.",
+    "pealim_id": "4065",
+    "line": "ואחרי שנים אלפיים, אחרי שנים אלפיים"
+  },
+  {
+    "word": "אלפיים",
+    "word_menukad": "אַלְפַּיִם",
+    "translation": "две тысячи",
+    "lemma": "אַלְפַּייִם",
+    "root": "א - ל - ף",
+    "pealim_id": "7725",
+    "line": "ואחרי שנים אלפיים, אחרי שנים אלפיים"
+  },
+  {
+    "word": "ואחרי",
+    "word_menukad": "אַחֲרֵי",
+    "translation": "и после",
+    "prefix": "ו־ +",
+    "lemma": "אַחַר",
+    "root": "א - ח - ר",
+    "pealim_id": "4276",
+    "line": "ואחרי שנים אלפיים סוף סוף לנדודיי"
+  },
+  {
+    "word": "שנים",
+    "word_menukad": "שָׁנִים",
+    "translation": "годы",
+    "lemma": "שָׁנָה",
+    "pattern": "ж. р.",
+    "pealim_id": "4065",
+    "line": "ואחרי שנים אלפיים סוף סוף לנדודיי"
+  },
+  {
+    "word": "אלפיים",
+    "word_menukad": "אַלְפַּיִם",
+    "translation": "две тысячи",
+    "lemma": "אַלְפַּייִם",
+    "root": "א - ל - ף",
+    "pealim_id": "7725",
+    "line": "ואחרי שנים אלפיים סוף סוף לנדודיי"
+  },
+  {
+    "word": "סוף",
+    "word_menukad": "סוֹף",
+    "translation": "конец",
+    "lemma": "סוֹף",
+    "root": "ס - ו - ף",
+    "pattern": "м. р.",
+    "pealim_id": "5543",
+    "line": "ואחרי שנים אלפיים סוף סוף לנדודיי"
+  },
+  {
+    "word": "סוף",
+    "word_menukad": "סוֹף",
+    "translation": "конец",
+    "lemma": "סוֹף",
+    "root": "ס - ו - ף",
+    "pattern": "м. р.",
+    "pealim_id": "5543",
+    "line": "ואחרי שנים אלפיים סוף סוף לנדודיי"
+  },
+  {
+    "word": "לנדודיי",
+    "word_menukad": "לנדודיי",
+    "translation": "моим странствиям",
+    "lemma": "נְדוּדִים",
+    "suffix": "י",
+    "root": "נ - ד - ד",
+    "pattern": "мн. ч.",
+    "line": "ואחרי שנים אלפיים סוף סוף לנדודיי"
+  }
+]
