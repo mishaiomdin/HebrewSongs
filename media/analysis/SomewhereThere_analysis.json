@@ -1,0 +1,784 @@
+[
+  {
+    "word": "בא",
+    "word_menukad": "בָּא",
+    "translation": "приходит",
+    "lemma": "לָבוֹא",
+    "root": "ב - ו - א",
+    "pattern": "пааль",
+    "pealim_id": "28",
+    "line": "בא חצי הלילה ואני ערה"
+  },
+  {
+    "word": "חצי",
+    "word_menukad": "חֲצִי־",
+    "translation": "половина",
+    "lemma": "חֶצִי",
+    "root": "ח - צ - ה",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4488",
+    "line": "בא חצי הלילה ואני ערה"
+  },
+  {
+    "word": "הלילה",
+    "word_menukad": "לַיְלָה",
+    "translation": "ночь",
+    "prefix": "ה־ +",
+    "lemma": "לַיְלָה",
+    "root": "ל - י - ל",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4234",
+    "line": "בא חצי הלילה ואני ערה"
+  },
+  {
+    "word": "ואני",
+    "word_menukad": "אֲנִי",
+    "translation": "и я",
+    "prefix": "ו־ +",
+    "lemma": "אֲנִי",
+    "pealim_id": "4643",
+    "line": "בא חצי הלילה ואני ערה"
+  },
+  {
+    "word": "ערה",
+    "word_menukad": "עֵרָה",
+    "translation": "не сплю",
+    "lemma": "עֵר",
+    "root": "ע - ר - ר",
+    "pealim_id": "7973",
+    "line": "בא חצי הלילה ואני ערה"
+  },
+  {
+    "word": "חלומות",
+    "word_menukad": "חֲלוֹמוֹת",
+    "translation": "сны",
+    "lemma": "חָלוֹם",
+    "root": "ח - ל - ם",
+    "pattern": "католь, м. р.",
+    "pealim_id": "3127",
+    "line": "חלומות באים לסף"
+  },
+  {
+    "word": "באים",
+    "word_menukad": "בָּאִים",
+    "translation": "приходят",
+    "lemma": "לָבוֹא",
+    "root": "ב - ו - א",
+    "pattern": "пааль",
+    "pealim_id": "28",
+    "line": "חלומות באים לסף"
+  },
+  {
+    "word": "לסף",
+    "word_menukad": "סַף",
+    "translation": "к порогу",
+    "prefix": "ל־ +",
+    "lemma": "סַף",
+    "root": "ס - פ - ף",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4454",
+    "line": "חלומות באים לסף"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "это",
+    "lemma": "זֶה",
+    "pealim_id": "5713",
+    "line": "זה השקט שלפני הסערה"
+  },
+  {
+    "word": "השקט",
+    "word_menukad": "שֶׁקֶט",
+    "translation": "тишина",
+    "prefix": "ה־ +",
+    "lemma": "שֶׁקֶט",
+    "root": "שׁ - ק - ט",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "3187",
+    "line": "זה השקט שלפני הסערה"
+  },
+  {
+    "word": "שלפני",
+    "word_menukad": "לִפְנֵי",
+    "translation": "что перед",
+    "prefix": "ש־ +",
+    "lemma": "לִפְנֵי",
+    "pealim_id": "6016",
+    "line": "זה השקט שלפני הסערה"
+  },
+  {
+    "word": "הסערה",
+    "word_menukad": "סְעָרָה",
+    "translation": "буря",
+    "prefix": "ה־ +",
+    "lemma": "סְעָרָה",
+    "root": "ס - ע - ר",
+    "pattern": "ктала, ж. р.",
+    "pealim_id": "3529",
+    "line": "זה השקט שלפני הסערה"
+  },
+  {
+    "word": "בוא",
+    "word_menukad": "בּוֹא!‏",
+    "translation": "давай",
+    "lemma": "לָבוֹא",
+    "root": "ב - ו - א",
+    "pattern": "пааль",
+    "pealim_id": "28",
+    "line": "בוא נלך עכשיו"
+  },
+  {
+    "word": "נלך",
+    "word_menukad": "נֵלֵךְ",
+    "translation": "пойдём",
+    "lemma": "לָלֶכֶת",
+    "root": "ה - ל - ך",
+    "pattern": "пааль",
+    "pealim_id": "7",
+    "line": "בוא נלך עכשיו"
+  },
+  {
+    "word": "עכשיו",
+    "word_menukad": "עַכְשָׁו",
+    "translation": "сейчас",
+    "lemma": "עַכְשָׁיו",
+    "pealim_id": "5067",
+    "line": "בוא נלך עכשיו"
+  },
+  {
+    "word": "שם,",
+    "word_menukad": "שָׁם",
+    "translation": "там",
+    "lemma": "שָׁם",
+    "pealim_id": "3193",
+    "line": "שם, שם ראיתי קשת בענן"
+  },
+  {
+    "word": "שם",
+    "word_menukad": "שָׁם",
+    "translation": "там",
+    "lemma": "שָׁם",
+    "pealim_id": "3193",
+    "line": "שם, שם ראיתי קשת בענן"
+  },
+  {
+    "word": "ראיתי",
+    "word_menukad": "רָאִיתִי",
+    "translation": "(я) видел",
+    "lemma": "לִרְאוֹת",
+    "root": "ר - א - ה",
+    "pattern": "пааль",
+    "pealim_id": "1972",
+    "line": "שם, שם ראיתי קשת בענן"
+  },
+  {
+    "word": "קשת",
+    "word_menukad": "קֶשֶׁת",
+    "translation": "радуга",
+    "lemma": "קֶשֶׁת",
+    "root": "ק - שׁ - ת",
+    "pattern": "кетель, ж. р.",
+    "pealim_id": "7809",
+    "line": "שם, שם ראיתי קשת בענן"
+  },
+  {
+    "word": "בענן",
+    "word_menukad": "עָנָן",
+    "translation": "в облаке",
+    "prefix": "ב־ +",
+    "lemma": "עָנָן",
+    "root": "ע - נ - ן",
+    "pattern": "каталь, м. р.",
+    "pealim_id": "3393",
+    "line": "שם, שם ראיתי קשת בענן"
+  },
+  {
+    "word": "שם,",
+    "word_menukad": "שָׁם",
+    "translation": "там",
+    "lemma": "שָׁם",
+    "pealim_id": "3193",
+    "line": "שם, שם עולה הבוקר בלבן"
+  },
+  {
+    "word": "עולה",
+    "word_menukad": "עוֹלֶה",
+    "translation": "восходит",
+    "lemma": "לַעֲלוֹת",
+    "root": "ע - ל - ה",
+    "pattern": "пааль",
+    "pealim_id": "26",
+    "line": "שם, שם עולה הבוקר בלבן"
+  },
+  {
+    "word": "הבוקר",
+    "word_menukad": "בֹּקֶר",
+    "translation": "утро",
+    "prefix": "ה־ +",
+    "lemma": "בּוֹקֶר",
+    "root": "ב - ק - ר",
+    "pattern": "котель, м. р.",
+    "pealim_id": "4235",
+    "line": "שם, שם עולה הבוקר בלבן"
+  },
+  {
+    "word": "בלבן",
+    "word_menukad": "לֹבֶן",
+    "translation": "в белизне",
+    "prefix": "ב־ +",
+    "lemma": "לוֹבֶן",
+    "root": "ל - ב - ן",
+    "pattern": "котель, м. р.",
+    "pealim_id": "5048",
+    "line": "שם, שם עולה הבוקר בלבן"
+  },
+  {
+    "word": "אי שם,",
+    "word_menukad": "אי שם",
+    "translation": "где-то там",
+    "lemma": "אי שם",
+    "line": "אי שם, שם נמצא ביחד את הגן"
+  },
+  {
+    "word": "שם",
+    "word_menukad": "שָׁם",
+    "translation": "там",
+    "lemma": "שָׁם",
+    "pealim_id": "3193",
+    "line": "אי שם, שם נמצא ביחד את הגן"
+  },
+  {
+    "word": "נמצא",
+    "word_menukad": "נִמְצָא",
+    "translation": "найдём",
+    "lemma": "לִמְצוֹא",
+    "root": "מ - צ - א",
+    "pattern": "пааль",
+    "pealim_id": "1083",
+    "line": "אי שם, שם נמצא ביחד את הגן"
+  },
+  {
+    "word": "ביחד",
+    "word_menukad": "בְּיַחַד",
+    "translation": "вместе",
+    "lemma": "בְּיַחַד",
+    "pealim_id": "4874",
+    "line": "אי שם, שם נמצא ביחד את הגן"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "pealim_id": "2710",
+    "line": "אי שם, שם נמצא ביחד את הגן"
+  },
+  {
+    "word": "הגן",
+    "word_menukad": "גַּן",
+    "translation": "сад",
+    "prefix": "ה־ +",
+    "lemma": "גַּן",
+    "root": "ג - נ - ן",
+    "pattern": "каль, м. р.",
+    "pealim_id": "2656",
+    "line": "אי שם, שם נמצא ביחד את הגן"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "pealim_id": "2710",
+    "line": "את גן האהבה"
+  },
+  {
+    "word": "גן",
+    "word_menukad": "גַּן־",
+    "translation": "сад",
+    "lemma": "גַּן",
+    "root": "ג - נ - ן",
+    "pattern": "каль, м. р.",
+    "pealim_id": "2656",
+    "line": "את גן האהבה"
+  },
+  {
+    "word": "האהבה",
+    "word_menukad": "אַהֲבָה",
+    "translation": "любовь",
+    "prefix": "ה־ +",
+    "lemma": "אַהֲבָה",
+    "root": "א - ה - ב",
+    "pattern": "катла, ж. р.",
+    "pealim_id": "3131",
+    "line": "את גן האהבה"
+  },
+  {
+    "word": "שם,",
+    "word_menukad": "שָׁם",
+    "translation": "там",
+    "lemma": "שָׁם",
+    "pealim_id": "3193",
+    "line": "שם, שם שמעתי שיר ישן נושן"
+  },
+  {
+    "word": "שם",
+    "word_menukad": "שָׁם",
+    "translation": "там",
+    "lemma": "שָׁם",
+    "pealim_id": "3193",
+    "line": "שם, שם שמעתי שיר ישן נושן"
+  },
+  {
+    "word": "שמעתי",
+    "word_menukad": "שָׁמַעְתִּי",
+    "translation": "(я) слышал",
+    "lemma": "לִשְׁמוֹעַ",
+    "root": "שׁ - מ - ע",
+    "pattern": "пааль",
+    "pealim_id": "2250",
+    "line": "שם, שם שמעתי שיר ישן נושן"
+  },
+  {
+    "word": "שיר",
+    "word_menukad": "שִׁיר",
+    "translation": "песня",
+    "lemma": "שִׁיר",
+    "root": "שׁ - י - ר",
+    "pattern": "м. р.",
+    "pealim_id": "4337",
+    "line": "שם, שם שמעתי שיר ישן נושן"
+  },
+  {
+    "word": "ישן",
+    "word_menukad": "יָשָׁן",
+    "translation": "старый",
+    "lemma": "יָשָׁן",
+    "root": "י - שׁ - ן",
+    "pattern": "каталь",
+    "pealim_id": "3365",
+    "line": "שם, שם שמעתי שיר ישן נושן"
+  },
+  {
+    "word": "נושן",
+    "word_menukad": "נוֹשָׁן",
+    "translation": "очень старый",
+    "lemma": "נוֹשָׁן",
+    "root": "י - שׁ - ן",
+    "pattern": "никталь",
+    "pealim_id": "4241",
+    "line": "שם, שם שמעתי שיר ישן נושן"
+  },
+  {
+    "word": "שם,",
+    "word_menukad": "שָׁם",
+    "translation": "там",
+    "lemma": "שָׁם",
+    "pealim_id": "3193",
+    "line": "שם, שם ירח לילה לילה"
+  },
+  {
+    "word": "שם",
+    "word_menukad": "שָׁם",
+    "translation": "там",
+    "lemma": "שָׁם",
+    "pealim_id": "3193",
+    "line": "שם, שם ירח לילה לילה"
+  },
+  {
+    "word": "ירח",
+    "word_menukad": "יְרֵחַ־",
+    "translation": "луна",
+    "lemma": "יָרֵחַ",
+    "root": "י - ר - ח",
+    "pattern": "катель, м. р.",
+    "pealim_id": "4055",
+    "line": "שם, שם ירח לילה לילה"
+  },
+  {
+    "word": "לילה",
+    "word_menukad": "לַיְלָה",
+    "translation": "ночь",
+    "lemma": "לַיְלָה",
+    "root": "ל - י - ל",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4234",
+    "line": "שם, שם ירח לילה לילה"
+  },
+  {
+    "word": "לילה",
+    "word_menukad": "לַיְלָה",
+    "translation": "ночь",
+    "lemma": "לַיְלָה",
+    "root": "ל - י - ל",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4234",
+    "line": "שם, שם ירח לילה לילה"
+  },
+  {
+    "word": "שם,",
+    "word_menukad": "שָׁם",
+    "translation": "там",
+    "lemma": "שָׁם",
+    "pealim_id": "3193",
+    "line": "שם, שם נמצא ביחד את הגן"
+  },
+  {
+    "word": "שם",
+    "word_menukad": "שָׁם",
+    "translation": "там",
+    "lemma": "שָׁם",
+    "pealim_id": "3193",
+    "line": "שם, שם נמצא ביחד את הגן"
+  },
+  {
+    "word": "נמצא",
+    "word_menukad": "נִמְצָא",
+    "translation": "найдём",
+    "lemma": "לִמְצוֹא",
+    "root": "מ - צ - א",
+    "pattern": "пааль",
+    "pealim_id": "1083",
+    "line": "שם, שם נמצא ביחד את הגן"
+  },
+  {
+    "word": "ביחד",
+    "word_menukad": "בְּיַחַד",
+    "translation": "вместе",
+    "lemma": "בְּיַחַד",
+    "pealim_id": "4874",
+    "line": "שם, שם נמצא ביחד את הגן"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "pealim_id": "2710",
+    "line": "שם, שם נמצא ביחד את הגן"
+  },
+  {
+    "word": "הגן",
+    "word_menukad": "גַּן",
+    "translation": "сад",
+    "prefix": "ה־ +",
+    "lemma": "גַּן",
+    "root": "ג - נ - ן",
+    "pattern": "каль, м. р.",
+    "pealim_id": "2656",
+    "line": "שם, שם נמצא ביחד את הגן"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "pealim_id": "2710",
+    "line": "את ביתי הלילה הרוחות עוטפים"
+  },
+  {
+    "word": "ביתי",
+    "word_menukad": "בֵּיתִי",
+    "translation": "мой дом",
+    "lemma": "בַּיִת",
+    "suffix": "י",
+    "root": "ב - י - ת",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4444",
+    "line": "את ביתי הלילה הרוחות עוטפים"
+  },
+  {
+    "word": "הלילה",
+    "word_menukad": "לַיְלָה",
+    "translation": "этой ночью",
+    "prefix": "ה־ +",
+    "lemma": "לַיְלָה",
+    "root": "ל - י - ל",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4234",
+    "line": "את ביתי הלילה הרוחות עוטפים"
+  },
+  {
+    "word": "הרוחות",
+    "word_menukad": "רוּחוֹת",
+    "translation": "ветры",
+    "prefix": "ה־ +",
+    "lemma": "רוּחַ",
+    "root": "ר - ו - ח",
+    "pattern": "ж. р.",
+    "pealim_id": "4205",
+    "line": "את ביתי הלילה הרוחות עוטפים"
+  },
+  {
+    "word": "עוטפים",
+    "word_menukad": "עוֹטְפִים",
+    "translation": "закутывают",
+    "lemma": "לַעֲטוֹף",
+    "root": "ע - ט - ף",
+    "pattern": "пааль",
+    "pealim_id": "1476",
+    "line": "את ביתי הלילה הרוחות עוטפים"
+  },
+  {
+    "word": "אוחזים",
+    "word_menukad": "אוֹחֲזִים",
+    "translation": "хватают",
+    "lemma": "לֶאֱחוֹז",
+    "root": "א - ח - ז",
+    "pattern": "пааль",
+    "pealim_id": "85",
+    "line": "אוחזים בו מכל צד"
+  },
+  {
+    "word": "בו",
+    "word_menukad": "בּוֹ",
+    "translation": "его",
+    "lemma": "בְּ",
+    "suffix": "ו",
+    "pealim_id": "6013",
+    "line": "אוחזים בו מכל צד"
+  },
+  {
+    "word": "מכל",
+    "word_menukad": "כָּל־",
+    "translation": "с каждой",
+    "prefix": "מ־ +",
+    "lemma": "כּוֹל",
+    "root": "כ - ל - ל",
+    "pattern": "котель, м. р.",
+    "pealim_id": "4158",
+    "line": "אוחזים בו מכל צד"
+  },
+  {
+    "word": "צד",
+    "word_menukad": "צַד",
+    "translation": "сторона",
+    "lemma": "צַד",
+    "root": "צ - ד - ד",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4903",
+    "line": "אוחזים בו מכל צד"
+  },
+  {
+    "word": "אל",
+    "word_menukad": "אֶל",
+    "translation": "к",
+    "lemma": "אֶל",
+    "pealim_id": "2682",
+    "line": "אל מעבר לעבים אנו עפים"
+  },
+  {
+    "word": "מעבר",
+    "word_menukad": "מֵעֵבֶר",
+    "translation": "по другую сторону",
+    "lemma": "מֵעֵבֶר",
+    "root": "ע - ב - ר",
+    "line": "אל מעבר לעבים אנו עפים"
+  },
+  {
+    "word": "לעבים",
+    "word_menukad": "עָבִים",
+    "translation": "тучи",
+    "prefix": "ל־ +",
+    "lemma": "עָב",
+    "root": "ע - ו - ב",
+    "pattern": "м. р.",
+    "pealim_id": "7232",
+    "line": "אל מעבר לעבים אנו עפים"
+  },
+  {
+    "word": "אנו",
+    "word_menukad": "אָנוּ",
+    "translation": "мы",
+    "lemma": "אָנוּ",
+    "pealim_id": "4654",
+    "line": "אל מעבר לעבים אנו עפים"
+  },
+  {
+    "word": "עפים",
+    "word_menukad": "עָפִים",
+    "translation": "летим",
+    "lemma": "לָעוּף",
+    "root": "ע - ו - ף",
+    "pattern": "пааль",
+    "pealim_id": "1461",
+    "line": "אל מעבר לעבים אנו עפים"
+  },
+  {
+    "word": "יד",
+    "word_menukad": "יָד",
+    "translation": "рука",
+    "lemma": "יָד",
+    "pattern": "ж. р.",
+    "pealim_id": "4085",
+    "line": "יד אוחזת יד"
+  },
+  {
+    "word": "אוחזת",
+    "word_menukad": "אוֹחֶזֶת",
+    "translation": "держит",
+    "lemma": "לֶאֱחוֹז",
+    "root": "א - ח - ז",
+    "pattern": "пааль",
+    "pealim_id": "85",
+    "line": "יד אוחזת יד"
+  },
+  {
+    "word": "יד",
+    "word_menukad": "יָד",
+    "translation": "рука",
+    "lemma": "יָד",
+    "pattern": "ж. р.",
+    "pealim_id": "4085",
+    "line": "יד אוחזת יד"
+  },
+  {
+    "word": "יום",
+    "word_menukad": "יוֹם",
+    "translation": "день",
+    "lemma": "יוֹם",
+    "pattern": "м. р.",
+    "pealim_id": "3061",
+    "line": "יום חדש הלילה בליבי נוקש"
+  },
+  {
+    "word": "חדש",
+    "word_menukad": "חָדָשׁ",
+    "translation": "новый",
+    "lemma": "חָדָשׁ",
+    "root": "ח - ד - שׁ",
+    "pattern": "каталь",
+    "pealim_id": "2679",
+    "line": "יום חדש הלילה בליבי נוקש"
+  },
+  {
+    "word": "הלילה",
+    "word_menukad": "לַיְלָה",
+    "translation": "этой ночью",
+    "prefix": "ה־ +",
+    "lemma": "לַיְלָה",
+    "root": "ל - י - ל",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4234",
+    "line": "יום חדש הלילה בליבי נוקש"
+  },
+  {
+    "word": "בליבי",
+    "word_menukad": "לִבִּי",
+    "translation": "в моём сердце",
+    "prefix": "ב־ +",
+    "lemma": "לֵב",
+    "suffix": "י",
+    "root": "ל - ב - ב",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4353",
+    "line": "יום חדש הלילה בליבי נוקש"
+  },
+  {
+    "word": "נוקש",
+    "word_menukad": "נוֹקֵשׁ",
+    "translation": "стучит",
+    "lemma": "לִנְקוֹשׁ",
+    "root": "נ - ק - שׁ",
+    "pattern": "пааль",
+    "pealim_id": "1262",
+    "line": "יום חדש הלילה בליבי נוקש"
+  },
+  {
+    "word": "ואתה",
+    "word_menukad": "אַתָּה",
+    "translation": "и ты",
+    "prefix": "ו־ +",
+    "lemma": "אַתָּה",
+    "pealim_id": "4644",
+    "line": "ואתה קרב עימו"
+  },
+  {
+    "word": "קרב",
+    "word_menukad": "קָרֵב",
+    "translation": "приближаешься",
+    "lemma": "לִקְרוֹב",
+    "root": "ק - ר - ב",
+    "pattern": "пааль",
+    "pealim_id": "1945",
+    "line": "ואתה קרב עימו"
+  },
+  {
+    "word": "עימו",
+    "word_menukad": "עִמּוֹ",
+    "translation": "с ним",
+    "lemma": "עִם",
+    "suffix": "ו",
+    "pealim_id": "4112",
+    "line": "ואתה קרב עימו"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "pealim_id": "2710",
+    "line": "את גני התכלת יחד נבקש"
+  },
+  {
+    "word": "גני",
+    "word_menukad": "גַּנֵּי־",
+    "translation": "сады",
+    "lemma": "גַּן",
+    "root": "ג - נ - ן",
+    "pattern": "каль, м. р.",
+    "pealim_id": "2656",
+    "line": "את גני התכלת יחד נבקש"
+  },
+  {
+    "word": "התכלת",
+    "word_menukad": "תְּכֶלֶת",
+    "translation": "голубой цвет",
+    "prefix": "ה־ +",
+    "lemma": "תְּכֶלֶת",
+    "pattern": "ж. р.",
+    "pealim_id": "7358",
+    "line": "את גני התכלת יחד נבקש"
+  },
+  {
+    "word": "יחד",
+    "word_menukad": "יַחַד",
+    "translation": "вместе",
+    "lemma": "יַחַד",
+    "root": "י - ח - ד",
+    "pealim_id": "4873",
+    "line": "את גני התכלת יחד נבקש"
+  },
+  {
+    "word": "נבקש",
+    "word_menukad": "נְבַקֵּשׁ",
+    "translation": "устремимся",
+    "lemma": "לְבַקֵּשׁ",
+    "root": "ב - ק - שׁ",
+    "pattern": "пиэль",
+    "pealim_id": "255",
+    "line": "את גני התכלת יחד נבקש"
+  },
+  {
+    "word": "שערם",
+    "word_menukad": "שַׁעְרָם",
+    "translation": "их ворота",
+    "lemma": "שַׁעַר",
+    "suffix": "הם",
+    "root": "שׁ - ע - ר",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "2683",
+    "line": "שערם נבוא"
+  },
+  {
+    "word": "נבוא",
+    "word_menukad": "נָבוֹא",
+    "translation": "придём",
+    "lemma": "לָבוֹא",
+    "root": "ב - ו - א",
+    "pattern": "пааль",
+    "pealim_id": "28",
+    "line": "שערם נבוא"
+  }
+]
