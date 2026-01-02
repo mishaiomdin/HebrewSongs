@@ -1,0 +1,578 @@
+[
+  {
+    "word": "את",
+    "word_menukad": "אַתְּ",
+    "translation": "ты",
+    "lemma": "אַתְּ",
+    "pealim_id": "4645",
+    "line": "את עולה כמו שמש היושבת מעליי"
+  },
+  {
+    "word": "עולה",
+    "word_menukad": "עוֹלָה",
+    "translation": "восходишь",
+    "lemma": "לַעֲלוֹת",
+    "root": "ע - ל - ה",
+    "pattern": "пааль",
+    "pealim_id": "26",
+    "line": "את עולה כמו שמש היושבת מעליי"
+  },
+  {
+    "word": "כמו",
+    "word_menukad": "כְּמוֹ",
+    "translation": "как",
+    "lemma": "כְּמוֹ",
+    "pealim_id": "4118",
+    "line": "את עולה כמו שמש היושבת מעליי"
+  },
+  {
+    "word": "שמש",
+    "word_menukad": "שֶׁמֶשׁ",
+    "translation": "солнце",
+    "lemma": "שֶׁמֶשׁ",
+    "root": "שׁ - מ - שׁ",
+    "pattern": "кетель, ж. р.",
+    "pealim_id": "6070",
+    "line": "את עולה כמו שמש היושבת מעליי"
+  },
+  {
+    "word": "היושבת",
+    "word_menukad": "יוֹשֶׁבֶת",
+    "translation": "сидящая",
+    "prefix": "ה־ +",
+    "lemma": "לָשֶׁבֶת",
+    "root": "י - שׁ - ב",
+    "pattern": "пааль",
+    "pealim_id": "9",
+    "line": "את עולה כמו שמש היושבת מעליי"
+  },
+  {
+    "word": "מעליי",
+    "word_menukad": "מֵעָלַי",
+    "translation": "надо мной",
+    "lemma": "מֵעַל",
+    "suffix": "י",
+    "pealim_id": "4418",
+    "line": "את עולה כמו שמש היושבת מעליי"
+  },
+  {
+    "word": "ורושמת",
+    "word_menukad": "רוֹשֶׁמֶת",
+    "translation": "и записывающая",
+    "prefix": "ו־ +",
+    "lemma": "לִרְשׁוֹם",
+    "root": "ר - שׁ - ם",
+    "pattern": "пааль",
+    "pealim_id": "2103",
+    "line": "ורושמת בקרניה את יומי"
+  },
+  {
+    "word": "בקרניה",
+    "word_menukad": "קַרְנֶיהָ",
+    "translation": "её лучами",
+    "prefix": "ב־ +",
+    "lemma": "קֶרֶן",
+    "suffix": "ה",
+    "root": "ק - ר - ן",
+    "pattern": "кетель, ж. р.",
+    "pealim_id": "3181",
+    "line": "ורושמת בקרניה את יומי"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "pealim_id": "2710",
+    "line": "ורושמת בקרניה את יומי"
+  },
+  {
+    "word": "יומי",
+    "word_menukad": "יוֹמִי",
+    "translation": "мой день",
+    "lemma": "יוֹם",
+    "suffix": "י",
+    "pattern": "м. р.",
+    "pealim_id": "3061",
+    "line": "ורושמת בקרניה את יומי"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אַתְּ",
+    "translation": "ты",
+    "lemma": "אַתְּ",
+    "pealim_id": "4645",
+    "line": "את קרובה כמו גשם על ראשי ועל פניי"
+  },
+  {
+    "word": "קרובה",
+    "word_menukad": "קְרוֹבָה",
+    "translation": "близкая",
+    "lemma": "קָרוֹב",
+    "root": "ק - ר - ב",
+    "pattern": "католь",
+    "pealim_id": "3468",
+    "line": "את קרובה כמו גשם על ראשי ועל פניי"
+  },
+  {
+    "word": "כמו",
+    "word_menukad": "כְּמוֹ",
+    "translation": "как",
+    "lemma": "כְּמוֹ",
+    "pealim_id": "4118",
+    "line": "את קרובה כמו גשם על ראשי ועל פניי"
+  },
+  {
+    "word": "גשם",
+    "word_menukad": "גֶּשֶׁם",
+    "translation": "дождь",
+    "lemma": "גֶּשֶׁם",
+    "root": "ג - שׁ - ם",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "6090",
+    "line": "את קרובה כמו גשם על ראשי ועל פניי"
+  },
+  {
+    "word": "על",
+    "word_menukad": "עַל",
+    "translation": "на",
+    "lemma": "עַל",
+    "pealim_id": "6012",
+    "line": "את קרובה כמו גשם על ראשי ועל פניי"
+  },
+  {
+    "word": "ראשי",
+    "word_menukad": "רֹאשִׁי",
+    "translation": "моя голова",
+    "lemma": "רֹאשׁ",
+    "suffix": "י",
+    "root": "ר - א - שׁ",
+    "pattern": "м. р.",
+    "pealim_id": "3327",
+    "line": "את קרובה כמו גשם על ראשי ועל פניי"
+  },
+  {
+    "word": "ועל",
+    "word_menukad": "עַל",
+    "translation": "и на",
+    "lemma": "עַל",
+    "pealim_id": "6012",
+    "line": "את קרובה כמו גשם על ראשי ועל פניי"
+  },
+  {
+    "word": "פניי",
+    "word_menukad": "פָּנַי",
+    "translation": "моё лицо",
+    "lemma": "פָּנִים",
+    "suffix": "י",
+    "pattern": "ж. р., мн. ч.",
+    "pealim_id": "6011",
+    "line": "את קרובה כמו גשם על ראשי ועל פניי"
+  },
+  {
+    "word": "והמים",
+    "word_menukad": "והמים",
+    "translation": "и вода",
+    "prefix": "ו־ + ה־ +",
+    "lemma": "מַיִם",
+    "pattern": "м. р., мн. ч.",
+    "pealim_id": "4270",
+    "line": "והמים שבפי לטעמי"
+  },
+  {
+    "word": "שבפי",
+    "word_menukad": "שבפי",
+    "translation": "который у меня во рту",
+    "prefix": "ש־ + ב־ +",
+    "lemma": "פֶּה",
+    "suffix": "י",
+    "pattern": "м. р.",
+    "pealim_id": "6010",
+    "line": "והמים שבפי לטעמי"
+  },
+  {
+    "word": "לטעמי",
+    "word_menukad": "טַעְמִי",
+    "translation": "к моему вкусу",
+    "prefix": "ל־ +",
+    "lemma": "טַעַם",
+    "suffix": "י",
+    "root": "ט - ע - ם",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "5064",
+    "line": "והמים שבפי לטעמי"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אַתְּ",
+    "translation": "ты",
+    "lemma": "אַתְּ",
+    "pealim_id": "4645",
+    "line": "את ואני"
+  },
+  {
+    "word": "ואני",
+    "word_menukad": "אֲנִי",
+    "translation": "и я",
+    "prefix": "ו־ +",
+    "lemma": "אֲנִי",
+    "pealim_id": "4643",
+    "line": "את ואני"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אַתְּ",
+    "translation": "ты",
+    "lemma": "אַתְּ",
+    "pealim_id": "4645",
+    "line": "את ואני, כן"
+  },
+  {
+    "word": "ואני,",
+    "word_menukad": "אֲנִי",
+    "translation": "и я",
+    "prefix": "ו־ +",
+    "lemma": "אֲנִי",
+    "pealim_id": "4643",
+    "line": "את ואני, כן"
+  },
+  {
+    "word": "כן",
+    "word_menukad": "כֵּן",
+    "translation": "да",
+    "lemma": "כֵּן",
+    "pealim_id": "4529",
+    "line": "את ואני, כן"
+  },
+  {
+    "word": "כמו",
+    "word_menukad": "כְּמוֹ",
+    "translation": "как",
+    "lemma": "כְּמוֹ",
+    "pealim_id": "4118",
+    "line": "כמו ברק ורעם עד קצווי הים"
+  },
+  {
+    "word": "ברק",
+    "word_menukad": "בָּרָק",
+    "translation": "молния",
+    "lemma": "בָּרָק",
+    "root": "ב - ר - ק",
+    "pattern": "каталь, м. р.",
+    "pealim_id": "3044",
+    "line": "כמו ברק ורעם עד קצווי הים"
+  },
+  {
+    "word": "ורעם",
+    "word_menukad": "רַעַם",
+    "translation": "и гром",
+    "prefix": "ו־ +",
+    "lemma": "רַעַם",
+    "root": "ר - ע - ם",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4777",
+    "line": "כמו ברק ורעם עד קצווי הים"
+  },
+  {
+    "word": "עד",
+    "word_menukad": "עַד",
+    "translation": "до",
+    "lemma": "עַד",
+    "pealim_id": "3396",
+    "line": "כמו ברק ורעם עד קצווי הים"
+  },
+  {
+    "word": "קצווי",
+    "word_menukad": "קַצְוֵי",
+    "translation": "края",
+    "lemma": "קָצֶה",
+    "suffix": "י",
+    "root": "ק - צ - ה",
+    "pattern": "м. р.",
+    "pealim_id": "7225",
+    "line": "כמו ברק ורעם עד קצווי הים"
+  },
+  {
+    "word": "הים",
+    "word_menukad": "יָם",
+    "translation": "море",
+    "prefix": "ה־ +",
+    "lemma": "יָם",
+    "root": "י - מ - ם",
+    "pattern": "м. р.",
+    "pealim_id": "4137",
+    "line": "כמו ברק ורעם עד קצווי הים"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "этот",
+    "lemma": "זֶה",
+    "pealim_id": "5713",
+    "line": "זה נשמע חזק יותר מן העולם"
+  },
+  {
+    "word": "נשמע",
+    "word_menukad": "נִשְׁמָע",
+    "translation": "быть слышным",
+    "lemma": "לְהִישָּׁמֵעַ",
+    "root": "שׁ - מ - ע",
+    "pattern": "нифъаль",
+    "pealim_id": "2251",
+    "line": "זה נשמע חזק יותר מן העולם"
+  },
+  {
+    "word": "חזק",
+    "word_menukad": "חָזָק",
+    "translation": "сильный",
+    "lemma": "חָזָק",
+    "root": "ח - ז - ק",
+    "pattern": "каталь",
+    "pealim_id": "3828",
+    "line": "זה נשמע חזק יותר מן העולם"
+  },
+  {
+    "word": "יותר",
+    "word_menukad": "יוֹתֵר",
+    "translation": "более",
+    "lemma": "יוֹתֵר",
+    "root": "י - ת - ר",
+    "pattern": "котель",
+    "pealim_id": "4788",
+    "line": "זה נשמע חזק יותר מן העולם"
+  },
+  {
+    "word": "מן",
+    "word_menukad": "מִן",
+    "translation": "чем",
+    "lemma": "מִן",
+    "pealim_id": "6051",
+    "line": "זה נשמע חזק יותר מן העולם"
+  },
+  {
+    "word": "העולם",
+    "word_menukad": "עוֹלָם",
+    "translation": "мир",
+    "prefix": "ה־ +",
+    "lemma": "עוֹלָם",
+    "root": "ע - ל - ם",
+    "pattern": "коталь, м. р.",
+    "pealim_id": "4106",
+    "line": "זה נשמע חזק יותר מן העולם"
+  },
+  {
+    "word": "כמו",
+    "word_menukad": "כְּמוֹ",
+    "translation": "как",
+    "lemma": "כְּמוֹ",
+    "pealim_id": "4118",
+    "line": "כמו שיום ולילה סובבים ללא לאות"
+  },
+  {
+    "word": "שיום",
+    "word_menukad": "יוֹם",
+    "translation": "что день",
+    "prefix": "ש־ +",
+    "lemma": "יוֹם",
+    "pattern": "м. р.",
+    "pealim_id": "3061",
+    "line": "כמו שיום ולילה סובבים ללא לאות"
+  },
+  {
+    "word": "ולילה",
+    "word_menukad": "לַיְלָה",
+    "translation": "и ночь",
+    "prefix": "ו־ +",
+    "lemma": "לַיְלָה",
+    "root": "ל - י - ל",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "4234",
+    "line": "כמו שיום ולילה סובבים ללא לאות"
+  },
+  {
+    "word": "סובבים",
+    "word_menukad": "סוֹבְבִים",
+    "translation": "вертятся",
+    "lemma": "לָסוֹב",
+    "root": "ס - ב - ב",
+    "pattern": "пааль",
+    "pealim_id": "1294",
+    "line": "כמו שיום ולילה סובבים ללא לאות"
+  },
+  {
+    "word": "ללא",
+    "word_menukad": "לְלֹא",
+    "translation": "без",
+    "lemma": "לְלֹא",
+    "pealim_id": "8377",
+    "line": "כמו שיום ולילה סובבים ללא לאות"
+  },
+  {
+    "word": "לאות",
+    "word_menukad": "לֵאוּת",
+    "translation": "усталость",
+    "lemma": "לֵאוּת",
+    "root": "ל - א - ה",
+    "line": "כמו שיום ולילה סובבים ללא לאות"
+  },
+  {
+    "word": "זה מזה",
+    "word_menukad": "זה מזה",
+    "translation": "друг от друга",
+    "lemma": "זה מזה",
+    "line": "זה מזה באים וזה אל זה שבים"
+  },
+  {
+    "word": "באים",
+    "word_menukad": "בָּאִים",
+    "translation": "идут",
+    "lemma": "לָבוֹא",
+    "root": "ב - ו - א",
+    "pattern": "пааль",
+    "pealim_id": "28",
+    "line": "זה מזה באים וזה אל זה שבים"
+  },
+  {
+    "word": "וזה",
+    "word_menukad": "זֶה אֶל זֶה",
+    "translation": "друг к другу",
+    "lemma": "זֶה אֶל זֶה",
+    "line": "זה מזה באים וזה אל זה שבים"
+  },
+  {
+    "word": "שבים",
+    "word_menukad": "שָׁבִים",
+    "translation": "возвращаются",
+    "lemma": "לָשׁוּב",
+    "root": "שׁ - ו - ב",
+    "pattern": "пааль",
+    "pealim_id": "2154",
+    "line": "זה מזה באים וזה אל זה שבים"
+  },
+  {
+    "word": "כמו",
+    "word_menukad": "כְּמוֹ",
+    "translation": "как",
+    "lemma": "כְּמוֹ",
+    "pealim_id": "4118",
+    "line": "כמו צבעי הקשת עוד נקשור ענן בחוט"
+  },
+  {
+    "word": "צבעי",
+    "word_menukad": "צִבְעֵי־",
+    "translation": "цвета",
+    "lemma": "צֶבַע",
+    "root": "צ - ב - ע",
+    "pattern": "кетель, м. р.",
+    "pealim_id": "5771",
+    "line": "כמו צבעי הקשת עוד נקשור ענן בחוט"
+  },
+  {
+    "word": "הקשת",
+    "word_menukad": "קֶשֶׁת",
+    "translation": "радуга",
+    "prefix": "ה־ +",
+    "lemma": "קֶשֶׁת",
+    "root": "ק - שׁ - ת",
+    "pattern": "кетель, ж. р.",
+    "pealim_id": "7809",
+    "line": "כמו צבעי הקשת עוד נקשור ענן בחוט"
+  },
+  {
+    "word": "עוד",
+    "word_menukad": "עוֹד",
+    "translation": "ещё",
+    "lemma": "עוֹד",
+    "pealim_id": "5241",
+    "line": "כמו צבעי הקשת עוד נקשור ענן בחוט"
+  },
+  {
+    "word": "נקשור",
+    "word_menukad": "נִקְשֹׁר",
+    "translation": "свяжем",
+    "lemma": "לִקְשׁוֹר",
+    "root": "ק - שׁ - ר",
+    "pattern": "пааль",
+    "pealim_id": "1968",
+    "line": "כמו צבעי הקשת עוד נקשור ענן בחוט"
+  },
+  {
+    "word": "ענן",
+    "word_menukad": "עָנָן",
+    "translation": "облако",
+    "lemma": "עָנָן",
+    "root": "ע - נ - ן",
+    "pattern": "каталь, м. р.",
+    "pealim_id": "3393",
+    "line": "כמו צבעי הקשת עוד נקשור ענן בחוט"
+  },
+  {
+    "word": "בחוט",
+    "word_menukad": "חוּט",
+    "translation": "верёвкой",
+    "prefix": "ב־ +",
+    "lemma": "חוּט",
+    "root": "ח - ו - ט",
+    "pattern": "м. р.",
+    "pealim_id": "5342",
+    "line": "כמו צבעי הקשת עוד נקשור ענן בחוט"
+  },
+  {
+    "word": "ונאמר",
+    "word_menukad": "נֹאמַר",
+    "translation": "и скажем",
+    "prefix": "ו־ +",
+    "lemma": "לוֹמַר",
+    "root": "א - מ - ר",
+    "pattern": "пааль",
+    "pealim_id": "55",
+    "line": "ונאמר לו: שמע, באים ימים טובים"
+  },
+  {
+    "word": "לו:",
+    "word_menukad": "לוֹ",
+    "translation": "ему",
+    "lemma": "לְ",
+    "suffix": "ו",
+    "pealim_id": "6014",
+    "line": "ונאמר לו: שמע, באים ימים טובים"
+  },
+  {
+    "word": "שמע,",
+    "word_menukad": "שְׁמַע!‏",
+    "translation": "слушай",
+    "lemma": "לִשְׁמוֹעַ",
+    "root": "שׁ - מ - ע",
+    "pattern": "пааль",
+    "pealim_id": "2250",
+    "line": "ונאמר לו: שמע, באים ימים טובים"
+  },
+  {
+    "word": "באים",
+    "word_menukad": "בָּאִים",
+    "translation": "приходят",
+    "lemma": "לָבוֹא",
+    "root": "ב - ו - א",
+    "pattern": "пааль",
+    "pealim_id": "28",
+    "line": "ונאמר לו: שמע, באים ימים טובים"
+  },
+  {
+    "word": "ימים",
+    "word_menukad": "יָמִים",
+    "translation": "дни",
+    "lemma": "יוֹם",
+    "pattern": "м. р.",
+    "pealim_id": "3061",
+    "line": "ונאמר לו: שמע, באים ימים טובים"
+  },
+  {
+    "word": "טובים",
+    "word_menukad": "טוֹבִים",
+    "translation": "хорошие",
+    "lemma": "טוֹב",
+    "root": "ט - ו - ב",
+    "pealim_id": "5422",
+    "line": "ונאמר לו: שמע, באים ימים טובים"
+  }
+]
