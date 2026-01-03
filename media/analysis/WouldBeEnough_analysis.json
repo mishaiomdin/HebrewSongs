@@ -1,0 +1,412 @@
+[
+  {
+    "word": "די,",
+    "word_menukad": "דַּי",
+    "translation": "достаточно",
+    "lemma": "דַּיי",
+    "pealim_id": "5366",
+    "line": "די, דיינו"
+  },
+  {
+    "word": "דיינו",
+    "word_menukad": "דַּיֵּינוּ",
+    "translation": "нам достаточно",
+    "lemma": "דַּיי",
+    "suffix": "נו",
+    "pealim_id": "5366",
+    "line": "די, דיינו"
+  },
+  {
+    "word": "דיינו,",
+    "word_menukad": "דַּיֵּינוּ",
+    "translation": "нам достаточно",
+    "lemma": "דַּיי",
+    "suffix": "נו",
+    "pealim_id": "5366",
+    "line": "דיינו, דיינו, דיינו"
+  },
+  {
+    "word": "דיינו,",
+    "word_menukad": "דַּיֵּינוּ",
+    "translation": "нам достаточно",
+    "lemma": "דַּיי",
+    "suffix": "נו",
+    "pealim_id": "5366",
+    "line": "דיינו, דיינו, דיינו"
+  },
+  {
+    "word": "דיינו",
+    "word_menukad": "דַּיֵּינוּ",
+    "translation": "нам достаточно",
+    "lemma": "דַּיי",
+    "suffix": "נו",
+    "pealim_id": "5366",
+    "line": "דיינו, דיינו, דיינו"
+  },
+  {
+    "word": "דיינו,",
+    "word_menukad": "דַּיֵּינוּ",
+    "translation": "нам достаточно",
+    "lemma": "דַּיי",
+    "suffix": "נו",
+    "pealim_id": "5366",
+    "line": "דיינו, דיינו"
+  },
+  {
+    "word": "דיינו",
+    "word_menukad": "דַּיֵּינוּ",
+    "translation": "нам достаточно",
+    "lemma": "דַּיי",
+    "suffix": "נו",
+    "pealim_id": "5366",
+    "line": "דיינו, דיינו"
+  },
+  {
+    "word": "אילו",
+    "word_menukad": "אִלּוּ",
+    "translation": "если бы",
+    "lemma": "אִילּוּ",
+    "parsed_grammar": "[]",
+    "pealim_id": "5247",
+    "line": "אילו אילו הוציאנו, הוציאנו ממצרים"
+  },
+  {
+    "word": "אילו",
+    "word_menukad": "אִלּוּ",
+    "translation": "если бы",
+    "lemma": "אִילּוּ",
+    "parsed_grammar": "[]",
+    "pealim_id": "5247"
+  },
+  {
+    "word": "הוציאנו,",
+    "word_menukad": "הוציאנו,",
+    "translation": "нас вызволил",
+    "lemma": "לְהוֹצִיא",
+    "suffix": "נו",
+    "root": "י - צ - א",
+    "pattern": "hифъиль",
+    "parsed_grammar": "[]",
+    "pealim_id": "833",
+    "line": "אילו אילו הוציאנו, הוציאנו ממצרים"
+  },
+  {
+    "word": "הוציאנו",
+    "word_menukad": "הוציאנו",
+    "translation": "нас вызволил",
+    "lemma": "לְהוֹצִיא",
+    "suffix": "נו",
+    "root": "י - צ - א",
+    "pattern": "hифъиль",
+    "parsed_grammar": "[]",
+    "pealim_id": "833",
+    "line": "אילו אילו הוציאנו, הוציאנו ממצרים"
+  },
+  {
+    "word": "ממצרים",
+    "word_menukad": "מִצְרַיִם",
+    "translation": "из Египта",
+    "prefix": "מ־ +",
+    "lemma": "מִצְרַיִם",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5644",
+    "line": "אילו אילו הוציאנו, הוציאנו ממצרים"
+  },
+  {
+    "word": "הוציאנו",
+    "word_menukad": "הוציאנו",
+    "translation": "нас вызволил",
+    "lemma": "לְהוֹצִיא",
+    "suffix": "נו",
+    "root": "י - צ - א",
+    "pattern": "hифъиль",
+    "parsed_grammar": "[]",
+    "pealim_id": "833",
+    "line": "הוציאנו ממצרים, דיינו"
+  },
+  {
+    "word": "ממצרים,",
+    "word_menukad": "מִצְרַיִם",
+    "translation": "из Египта",
+    "prefix": "מ־ +",
+    "lemma": "מִצְרַיִם",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5644",
+    "line": "הוציאנו ממצרים, דיינו"
+  },
+  {
+    "word": "דיינו",
+    "word_menukad": "דַּיֵּינוּ",
+    "translation": "нам достаточно",
+    "lemma": "דַּיי",
+    "suffix": "נו",
+    "pealim_id": "5366",
+    "line": "הוציאנו ממצרים, דיינו"
+  },
+  {
+    "word": "אילו",
+    "word_menukad": "אִלּוּ",
+    "translation": "если бы",
+    "lemma": "אִילּוּ",
+    "parsed_grammar": "[]",
+    "pealim_id": "5247",
+    "line": "אילו אילו נתן לנו, נתן לנו את השבת"
+  },
+  {
+    "word": "אילו",
+    "word_menukad": "אִלּוּ",
+    "translation": "если бы",
+    "lemma": "אִילּוּ",
+    "parsed_grammar": "[]",
+    "pealim_id": "5247",
+    "line": "אילו אילו נתן לנו, נתן לנו את השבת"
+  },
+  {
+    "word": "נתן",
+    "word_menukad": "נָתַן",
+    "translation": "дал",
+    "lemma": "לָתֵת",
+    "root": "נ - ת - ן",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "1285",
+    "line": "אילו אילו נתן לנו, נתן לנו את השבת"
+  },
+  {
+    "word": "לנו,",
+    "word_menukad": "לָנוּ",
+    "translation": "нам",
+    "lemma": "לְ",
+    "suffix": "נו",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "אילו אילו נתן לנו, נתן לנו את השבת"
+  },
+  {
+    "word": "נתן",
+    "word_menukad": "נָתַן",
+    "translation": "дал",
+    "lemma": "לָתֵת",
+    "root": "נ - ת - ן",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "1285",
+    "line": "אילו אילו נתן לנו, נתן לנו את השבת"
+  },
+  {
+    "word": "לנו",
+    "word_menukad": "לָנוּ",
+    "translation": "нам",
+    "lemma": "לְ",
+    "suffix": "נו",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "אילו אילו נתן לנו, נתן לנו את השבת"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "вин. п.",
+    "lemma": "אֶת",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "אילו אילו נתן לנו, נתן לנו את השבת"
+  },
+  {
+    "word": "השבת",
+    "word_menukad": "שַׁבָּת",
+    "translation": "суббота",
+    "prefix": "ה־ +",
+    "lemma": "שַׁבָּת",
+    "root": "שׁ - ב - ת",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5078",
+    "line": "אילו אילו נתן לנו, נתן לנו את השבת"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "вин. п.",
+    "lemma": "אֶת",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "את השבת נתן לנו, דיינו"
+  },
+  {
+    "word": "השבת",
+    "word_menukad": "שַׁבָּת",
+    "translation": "суббота",
+    "prefix": "ה־ +",
+    "lemma": "שַׁבָּת",
+    "root": "שׁ - ב - ת",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5078",
+    "line": "את השבת נתן לנו, דיינו"
+  },
+  {
+    "word": "נתן",
+    "word_menukad": "נָתַן",
+    "translation": "дал",
+    "lemma": "לָתֵת",
+    "root": "נ - ת - ן",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "1285",
+    "line": "את השבת נתן לנו, דיינו"
+  },
+  {
+    "word": "לנו",
+    "word_menukad": "לָנוּ",
+    "translation": "нам",
+    "lemma": "לְ",
+    "suffix": "נו",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "את השבת נתן לנו, דיינו"
+  },
+  {
+    "word": "דיינו",
+    "word_menukad": "דַּיֵּינוּ",
+    "translation": "нам достаточно",
+    "lemma": "דַּיי",
+    "suffix": "נו",
+    "pealim_id": "5366",
+    "line": "את השבת נתן לנו, דיינו"
+  },
+  {
+    "word": "אילו",
+    "word_menukad": "אִלּוּ",
+    "translation": "если бы",
+    "lemma": "אִילּוּ",
+    "parsed_grammar": "[]",
+    "pealim_id": "5247",
+    "line": "אילו אילו נתן לנו, את התורה נתן לנו"
+  },
+  {
+    "word": "אילו",
+    "word_menukad": "אִלּוּ",
+    "translation": "если бы",
+    "lemma": "אִילּוּ",
+    "parsed_grammar": "[]",
+    "pealim_id": "5247",
+    "line": "אילו אילו נתן לנו, את התורה נתן לנו"
+  },
+  {
+    "word": "נתן",
+    "word_menukad": "נָתַן",
+    "translation": "дал",
+    "lemma": "לָתֵת",
+    "root": "נ - ת - ן",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "1285",
+    "line": "אילו אילו נתן לנו, את התורה נתן לנו"
+  },
+  {
+    "word": "לנו,",
+    "word_menukad": "לָנוּ",
+    "translation": "нам",
+    "lemma": "לְ",
+    "suffix": "נו",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "אילו אילו נתן לנו, את התורה נתן לנו"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "вин. п.",
+    "lemma": "אֶת",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "אילו אילו נתן לנו, את התורה נתן לנו"
+  },
+  {
+    "word": "התורה",
+    "word_menukad": "תּוֹרָה",
+    "translation": "Тора",
+    "prefix": "ה־ +",
+    "lemma": "תּוֹרָה",
+    "root": "י - ר - ה",
+    "pattern": "тактела, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5078",
+    "line": "אילו אילו נתן לנו, את התורה נתן לנו"
+  },
+  {
+    "word": "נתן",
+    "word_menukad": "נָתַן",
+    "translation": "дал",
+    "lemma": "לָתֵת",
+    "root": "נ - ת - ן",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "1285",
+    "line": "אילו אילו נתן לנו, את התורה נתן לנו"
+  },
+  {
+    "word": "לנו",
+    "word_menukad": "לָנוּ",
+    "translation": "нам",
+    "lemma": "לְ",
+    "suffix": "נו",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "אילו אילו נתן לנו, את התורה נתן לנו"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "вин. п.",
+    "lemma": "אֶת",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "את התורה נתן לנו, דיינו"
+  },
+  {
+    "word": "התורה",
+    "word_menukad": "תּוֹרָה",
+    "translation": "Тора",
+    "prefix": "ה־ +",
+    "lemma": "תּוֹרָה",
+    "root": "י - ר - ה",
+    "pattern": "тактела, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4994",
+    "line": "את התורה נתן לנו, דיינו"
+  },
+  {
+    "word": "נתן",
+    "word_menukad": "נָתַן",
+    "translation": "дал",
+    "lemma": "לָתֵת",
+    "root": "נ - ת - ן",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "1285",
+    "line": "את התורה נתן לנו, דיינו"
+  },
+  {
+    "word": "לנו",
+    "word_menukad": "לָנוּ",
+    "translation": "нам",
+    "lemma": "לְ",
+    "suffix": "נו",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "את התורה נתן לנו, דיינו"
+  },
+  {
+    "word": "דיינו",
+    "word_menukad": "דַּיֵּינוּ",
+    "translation": "нам достаточно",
+    "lemma": "דַּיי",
+    "suffix": "נו",
+    "pealim_id": "5366",
+    "line": "את התורה נתן לנו, דיינו"
+  }
+]

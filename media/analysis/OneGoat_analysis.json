@@ -1,0 +1,463 @@
+[
+  {
+    "word": "על",
+    "word_menukad": "עַל",
+    "translation": "на",
+    "lemma": "עַל",
+    "parsed_grammar": "[]",
+    "pealim_id": "6012",
+    "line": "על גבע רם על ראש התל"
+  },
+  {
+    "word": "גבע",
+    "word_menukad": "גֶּבַע",
+    "translation": "холм",
+    "lemma": "גֶּבַע",
+    "root": "ג - ב - ע",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4476",
+    "line": "על גבע רם על ראש התל"
+  },
+  {
+    "word": "רם",
+    "word_menukad": "רָם",
+    "translation": "громкий",
+    "lemma": "רָם",
+    "root": "ר - ו - ם",
+    "pattern": "каль",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "7259",
+    "line": "על גבע רם על ראש התל"
+  },
+  {
+    "word": "על",
+    "word_menukad": "עַל",
+    "translation": "на",
+    "lemma": "עַל",
+    "parsed_grammar": "[]",
+    "pealim_id": "6012",
+    "line": "על גבע רם על ראש התל"
+  },
+  {
+    "word": "ראש",
+    "word_menukad": "רֹאשׁ־",
+    "translation": "голова",
+    "lemma": "רֹאשׁ",
+    "root": "ר - א - שׁ",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3327",
+    "line": "על גבע רם על ראש התל"
+  },
+  {
+    "word": "התל",
+    "word_menukad": "התל",
+    "translation": "холм",
+    "prefix": "ה־ +",
+    "lemma": "תֵל",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "478",
+    "line": "על גבע רם על ראש התל"
+  },
+  {
+    "word": "חליל",
+    "word_menukad": "חֲלִיל",
+    "translation": "флейта",
+    "lemma": "חֲלִיל",
+    "root": "ח - ל - ל",
+    "pattern": "ктиль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4058",
+    "line": "חליל רועה שם מחלל"
+  },
+  {
+    "word": "רועה",
+    "word_menukad": "רוֹעֶה",
+    "translation": "пастух",
+    "lemma": "רוֹעֶה",
+    "root": "ר - ע - ה",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "2065",
+    "line": "חליל רועה שם מחלל"
+  },
+  {
+    "word": "שם",
+    "word_menukad": "שָׁם",
+    "translation": "там",
+    "lemma": "שָׁם",
+    "parsed_grammar": "[]",
+    "pealim_id": "3193",
+    "line": "חליל רועה שם מחלל"
+  },
+  {
+    "word": "מחלל",
+    "word_menukad": "מְחַלֵּל",
+    "translation": "играет на флейте",
+    "lemma": "לְחַלֵל",
+    "root": "ח - ל - ל",
+    "pattern": "пиэль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "604",
+    "line": "חליל רועה שם מחלל"
+  },
+  {
+    "word": "מזמור",
+    "word_menukad": "מִזְמוֹר",
+    "translation": "песня",
+    "lemma": "מִזְמוֹר",
+    "root": "ז - מ - ר",
+    "pattern": "миктоль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4876",
+    "line": "מזמור חדש לישראל"
+  },
+  {
+    "word": "חדש",
+    "word_menukad": "חָדָשׁ",
+    "translation": "новый",
+    "lemma": "חָדָשׁ",
+    "root": "ח - ד - שׁ",
+    "pattern": "каталь",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "2679",
+    "line": "מזמור חדש לישראל"
+  },
+  {
+    "word": "לישראל",
+    "word_menukad": "לישראל",
+    "translation": "Израилю",
+    "prefix": "ל־ +",
+    "lemma": "יִשׂרָאֵל",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "מזמור חדש לישראל"
+  },
+  {
+    "word": "ולרועה",
+    "word_menukad": "ולרוֹעֶה",
+    "translation": "и у пастуха",
+    "prefix": "ו־ + ל־ +",
+    "lemma": "רוֹעֶה",
+    "root": "ר - ע - ה",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "2065",
+    "line": "ולרועה רק אוהל בד"
+  },
+  {
+    "word": "רק",
+    "word_menukad": "רַק",
+    "translation": "только",
+    "lemma": "רַק",
+    "parsed_grammar": "[]",
+    "pealim_id": "3394",
+    "line": "ולרועה רק אוהל בד"
+  },
+  {
+    "word": "אוהל",
+    "word_menukad": "אֹהֶל־",
+    "translation": "шатёр",
+    "lemma": "אוֹהֶל",
+    "root": "א - ה - ל",
+    "pattern": "котель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5441",
+    "line": "ולרועה רק אוהל בד"
+  },
+  {
+    "word": "בד",
+    "word_menukad": "בַּד",
+    "translation": "ткань",
+    "lemma": "בַּד",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5587",
+    "line": "ולרועה רק אוהל בד"
+  },
+  {
+    "word": "ולו",
+    "word_menukad": "לוֹ",
+    "translation": "и к",
+    "prefix": "ו־ +",
+    "lemma": "לְ",
+    "suffix": "ו",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "ולו רק גדי, גדי אחד"
+  },
+  {
+    "word": "רק",
+    "word_menukad": "רַק",
+    "translation": "только",
+    "lemma": "רַק",
+    "parsed_grammar": "[]",
+    "pealim_id": "3394",
+    "line": "ולו רק גדי, גדי אחד"
+  },
+  {
+    "word": "גדי,",
+    "word_menukad": "גְּדִי",
+    "translation": "козлёнок",
+    "lemma": "גְּדִי",
+    "root": "ג - ד - ה",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5888",
+    "line": "ולו רק גדי, גדי אחד"
+  },
+  {
+    "word": "גדי",
+    "word_menukad": "גְּדִי",
+    "translation": "козлёнок",
+    "lemma": "גְּדִי",
+    "root": "ג - ד - ה",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5888",
+    "line": "ולו רק גדי, גדי אחד"
+  },
+  {
+    "word": "אחד",
+    "word_menukad": "אֶחָד",
+    "translation": "один",
+    "lemma": "אֶחָד",
+    "root": "א - ח - ד",
+    "parsed_grammar": "['masc']",
+    "pealim_id": "7130",
+    "line": "ולו רק גדי, גדי אחד"
+  },
+  {
+    "word": "חד",
+    "word_menukad": "חַד",
+    "translation": "один",
+    "lemma": "חַד",
+    "parsed_grammar": "[]",
+    "pealim_id": "7638",
+    "line": "חד גדיא, חד גדיא"
+  },
+  {
+    "word": "גדיא,",
+    "word_menukad": "גַדיָא,",
+    "translation": "козлёнок",
+    "lemma": "גַדיָא",
+    "pattern": "(арам.)",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "חד גדיא, חד גדיא"
+  },
+  {
+    "word": "חד",
+    "word_menukad": "חַד",
+    "translation": "один",
+    "lemma": "חַד",
+    "parsed_grammar": "[]",
+    "pealim_id": "7638",
+    "line": "חד גדיא, חד גדיא"
+  },
+  {
+    "word": "גדיא",
+    "word_menukad": "גַדיָא",
+    "translation": "козлёнок",
+    "lemma": "גַדיָא",
+    "pattern": "(арам.)",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "חד גדיא, חד גדיא"
+  },
+  {
+    "word": "חרמש",
+    "word_menukad": "חֶרמֵש",
+    "translation": "коса",
+    "lemma": "חֶרמֵש",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "חרמש נוצץ ומצלצל"
+  },
+  {
+    "word": "נוצץ",
+    "word_menukad": "נוֹצֵץ",
+    "translation": "блестит",
+    "lemma": "לִנְצוֹץ",
+    "root": "נ - צ - ץ",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "4049",
+    "line": "חרמש נוצץ ומצלצל"
+  },
+  {
+    "word": "ומצלצל",
+    "word_menukad": "מְצַלְצֵל",
+    "translation": "и звонит",
+    "prefix": "ו־ +",
+    "lemma": "לְצַלְצֵל",
+    "root": "צ - ל - צ - ל",
+    "pattern": "пиэль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "1807",
+    "line": "חרמש נוצץ ומצלצל"
+  },
+  {
+    "word": "צליל",
+    "word_menukad": "צְלִיל",
+    "translation": "звук",
+    "lemma": "צְלִיל",
+    "root": "צ - ל - ל",
+    "pattern": "ктиль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3536",
+    "line": "צליל קציר לישראל"
+  },
+  {
+    "word": "קציר",
+    "word_menukad": "קָצִיר",
+    "translation": "жатва",
+    "lemma": "קָצִיר",
+    "root": "ק - צ - ר",
+    "pattern": "катиль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5603",
+    "line": "צליל קציר לישראל"
+  },
+  {
+    "word": "לישראל",
+    "word_menukad": "לישראל",
+    "translation": "Израилю",
+    "prefix": "ל־ +",
+    "lemma": "יִשׂרָאֵל",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "צליל קציר לישראל"
+  },
+  {
+    "word": "נרימה",
+    "word_menukad": "נרימה",
+    "translation": "поднимем",
+    "lemma": "לְהָרִים",
+    "root": "ר - ו - ם",
+    "pattern": "hифъиль",
+    "parsed_grammar": "[]",
+    "pealim_id": "2414",
+    "line": "נרימה זמר פה אחד"
+  },
+  {
+    "word": "זמר",
+    "word_menukad": "זֵמֶר־",
+    "translation": "песня",
+    "lemma": "זֵמֶר",
+    "root": "ז - מ - ר",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "6069",
+    "line": "נרימה זמר פה אחד"
+  },
+  {
+    "word": "פה",
+    "word_menukad": "פֶּה",
+    "translation": "рот",
+    "lemma": "פֶּה",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "6010",
+    "line": "נרימה זמר פה אחד"
+  },
+  {
+    "word": "אחד",
+    "word_menukad": "אֶחָד",
+    "translation": "один",
+    "lemma": "אֶחָד",
+    "root": "א - ח - ד",
+    "parsed_grammar": "['masc']",
+    "pealim_id": "7130",
+    "line": "נרימה זמר פה אחד"
+  },
+  {
+    "word": "נניפה",
+    "word_menukad": "נניפה",
+    "translation": "поднимем",
+    "lemma": "לְהָנִיף",
+    "root": "נ - ו - ף",
+    "pattern": "hифъиль",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "נניפה עומר בשיר הידד"
+  },
+  {
+    "word": "עומר",
+    "word_menukad": "עֹמֶר",
+    "translation": "сноп",
+    "lemma": "עוֹמֶר",
+    "root": "ע - מ - ר",
+    "pattern": "котель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5252",
+    "line": "נניפה עומר בשיר הידד"
+  },
+  {
+    "word": "בשיר",
+    "word_menukad": "שִׁיר",
+    "translation": "под песню",
+    "prefix": "ב־ +",
+    "lemma": "שִׁיר",
+    "root": "שׁ - י - ר",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4337",
+    "line": "נניפה עומר בשיר הידד"
+  },
+  {
+    "word": "הידד",
+    "word_menukad": "הֵידָד",
+    "translation": "ура",
+    "lemma": "הֵידָד",
+    "parsed_grammar": "[]",
+    "pealim_id": "7962",
+    "line": "נניפה עומר בשיר הידד"
+  },
+  {
+    "word": "נרים",
+    "word_menukad": "נרים",
+    "translation": "поднимем",
+    "lemma": "לְהָרִים",
+    "root": "ר - ו - ם",
+    "pattern": "hифъиль",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "נרים לעומר שיר הידד"
+  },
+  {
+    "word": "לעומר",
+    "word_menukad": "עֹמֶר",
+    "translation": "к снопу",
+    "prefix": "ל־ +",
+    "lemma": "עוֹמֶר",
+    "root": "ע - מ - ר",
+    "pattern": "котель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5252",
+    "line": "נרים לעומר שיר הידד"
+  },
+  {
+    "word": "שיר",
+    "word_menukad": "שִׁיר",
+    "translation": "песня",
+    "prefix": "ב־ +",
+    "lemma": "שִׁיר",
+    "root": "שׁ - י - ר",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4337",
+    "line": "נרים לעומר שיר הידד"
+  },
+  {
+    "word": "הידד",
+    "word_menukad": "הֵידָד",
+    "translation": "ура",
+    "lemma": "הֵידָד",
+    "parsed_grammar": "[]",
+    "pealim_id": "7962",
+    "line": "נרים לעומר שיר הידד"
+  }
+]
