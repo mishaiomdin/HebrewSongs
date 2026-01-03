@@ -159,5 +159,18 @@
     "author": "Ehud Manor",
     "singer": "Shlomo Artzi",
     "comment": "Eurovision 1975"
+  },
+  {
+    "code": "MoscowOdessa",
+    "name": "Москва-Одесса",
+    "part": "👤 Высоцкий",
+    "videoId": "lQzZMD_uOc8",
+    "dateAdded": "3.1.2026",
+    "published": "0",
+    "origAuthor": "Владимир Высоцкий, 1967",
+    "origSinger": "Владимир Высоцкий, 1967",
+    "tranAuthor": "יעקוב שרת, 1973",
+    "tranSinger": "Дани Кац, Одед Бен-Гур, Йонит Шохам, Дуду Эльхарар, 1973",
+    "source": "https://wysotsky.com/1037.htm?204"
   }
 ]
