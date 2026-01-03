@@ -1,0 +1,309 @@
+[
+  {
+    "word": "שמחה",
+    "word_menukad": "שִׂמְחָה",
+    "translation": "радость",
+    "lemma": "שִׂמְחָה",
+    "root": "שׂ - מ - ח",
+    "pattern": "китла, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3225",
+    "line": "שמחה רבה, שמחה רבה"
+  },
+  {
+    "word": "רבה,",
+    "word_menukad": "רַבָּה",
+    "translation": "великая",
+    "lemma": "רַב",
+    "root": "ר - ב - ב",
+    "pattern": "каль",
+    "parsed_grammar": "['sing', 'femn']",
+    "pealim_id": "4987",
+    "line": "שמחה רבה, שמחה רבה"
+  },
+  {
+    "word": "שמחה",
+    "word_menukad": "שִׂמְחָה",
+    "translation": "радость",
+    "lemma": "שִׂמְחָה",
+    "root": "שׂ - מ - ח",
+    "pattern": "китла, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3225",
+    "line": "שמחה רבה, שמחה רבה"
+  },
+  {
+    "word": "רבה",
+    "word_menukad": "רַבָּה",
+    "translation": "великая",
+    "lemma": "רַב",
+    "root": "ר - ב - ב",
+    "pattern": "каль",
+    "parsed_grammar": "['sing', 'femn']",
+    "pealim_id": "4987",
+    "line": "שמחה רבה, שמחה רבה"
+  },
+  {
+    "word": "אביב",
+    "word_menukad": "אָבִיב",
+    "translation": "весна",
+    "lemma": "אָבִיב",
+    "root": "א - ב - ב",
+    "pattern": "катиль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4084",
+    "line": "אביב הגיע, פסח בא"
+  },
+  {
+    "word": "הגיע,",
+    "word_menukad": "הִגִּיעַ",
+    "translation": "пришёл",
+    "lemma": "לְהַגִּיעַ",
+    "root": "נ - ג - ע",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "1141",
+    "line": "אביב הגיע, פסח בא"
+  },
+  {
+    "word": "פסח",
+    "word_menukad": "פֶּסַח",
+    "translation": "Песах",
+    "lemma": "פֶּסַח",
+    "root": "פ - ס - ח",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "8833",
+    "line": "אביב הגיע, פסח בא"
+  },
+  {
+    "word": "בא",
+    "word_menukad": "בָּא",
+    "translation": "пришёл",
+    "lemma": "לָבוֹא",
+    "root": "ב - ו - א",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "28",
+    "line": "אביב הגיע, פסח בא"
+  },
+  {
+    "word": "תפרו,",
+    "word_menukad": "תָּפְרוּ",
+    "translation": "сшили",
+    "lemma": "לִתְפּוֹר",
+    "root": "ת - פ - ר",
+    "pattern": "пааль",
+    "parsed_grammar": "['plur', 'past', '3per']",
+    "pealim_id": "2389",
+    "line": "תפרו, תפרו, תפרו לי בגד עם כיסים"
+  },
+  {
+    "word": "תפרו",
+    "word_menukad": "תָּפְרוּ",
+    "translation": "сшили",
+    "lemma": "לִתְפּוֹר",
+    "root": "ת - פ - ר",
+    "pattern": "пааль",
+    "parsed_grammar": "['plur', 'past', '3per']",
+    "pealim_id": "2389",
+    "line": "תפרו, תפרו, תפרו לי בגד עם כיסים"
+  },
+  {
+    "word": "תפרו",
+    "word_menukad": "תָּפְרוּ",
+    "translation": "сшили",
+    "lemma": "לִתְפּוֹר",
+    "root": "ת - פ - ר",
+    "pattern": "пааль",
+    "parsed_grammar": "['plur', 'past', '3per']",
+    "pealim_id": "2389",
+    "line": "תפרו, תפרו, תפרו לי בגד עם כיסים"
+  },
+  {
+    "word": "לי",
+    "word_menukad": "לִי",
+    "translation": "мне",
+    "lemma": "לְ",
+    "suffix": "י",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "תפרו, תפרו, תפרו לי בגד עם כיסים"
+  },
+  {
+    "word": "בגד",
+    "word_menukad": "בֶּגֶד",
+    "translation": "одежда",
+    "lemma": "בֶּגֶד",
+    "root": "ב - ג - ד",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "6058",
+    "line": "תפרו, תפרו, תפרו לי בגד עם כיסים"
+  },
+  {
+    "word": "עם",
+    "word_menukad": "עִם",
+    "translation": "с",
+    "lemma": "עִם",
+    "parsed_grammar": "[]",
+    "pealim_id": "4112",
+    "line": "תפרו, תפרו, תפרו לי בגד עם כיסים"
+  },
+  {
+    "word": "כיסים",
+    "word_menukad": "כִּיסִים",
+    "translation": "карманы",
+    "lemma": "כִּיס",
+    "root": "כ - י - ס",
+    "pattern": "м. р.",
+    "parsed_grammar": "['plur']",
+    "pealim_id": "5321",
+    "line": "תפרו, תפרו, תפרו לי בגד עם כיסים"
+  },
+  {
+    "word": "מילאו,",
+    "word_menukad": "מִלְּאוּ",
+    "translation": "наполнили",
+    "lemma": "לְמַלֵּא",
+    "root": "מ - ל - א",
+    "pattern": "пиэль",
+    "parsed_grammar": "['plur', 'past', '3per']",
+    "pealim_id": "1053",
+    "line": "מילאו, מילאו, מילאו כיסיי באגוזים"
+  },
+  {
+    "word": "מילאו,",
+    "word_menukad": "מִלְּאוּ",
+    "translation": "наполнили",
+    "lemma": "לְמַלֵּא",
+    "root": "מ - ל - א",
+    "pattern": "пиэль",
+    "parsed_grammar": "['plur', 'past', '3per']",
+    "pealim_id": "1053",
+    "line": "מילאו, מילאו, מילאו כיסיי באגוזים"
+  },
+  {
+    "word": "מילאו",
+    "word_menukad": "מִלְּאוּ",
+    "translation": "наполнили",
+    "lemma": "לְמַלֵּא",
+    "root": "מ - ל - א",
+    "pattern": "пиэль",
+    "parsed_grammar": "['plur', 'past', '3per']",
+    "pealim_id": "1053",
+    "line": "מילאו, מילאו, מילאו כיסיי באגוזים"
+  },
+  {
+    "word": "כיסיי",
+    "word_menukad": "כִּיסַי",
+    "translation": "мои карманы",
+    "lemma": "כִּיס",
+    "suffix": "י",
+    "root": "כ - י - ס",
+    "pattern": "м. р.",
+    "parsed_grammar": "['plur']",
+    "pealim_id": "5321",
+    "line": "מילאו, מילאו, מילאו כיסיי באגוזים"
+  },
+  {
+    "word": "באגוזים",
+    "word_menukad": "אֱגוֹזִים",
+    "translation": "орехами",
+    "prefix": "ב־ +",
+    "lemma": "אֱגוֹז",
+    "pattern": "м. р.",
+    "parsed_grammar": "['plur']",
+    "pealim_id": "5376",
+    "line": "מילאו, מילאו, מילאו כיסיי באגוזים"
+  },
+  {
+    "word": "שאול אשאל,",
+    "word_menukad": "אֶשְׁאַל",
+    "translation": "спрошу",
+    "lemma": "לִשְׁאוֹל",
+    "root": "שׁ - א - ל",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'futr', '1per']",
+    "pealim_id": "39",
+    "line": "שאול אשאל, שאול אשאל ארבע קושיות"
+  },
+  {
+    "word": "שאול אשאל",
+    "word_menukad": "אֶשְׁאַל",
+    "translation": "спрошу",
+    "lemma": "לִשְׁאוֹל",
+    "root": "שׁ - א - ל",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'futr', '1per']",
+    "pealim_id": "39",
+    "line": "שאול אשאל, שאול אשאל ארבע קושיות"
+  },
+  {
+    "word": "ארבע",
+    "word_menukad": "אַרְבַּע",
+    "translation": "четыре",
+    "lemma": "אַרְבַּע",
+    "root": "ר - ב - ע",
+    "parsed_grammar": "['femn']",
+    "pealim_id": "7122",
+    "line": "שאול אשאל, שאול אשאל ארבע קושיות"
+  },
+  {
+    "word": "קושיות",
+    "word_menukad": "קֻשְׁיוֹת",
+    "translation": "трудные вопросы",
+    "lemma": "קוּשיָה",
+    "root": "ק - ש -ה",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "שאול אשאל, שאול אשאל ארבע קושיות"
+  },
+  {
+    "word": "שתה",
+    "word_menukad": "שָׁתָה",
+    "line": "שתה אשתה, שתה אשתה ארבע כוסות"
+  },
+  {
+    "word": " שתה אשתה,",
+    "word_menukad": "אֶשְׁתֶּה",
+    "translation": "выпью",
+    "lemma": "לִשְׁתּוֹת",
+    "root": "שׁ - ת - ה",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'futr', '1per']",
+    "pealim_id": "31",
+    "line": "שתה אשתה, שתה אשתה ארבע כוסות"
+  },
+  {
+    "word": "שתה אשתה",
+    "word_menukad": "אֶשְׁתֶּה",
+    "translation": "выпью",
+    "lemma": "לִשְׁתּוֹת",
+    "root": "שׁ - ת - ה",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'futr', '1per']",
+    "pealim_id": "2806",
+    "line": "שתה אשתה, שתה אשתה ארבע כוסות"
+  },
+  {
+    "word": "ארבע",
+    "word_menukad": "אַרְבַּע",
+    "translation": "четыре",
+    "lemma": "אַרְבַּע",
+    "root": "ר - ב - ע",
+    "parsed_grammar": "['femn']",
+    "pealim_id": "7122",
+    "line": "שתה אשתה, שתה אשתה ארבע כוסות"
+  },
+  {
+    "word": "כוסות",
+    "word_menukad": "כּוֹסוֹת",
+    "translation": "стаканы",
+    "lemma": "כּוֹס",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['plur']",
+    "pealim_id": "6141",
+    "line": "שתה אשתה, שתה אשתה ארבע כוסות"
+  }
+]
