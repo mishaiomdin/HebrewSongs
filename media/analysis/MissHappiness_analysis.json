@@ -1,0 +1,791 @@
+[
+  {
+    "word": "כבוד",
+    "word_menukad": "כְּבוֹד־",
+    "translation": "почёт",
+    "lemma": "כָּבוֹד",
+    "root": "כ - ב - ד",
+    "pattern": "католь, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3467",
+    "line": "כבוד והוד מעלתך, הפרידה לנצח"
+  },
+  {
+    "word": "והוד מעלתך,",
+    "word_menukad": "הוֹד מַעֲלָתֵךְ",
+    "translation": "ваше благородие",
+    "prefix": "ו־ +",
+    "lemma": "הוד מעלה",
+    "suffix": "ך",
+    "parsed_grammar": "['sing']",
+    "line": "כבוד והוד מעלתך, הפרידה לנצח"
+  },
+  {
+    "word": "הפרידה",
+    "word_menukad": "פְּרֵדָה",
+    "translation": "разлука",
+    "prefix": "ה־ +",
+    "lemma": "פְּרֵידָה",
+    "root": "פ - ר - ד",
+    "pattern": "ктела, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "2842",
+    "line": "כבוד והוד מעלתך, הפרידה לנצח"
+  },
+  {
+    "word": "לנצח",
+    "word_menukad": "נֶצַח",
+    "translation": "навеки",
+    "prefix": "ל־ +",
+    "lemma": "נֶצַח",
+    "root": "נ - צ - ח",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "6374",
+    "line": "כבוד והוד מעלתך, הפרידה לנצח"
+  },
+  {
+    "word": "אימתי",
+    "word_menukad": "אֵימָתַי",
+    "translation": "когда-нибудь",
+    "lemma": "אֵי-מָתַי",
+    "line": "אימתי כבר ניפגש, לא חקוק על מצח"
+  },
+  {
+    "word": "כבר",
+    "word_menukad": "כְּבָר",
+    "translation": "уже",
+    "lemma": "כְּבָר",
+    "parsed_grammar": "[]",
+    "pealim_id": "6115",
+    "line": "אימתי כבר ניפגש, לא חקוק על מצח"
+  },
+  {
+    "word": "ניפגש,",
+    "word_menukad": "נִפָּגֵשׁ",
+    "translation": "встретимся",
+    "lemma": "לְהִיפָּגֵשׁ",
+    "root": "פ - ג - שׁ",
+    "pattern": "нифъаль",
+    "parsed_grammar": "['plur', 'futr', '1per']",
+    "pealim_id": "1593",
+    "line": "אימתי כבר ניפגש, לא חקוק על מצח"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "нет",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "אימתי כבר ניפגש, לא חקוק על מצח"
+  },
+  {
+    "word": "חקוק",
+    "word_menukad": "חָקוּק",
+    "translation": "высечено",
+    "lemma": "חָקוּק",
+    "root": "ח - ק - ק",
+    "pattern": "пауль",
+    "pealim_id": "670",
+    "line": "אימתי כבר ניפגש, לא חקוק על מצח"
+  },
+  {
+    "word": "על",
+    "word_menukad": "עַל",
+    "translation": "на",
+    "lemma": "עַל",
+    "parsed_grammar": "[]",
+    "pealim_id": "6012",
+    "line": "אימתי כבר ניפגש, לא חקוק על מצח"
+  },
+  {
+    "word": "מצח",
+    "word_menukad": "מֵצַח",
+    "translation": "лоб",
+    "lemma": "מֵצַח",
+    "root": "מ - צ - ח",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5493",
+    "line": "אימתי כבר ניפגש, לא חקוק על מצח"
+  },
+  {
+    "word": "רק",
+    "word_menukad": "רַק",
+    "translation": "только",
+    "lemma": "רַק",
+    "parsed_grammar": "[]",
+    "pealim_id": "3394",
+    "line": "רק שלא לקרוע מכתב על נייר לבן"
+  },
+  {
+    "word": "שלא",
+    "word_menukad": "לֹא",
+    "translation": "пусть не",
+    "prefix": "ש־ +",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "רק שלא לקרוע מכתב על נייר לבן"
+  },
+  {
+    "word": "לקרוע",
+    "word_menukad": "לִקְרֹעַ",
+    "translation": "рвать",
+    "lemma": "לִקְרוֹעַ",
+    "root": "ק - ר - ע",
+    "pattern": "пааль",
+    "parsed_grammar": "[]",
+    "pealim_id": "1954",
+    "line": "רק שלא לקרוע מכתב על נייר לבן"
+  },
+  {
+    "word": "מכתב",
+    "word_menukad": "מִכְתָּב",
+    "translation": "письмо",
+    "lemma": "מִכְתָּב",
+    "root": "כ - ת - ב",
+    "pattern": "микталь, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3035",
+    "line": "רק שלא לקרוע מכתב על נייר לבן"
+  },
+  {
+    "word": "על",
+    "word_menukad": "עַל",
+    "translation": "на",
+    "lemma": "עַל",
+    "parsed_grammar": "[]",
+    "pealim_id": "6012",
+    "line": "רק שלא לקרוע מכתב על נייר לבן"
+  },
+  {
+    "word": "נייר",
+    "word_menukad": "נְיָר",
+    "translation": "бумага",
+    "lemma": "נְייָר",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4515",
+    "line": "רק שלא לקרוע מכתב על נייר לבן"
+  },
+  {
+    "word": "לבן",
+    "word_menukad": "לָבָן",
+    "translation": "белый",
+    "lemma": "לָבָן",
+    "root": "ל - ב - ן",
+    "pattern": "каталь",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "3333",
+    "line": "רק שלא לקרוע מכתב על נייר לבן"
+  },
+  {
+    "word": "אין",
+    "word_menukad": "אֵין",
+    "translation": "нет",
+    "lemma": "אֵין",
+    "parsed_grammar": "[]",
+    "pealim_id": "6052",
+    "line": "אין מזל במוות — לאהבה סימן"
+  },
+  {
+    "word": "מזל",
+    "word_menukad": "מַזָּל",
+    "translation": "удача",
+    "lemma": "מַזָּל",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3673",
+    "line": "אין מזל במוות — לאהבה סימן"
+  },
+  {
+    "word": "במוות",
+    "word_menukad": "מָוֶת",
+    "translation": "в смерть",
+    "prefix": "ב־ +",
+    "lemma": "מָווֶת",
+    "root": "מ - ו - ת",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4167",
+    "line": "אין מזל במוות — לאהבה סימן"
+  },
+  {
+    "word": "—",
+    "word_menukad": "—",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "אין מזל במוות — לאהבה סימן"
+  },
+  {
+    "word": "לאהבה",
+    "word_menukad": "אַהֲבָה",
+    "translation": "к любви",
+    "prefix": "ל־ +",
+    "lemma": "אַהֲבָה",
+    "root": "א - ה - ב",
+    "pattern": "катла, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3131",
+    "line": "אין מזל במוות — לאהבה סימן"
+  },
+  {
+    "word": "סימן",
+    "word_menukad": "סִימָן",
+    "translation": "знак",
+    "lemma": "סִימָן",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "7176",
+    "line": "אין מזל במוות — לאהבה סימן"
+  },
+  {
+    "word": "אם",
+    "word_menukad": "אִם",
+    "translation": "если",
+    "lemma": "אִם",
+    "parsed_grammar": "[]",
+    "pealim_id": "5213",
+    "line": "אם אין מזל במוות — לאהבה סימן"
+  },
+  {
+    "word": "אין",
+    "word_menukad": "אֵין",
+    "translation": "нет",
+    "lemma": "אֵין",
+    "parsed_grammar": "[]",
+    "pealim_id": "6052",
+    "line": "אם אין מזל במוות — לאהבה סימן"
+  },
+  {
+    "word": "מזל",
+    "word_menukad": "מַזָּל",
+    "translation": "удача",
+    "lemma": "מַזָּל",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3673",
+    "line": "אם אין מזל במוות — לאהבה סימן"
+  },
+  {
+    "word": "במוות",
+    "word_menukad": "מָוֶת",
+    "translation": "в смерть",
+    "prefix": "ב־ +",
+    "lemma": "מָווֶת",
+    "root": "מ - ו - ת",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4167",
+    "line": "אם אין מזל במוות — לאהבה סימן"
+  },
+  {
+    "word": "—",
+    "word_menukad": "—",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "אם אין מזל במוות — לאהבה סימן"
+  },
+  {
+    "word": "לאהבה",
+    "word_menukad": "אַהֲבָה",
+    "translation": "к любви",
+    "prefix": "ל־ +",
+    "lemma": "אַהֲבָה",
+    "root": "א - ה - ב",
+    "pattern": "катла, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3131",
+    "line": "אם אין מזל במוות — לאהבה סימן"
+  },
+  {
+    "word": "סימן",
+    "word_menukad": "סִימָן",
+    "translation": "знак",
+    "lemma": "סִימָן",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "7176",
+    "line": "אם אין מזל במוות — לאהבה סימן"
+  },
+  {
+    "word": "כבוד",
+    "word_menukad": "כְּבוֹד־",
+    "translation": "почёт",
+    "lemma": "כָּבוֹד",
+    "root": "כ - ב - ד",
+    "pattern": "католь, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3467",
+    "line": "כבוד והוד מעלתך, הצלחה זוהרת"
+  },
+  {
+    "word": "והוד מעלתך,",
+    "word_menukad": "הוֹד מַעֲלָתֵךְ",
+    "translation": "ваше благородие",
+    "prefix": "ו־ +",
+    "lemma": "הוד מעלה",
+    "suffix": "ך",
+    "parsed_grammar": "['sing']",
+    "line": "כבוד והוד מעלתך, הצלחה זוהרת"
+  },
+  {
+    "word": "הצלחה",
+    "word_menukad": "הַצְלָחָה",
+    "translation": "удача",
+    "lemma": "הַצְלָחָה",
+    "root": "צ - ל - ח",
+    "pattern": "hактала, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5536",
+    "line": "כבוד והוד מעלתך, הצלחה זוהרת"
+  },
+  {
+    "word": "זוהרת",
+    "word_menukad": "זוֹהֶרֶת",
+    "translation": "блестящая",
+    "lemma": "לִזְהוֹר",
+    "root": "ז - ה - ר",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'femn']",
+    "pealim_id": "486",
+    "line": "כבוד והוד מעלתך, הצלחה זוהרת"
+  },
+  {
+    "word": "לאחד",
+    "word_menukad": "לְאֶחָד",
+    "translation": "к одному",
+    "prefix": "ל־ +",
+    "lemma": "אֶחָד",
+    "root": "א - ח - ד",
+    "parsed_grammar": "[]",
+    "line": "לאחד כה נדיבה, לשני אחרת"
+  },
+  {
+    "word": "כה",
+    "word_menukad": "כֹּה",
+    "translation": "так",
+    "lemma": "כֹּה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5312",
+    "line": "לאחד כה נדיבה, לשני אחרת"
+  },
+  {
+    "word": "נדיבה,",
+    "word_menukad": "נְדִיבָה",
+    "translation": "щедрая",
+    "lemma": "נָדִיב",
+    "root": "נ - ד - ב",
+    "pattern": "катиль",
+    "parsed_grammar": "['sing', 'femn']",
+    "pealim_id": "5109",
+    "line": "לאחד כה נדיבה, לשני אחרת"
+  },
+  {
+    "word": "לשני",
+    "word_menukad": "לַשֵּנִי",
+    "translation": "ко второму",
+    "prefix": "ל־ +",
+    "lemma": "שֵּנִי",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "6819",
+    "line": "לאחד כה נדיבה, לשני אחרת"
+  },
+  {
+    "word": "אחרת",
+    "word_menukad": "אַחֶרֶת",
+    "translation": "другая",
+    "lemma": "אַחֵר",
+    "root": "א - ח - ר",
+    "parsed_grammar": "['sing', 'femn']",
+    "pealim_id": "4630",
+    "line": "לאחד כה נדיבה, לשני אחרת"
+  },
+  {
+    "word": "רק",
+    "word_menukad": "רַק",
+    "translation": "только",
+    "lemma": "רַק",
+    "parsed_grammar": "[]",
+    "pealim_id": "3394",
+    "line": "רק שלא לקחת ללב את תשעת הגרם"
+  },
+  {
+    "word": "שלא",
+    "word_menukad": "לֹא",
+    "translation": "пусть не",
+    "prefix": "ש־ +",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "רק שלא לקחת ללב את תשעת הגרם"
+  },
+  {
+    "word": "לקחת",
+    "word_menukad": "לָקַחַת",
+    "translation": "брать",
+    "lemma": "לָקַחַת",
+    "root": "ל - ק - ח",
+    "pattern": "пааль",
+    "parsed_grammar": "[]",
+    "pealim_id": "2427",
+    "line": "רק שלא לקחת ללב את תשעת הגרם"
+  },
+  {
+    "word": "ללב",
+    "word_menukad": "לֵב",
+    "translation": "к сердцу",
+    "prefix": "ל־ +",
+    "lemma": "לֵב",
+    "root": "ל - ב - ב",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4353",
+    "line": "רק שלא לקחת ללב את תשעת הגרם"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "вин. п.",
+    "lemma": "אֶת",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "רק שלא לקחת ללב את תשעת הגרם"
+  },
+  {
+    "word": "תשעת",
+    "word_menukad": "תִּשְׁעַת",
+    "translation": "девять",
+    "lemma": "תֵּשַׁע",
+    "root": "ת - שׁ - ע",
+    "parsed_grammar": "['masc']",
+    "pealim_id": "7128",
+    "line": "רק שלא לקחת ללב את תשעת הגרם"
+  },
+  {
+    "word": "הגרם",
+    "word_menukad": "הַגְּרָם",
+    "translation": "грамм",
+    "prefix": "ה־ +",
+    "lemma": "גְּרָם",
+    "line": "רק שלא לקחת ללב את תשעת הגרם"
+  },
+  {
+    "word": "כבוד",
+    "word_menukad": "כְּבוֹד־",
+    "translation": "почёт",
+    "lemma": "כָּבוֹד",
+    "root": "כ - ב - ד",
+    "pattern": "католь, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3467",
+    "line": "כבד והוד מעלתך, ארץ לא שלנו"
+  },
+  {
+    "word": "והוד מעלתך,",
+    "word_menukad": "הוֹד מַעֲלָתֵךְ",
+    "translation": "ваше благородие",
+    "prefix": "ו־ +",
+    "lemma": "הוד מעלה",
+    "suffix": "ך",
+    "parsed_grammar": "['sing']",
+    "line": "כבד והוד מעלתך, ארץ לא שלנו"
+  },
+  {
+    "word": "ארץ",
+    "word_menukad": "אֶרֶץ",
+    "translation": "земля",
+    "lemma": "אֶרֶץ",
+    "root": "א - ר - ץ",
+    "pattern": "кетель, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "6057",
+    "line": "כבד והוד מעלתך, ארץ לא שלנו"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "не",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "כבד והוד מעלתך, ארץ לא שלנו"
+  },
+  {
+    "word": "שלנו",
+    "word_menukad": "שֶׁלָּנוּ",
+    "translation": "наш",
+    "lemma": "שֶׁל",
+    "suffix": "נו",
+    "parsed_grammar": "[]",
+    "pealim_id": "2643",
+    "line": "כבד והוד מעלתך, ארץ לא שלנו"
+  },
+  {
+    "word": "חיבוקך",
+    "word_menukad": "חִבּוּקֵךְ",
+    "translation": "твоё объятие",
+    "lemma": "חִיבּוּק",
+    "suffix": "ך",
+    "root": "ח - ב - ק",
+    "pattern": "киттуль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "8196",
+    "line": "חיבוקך אינו משלה: לא אהבת אותנו"
+  },
+  {
+    "word": "אינו",
+    "word_menukad": "אֵינוֹ",
+    "translation": "оно не",
+    "lemma": "אֵין",
+    "suffix": "ו",
+    "parsed_grammar": "[]",
+    "pealim_id": "6052",
+    "line": "חיבוקך אינו משלה: לא אהבת אותנו"
+  },
+  {
+    "word": "משלה:",
+    "word_menukad": "מַשְׁלֶה",
+    "translation": "вводит в заблуждение",
+    "lemma": "לְהַשְׁלוֹת",
+    "root": "שׁ - ל - ה",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "2217",
+    "line": "חיבוקך אינו משלה: לא אהבת אותנו"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "нет",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "חיבוקך אינו משלה: לא אהבת אותנו"
+  },
+  {
+    "word": "אהבת",
+    "word_menukad": "אָהַבְתְּ",
+    "translation": "(ты) любила",
+    "lemma": "לֶאֱהוֹב",
+    "root": "א - ה - ב",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'femn', '2per']",
+    "pealim_id": "67",
+    "line": "חיבוקך אינו משלה: לא אהבת אותנו"
+  },
+  {
+    "word": "אותנו",
+    "word_menukad": "אוֹתָנוּ",
+    "translation": "нас",
+    "lemma": "אֶת",
+    "suffix": "נו",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "חיבוקך אינו משלה: לא אהבת אותנו"
+  },
+  {
+    "word": "בשירת",
+    "word_menukad": "שִׁירַת־",
+    "translation": "в пении",
+    "prefix": "ב־ +",
+    "lemma": "שִׁירָה",
+    "root": "שׁ - י - ר",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4338",
+    "line": "בשירת סירנות אל תמתיקי סתם"
+  },
+  {
+    "word": "סירנות",
+    "word_menukad": "סִירֵנוֹת",
+    "translation": "сирены",
+    "lemma": "סִירֶנָה",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "בשירת סירנות אל תמתיקי סתם"
+  },
+  {
+    "word": "אל",
+    "word_menukad": "אַל",
+    "translation": "не",
+    "lemma": "אַל",
+    "parsed_grammar": "[]",
+    "pealim_id": "5261",
+    "line": "בשירת סירנות אל תמתיקי סתם"
+  },
+  {
+    "word": "תמתיקי",
+    "word_menukad": "תַּמְתִּיקִי",
+    "translation": "подслащивай",
+    "lemma": "לְהַמְתִּיק",
+    "root": "מ - ת - ק",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'futr', 'femn', '2per']",
+    "pealim_id": "1119",
+    "line": "בשירת סירנות אל תמתיקי סתם"
+  },
+  {
+    "word": "סתם",
+    "word_menukad": "סְתָם",
+    "translation": "просто так",
+    "lemma": "סְתָם",
+    "parsed_grammar": "[]",
+    "pealim_id": "7731",
+    "line": "בשירת סירנות אל תמתיקי סתם"
+  },
+  {
+    "word": "כבוד",
+    "word_menukad": "כְּבוֹד־",
+    "translation": "почёт",
+    "lemma": "כָּבוֹד",
+    "root": "כ - ב - ד",
+    "pattern": "католь, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3467",
+    "line": "כבוד והוד מעלתו, מר הניצחון"
+  },
+  {
+    "word": "והוד מעלתו,",
+    "word_menukad": "הוֹד מַעֲלָתֵךְ",
+    "translation": "его благородие",
+    "prefix": "ו־ +",
+    "lemma": "הוד מעלה",
+    "suffix": "ו",
+    "parsed_grammar": "['sing']",
+    "line": "כבוד והוד מעלתו, מר הניצחון"
+  },
+  {
+    "word": "מר",
+    "word_menukad": "מַר",
+    "translation": "господин",
+    "lemma": "מַר",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4310",
+    "line": "כבוד והוד מעלתו, מר הניצחון"
+  },
+  {
+    "word": "הניצחון",
+    "word_menukad": "נִצָּחוֹן",
+    "translation": "победа",
+    "prefix": "ה־ +",
+    "lemma": "נִיצָּחוֹן",
+    "root": "נ - צ - ח",
+    "pattern": "китталон, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3581",
+    "line": "כבוד והוד מעלתו, מר הניצחון"
+  },
+  {
+    "word": "כנראה",
+    "word_menukad": "כַּנִּרְאֶה",
+    "translation": "наверное",
+    "lemma": "כַּנִּרְאֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5227",
+    "line": "כנראה וזה שירי עוד לא אחרון"
+  },
+  {
+    "word": "וזה",
+    "word_menukad": "זֶה",
+    "translation": "и это",
+    "prefix": "ו־ +",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "כנראה וזה שירי עוד לא אחרון"
+  },
+  {
+    "word": "שירי",
+    "word_menukad": "שִׁירִי",
+    "translation": "моя песня",
+    "lemma": "שִׁיר",
+    "suffix": "י",
+    "root": "שׁ - י - ר",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4337",
+    "line": "כנראה וזה שירי עוד לא אחרון"
+  },
+  {
+    "word": "עוד",
+    "word_menukad": "עוֹד",
+    "translation": "всё ещё",
+    "lemma": "עוֹד",
+    "parsed_grammar": "[]",
+    "pealim_id": "5241",
+    "line": "כנראה וזה שירי עוד לא אחרון"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "не",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "כנראה וזה שירי עוד לא אחרון"
+  },
+  {
+    "word": "אחרון",
+    "word_menukad": "אַחֲרוֹן",
+    "translation": "последний",
+    "lemma": "אַחֲרוֹן",
+    "root": "א - ח - ר",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "4631",
+    "line": "כנראה וזה שירי עוד לא אחרון"
+  },
+  {
+    "word": "השדים,",
+    "word_menukad": "שֵׁדִים",
+    "translation": "черти",
+    "prefix": "ה־ +",
+    "lemma": "שֵׁד",
+    "pattern": "м. р.",
+    "parsed_grammar": "['plur']",
+    "pealim_id": "8426",
+    "line": "השדים, תפסיקו להישבע על דם"
+  },
+  {
+    "word": "תפסיקו",
+    "word_menukad": "תַּפְסִיקוּ",
+    "translation": "перестаньте",
+    "lemma": "לְהַפְסִיק",
+    "root": "פ - ס - ק",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['plur', 'futr', '2per']",
+    "pealim_id": "1657",
+    "line": "השדים, תפסיקו להישבע על דם"
+  },
+  {
+    "word": "להישבע",
+    "word_menukad": "לְהִשָּׁבֵעַ",
+    "translation": "клясться",
+    "lemma": "לְהִישָּׁבֵעַ",
+    "root": "שׁ - ב - ע",
+    "pattern": "нифъаль",
+    "parsed_grammar": "[]",
+    "pealim_id": "2131",
+    "line": "השדים, תפסיקו להישבע על דם"
+  },
+  {
+    "word": "על",
+    "word_menukad": "עַל",
+    "translation": "на",
+    "lemma": "עַל",
+    "parsed_grammar": "[]",
+    "pealim_id": "6012",
+    "line": "השדים, תפסיקו להישבע על דם"
+  },
+  {
+    "word": "דם",
+    "word_menukad": "דָּם",
+    "translation": "кровь",
+    "lemma": "דָּם",
+    "root": "ד - מ - ם",
+    "pattern": "каль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5233",
+    "line": "השדים, תפסיקו להישבע על דם"
+  }
+]
