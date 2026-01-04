@@ -15,7 +15,7 @@ header {
 }
 
 .page_header {
-  font-size: 2em;
+  font-size: 2rem;
   background-color: #b2c9f6;
   padding: 0.05rem;
   margin: auto;
@@ -38,7 +38,7 @@ header {
 footer {
     text-align: center;
     margin-top: 30px;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     color: #888;
     position: fixed;
     left: 0;
