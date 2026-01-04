@@ -13,17 +13,26 @@
   <!-- title -->
   <title id="title"></title>
 
-  <!-- stylesheets -->
-  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="stylesheet1.css">
-
-  <!-- CSS style -->
-  <style type="text/css">
-  </style>
+  <!-- STYLESHEETS -->
+    <!--<link rel="stylesheet" href="stylesheet1.css"-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles/hebrewsongs.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/code.css">
+    <link rel="stylesheet" href="styles/events.css">
+    <link rel="stylesheet" href="styles/font.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/icons.css">
+    <link rel="stylesheet" href="styles/input.css">
+    <link rel="stylesheet" href="styles/lists.css">
+    <link rel="stylesheet" href="styles/text.css">
 </head>
 
 
+
 <!-- WEBSITE HEADER -->
+ <!--
 <div class="website_header" id="website_header">
   <div class="content_container">
     <img height="35" src="media/images/NotesLogo.png" style="margin-right: 10px">
@@ -39,12 +48,31 @@
       Имени моего дедушки <strong>Леонида Иомдина</strong> (1947–2024), лингвиста, автора статей, словарей и корпусов
     </div>
   </div>
-</div>
+</div>-->
 
-<!-- MAIN CONTENT -->
-<body>
-  <!-- HEADER -->
-  <header>
+<!-- Website header -->
+    <header class="website_header">
+        <!-- Path to website -->
+        <p class="icon-text">
+        
+            <!-- misha.iomdin.com -->
+            <a href="/"><img src="media/images/icons/home.svg" class="icon"></a>
+            <a href="/" id="misha.iomdin.com">Misha Iomdin</a> /
+            <span id="website_title">HebrewSongs: песни и переводы</span>
+        </p>
+    
+        <!-- Language selector -->
+        <span class="icon-text" id="languageSelectorWrapper">
+            <img src="media/images/icons/language.svg" class="icon">
+            <select id="languageSelector" onchange="changeLanguage();">
+                <option value="ru">Русский</option>
+                <option value="en">English</option>
+            </select>
+        </span>
+    </header>
+
+<!-- Page header -->
+    <header class="page_header">
       <span class="title" id="page_title">
         <h1 id="song_name" class="song_title">
           <sup onclick="openCloseSongInfo()"class="info_circle">ⓘ</sup>
@@ -56,7 +84,10 @@
         <ul id="song_info_ul" style="list-style: none;">
         </ul>
       </div>
-  </header>
+    </header>
+
+<!-- MAIN CONTENT -->
+<body>
 
   <!-- OPEN/CLOSE MENU -->
   <div style="float: left;">
@@ -73,16 +104,16 @@
 
     <!-- MENU COLUMN --->
     <div class="content_column menu_column" id="menu_list" style="display: none">
-      <a href="/HebrewSongs">☜ Главная страница</a>
+      <a id="toMainPage" href="/HebrewSongs">☜ Главная страница</a>
       <h2>Песни на сайте</h2>
         <span id="songs_ul"></span>
     </div>
 
     <!-- VIDEO COLUMN --->
     <div class="content_column video_column" id="main_column">
-      <p class="song_info" style="text-align: center; margin-top: 0px; margin-bottom: 10px; padding: 10px">
+      <!--<p class="song_info" style="text-align: center; margin-top: 0px; margin-bottom: 10px; padding: 10px">
         Наведите курсор или нажмите на слово, чтобы увидеть его перевод
-      </p>
+      </p>-->
       <div class="my_controls">
         <button onclick="playPause()">▶</button> 
         <button onclick="setSpeed(0.5)">0.5</button> 
@@ -125,6 +156,7 @@
 
 <!-- My JS -->
 <script src="script/script.js"></script>
+<script src="script/translation.js"></script>
 <script>
   page();
 </script>

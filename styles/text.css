@@ -1,0 +1,52 @@
+/* text.css */
+ /* Text size, color, display */ 
+
+p, h1, h2, h3, li, a {
+    font-size: 1em;
+    color: black;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+/* Default is LTR, nothing special */
+body.rtl,
+body.rtl table,
+body.rtl td,
+body.rtl th {
+    direction: rtl;
+    text-align: right;
+}
+
+.keyword {
+  /*background-color: #f4f7f6;*/
+  background-color: #eceeed;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+.keyword-container {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+.ltr {
+  direction:ltr;
+  display:inline-block
+}
+
+.strong {
+  font-weight: bold;
+}

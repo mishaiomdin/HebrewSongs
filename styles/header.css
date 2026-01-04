@@ -1,0 +1,54 @@
+/* header.css */
+/* Header, settings, footer */
+
+header {
+  box-shadow: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.website_header {
+  background-color: #f4f7f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page_header {
+  background-color: #b2c9f6;
+  padding: 0.05rem;
+  margin: 2rem auto;
+  margin-top: 0rem;
+}
+
+/* HEADER FOR WIDE (TABLETS, DESKTOPS) */
+@media (min-width: 850px) {
+  .page_header {
+    max-width: 800px;
+    margin-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+}
+
+#languageSelectorWrapper {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #888;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}

@@ -1,0 +1,11 @@
+/* code.css */
+/* Displaying code */
+
+code {
+  font-family: Monospace;
+  background-color: #f4f7f6;
+  color: black;
+  border-radius: 3px;
+  padding: 2px;
+  direction: ltr;
+  }

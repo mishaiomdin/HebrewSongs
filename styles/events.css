@@ -1,0 +1,42 @@
+/* events.css */
+/* Events and event tables: schools, jobs, projects etc. */
+
+.event-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: none;
+}
+
+.event-table tbody td,
+.event-table td,
+.event-table tbody tr,
+.event-table tr
+{
+  border: none;
+  vertical-align: middle;
+  background-color: transparent;
+}
+
+.event-icon {
+  text-align: center;
+}
+
+.event-title {
+  text-align: left;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+
+.event-place {
+  white-space: nowrap;
+}
+
+.event-dates {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.event-description {
+  padding-top: 0;
+}

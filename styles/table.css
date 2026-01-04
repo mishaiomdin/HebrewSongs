@@ -1,0 +1,23 @@
+/* table.css */
+/* Table, td, th */
+
+
+table, td, th {
+  border: 1px solid #dfe2e5;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+table {
+  display: block;
+  overflow-x: auto;
+  border: 0px;
+}
+
+th {
+  background-color: #e4edff;
+}
+
+/* Alternating white-gray rows */
+tr:nth-child(odd) {background-color: #ffffff;}
+tr:nth-child(even) {background-color: #f6f8fa;}

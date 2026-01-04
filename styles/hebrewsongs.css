@@ -1,36 +1,8 @@
 /* MAIN SETTINGS */
 
-* {
- font-family: Rubik;
-}
-
 body {
-  /*margin-top: 30px;*/
-  background-color: lightblue;
-  font-size: 16px;
   margin-left: 50px;
   margin-right: 50px;
-}
-
-h1 {
-  color: navy;
-}
-
-/* Links */
-a {
-  color: navy;
-  text-decoration: underline dotted;
-}
-
-li {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.strong {
-  color: navy;
-  font-weight: 900;
-
 }
 
 /* CONTAINERS */
@@ -58,22 +30,11 @@ li {
 
 /* TITLE */
 
-.song_title {
-  color: black;
-  font-size: 40px;
-  margin-bottom: 10px;
-}
-
 .info_circle {
   color: navy;
   position: relative;
   display: inline-block;
   cursor: pointer;
-  /*border-bottom: 1px dotted black;*/
-}
-
-.title {
-  margin-bottom: 20px;
 }
 
 .song_author {
@@ -92,20 +53,15 @@ li {
   height: 150px;
 }
 
-.song_translator {
-
-}
-
 .song_info {
   font-size: 16px;
   border-radius: 25px;
   border-style: solid;
   border-width: 1px;
   padding: 0px;
-  /*background-color: #8ac6db;*/
   margin-bottom: 50px;
   margin-left: 10px;
-  background-color: #63b5cf;
+  background-color: white;
 }
 
 .song_info_close_button {
@@ -132,7 +88,7 @@ li {
 /*left columnn, 1/4 width*/
 .menu_column {
   flex: 1;
-  background-color: #63b5cf;
+  background-color: #b2c9f6;
   border-radius: 25px;
   min-height: 510px;
   height:100%; 
@@ -173,7 +129,6 @@ li {
 }
 
 figure {
-  
   flex-flow: column;
   text-align: center;
 }
@@ -195,7 +150,7 @@ figure {
   visibility: hidden;
   padding: 0.25em 0.5em;
   background-color: black;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   border-radius: 0.25em;
   white-space: nowrap;
@@ -220,7 +175,7 @@ figure {
 .tooltiptext_analysis {
   visibility: hidden;
   background-color: black;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   padding: 5px 0;
   border-radius: 10px;
@@ -275,34 +230,6 @@ figure {
 
 .my_controls {align:center; margin-bottom:5px; text-align:center;}
 
-button {
-  min-height: 25px;
-
-  border: 1px solid #dcdcdc; /* Default border color */
-  background-color: #f5f5f5; /* Default background color */
-  color: #000; /* Default text color */
-  border-radius: 4px; /* Default border radius */
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #e0e0e0; /* Slightly darker background on hover */
-  border: 1px solid #000;
-}
-
-.open_close_button {
-  background-color: #63b5cf;
-  border-radius: 10px;
-  border: 0px;
-  min-width: 40px;
-  max-width: 340px;
-  min-height: 25px;
-  vertical-align:middle;
-}
-
-.open_close_button:hover {
-  background-color: #5193a8;
-}
 
 
 .sticky_header {

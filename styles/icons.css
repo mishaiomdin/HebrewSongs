@@ -1,0 +1,31 @@
+/* icons.css */
+/* Icons */
+
+.icon {
+  line-height: 1;
+  height: 1em;
+  width: auto;
+}
+
+.big-icon {
+  line-height: 1;
+  height: 2em;
+  width: auto;
+}
+
+.icon-text {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+}
+
+.icon-text .icon,
+.icon-text .big-icon {
+    vertical-align: middle;  /* Align vertically */
+}
+
+.icons {
+  display: inline-flex;
+  align-items: center;
+  gap: 1em;
+}
