@@ -14,9 +14,8 @@
   <title id="title"></title>
 
   <!-- STYLESHEETS -->
-    <!--<link rel="stylesheet" href="stylesheet1.css"-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="styles/hebrewsongs.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/buttons.css">
     <link rel="stylesheet" href="styles/code.css">
@@ -27,6 +26,14 @@
     <link rel="stylesheet" href="styles/input.css">
     <link rel="stylesheet" href="styles/lists.css">
     <link rel="stylesheet" href="styles/text.css">
+    <link rel="stylesheet" href="styles/image.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/analysis.css">
+    <link rel="stylesheet" href="styles/containers.css">
+    <link rel="stylesheet" href="styles/songinfo.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/columns.css">
+    <link rel="stylesheet" href="styles/songinfo.css">
 </head>
 
 
@@ -50,16 +57,16 @@
   </div>
 </div>-->
 
-<!-- Website header -->
+<!-- MAIN CONTENT -->
+<body>
+
+  <!-- Website header -->
     <header class="website_header">
         <!-- Path to website -->
-        <p class="icon-text">
-        
-            <!-- misha.iomdin.com -->
-            <a href="/"><img src="media/images/icons/home.svg" class="icon"></a>
-            <a href="/" id="misha.iomdin.com">Misha Iomdin</a> /
-            <span id="website_title">HebrewSongs: песни и переводы</span>
-        </p>
+        <span class="icon-text">
+          <img href="/" src="media/images/NotesLogo.png" class="icon">
+          <a href="/" id="misha.iomdin.com">HebrewSongs</a>
+        </span>
     
         <!-- Language selector -->
         <span class="icon-text" id="languageSelectorWrapper">
@@ -74,25 +81,16 @@
 <!-- Page header -->
     <header class="page_header">
       <span class="title" id="page_title">
-        <h1 id="song_name" class="song_title">
+        <span id="song_name" class="song_title">
           <sup onclick="openCloseSongInfo()"class="info_circle">ⓘ</sup>
-        </h1>
+        </span>
       </span>
-
-      <div class="song_info" id="song_info" style="display: none">
+    </header>
+    <div class="song_info" id="song_info" style="display: none" class="page_header">
          <button class="open_close_button song_info_close_button" onclick="openCloseSongInfo()">✕</button>
         <ul id="song_info_ul" style="list-style: none;">
         </ul>
-      </div>
-    </header>
-
-<!-- MAIN CONTENT -->
-<body>
-
-  <!-- OPEN/CLOSE MENU -->
-  <div style="float: left;">
-    <button id="menu_button" class="open_close_button" onclick="openCloseMenu();" data-open="closed">☰</button>
-  </div>
+    </div>
 
   <!-- OPEN/CLOSE CONTENTS -->
   <span id="contents_button_wrap">
@@ -102,18 +100,19 @@
   <!-- ACTUAL CONTENT -->
   <div class="content_container" id="actual_content">
 
-    <!-- MENU COLUMN --->
-    <div class="content_column menu_column" id="menu_list" style="display: none">
-      <a id="toMainPage" href="/HebrewSongs">☜ Главная страница</a>
-      <h2>Песни на сайте</h2>
-        <span id="songs_ul"></span>
-    </div>
+    <!-- OPEN/CLOSE MENU -->
+  <div style="float: left;">
+    <button id="menu_button" class="open_close_button" onclick="openCloseMenu();" data-open="closed">☰</button>
+  </div>
 
-    <!-- VIDEO COLUMN --->
-    <div class="content_column video_column" id="main_column">
-      <!--<p class="song_info" style="text-align: center; margin-top: 0px; margin-bottom: 10px; padding: 10px">
-        Наведите курсор или нажмите на слово, чтобы увидеть его перевод
-      </p>-->
+  <!-- MENU COLUMN --->
+  <div class="content_column menu_column" id="menu_list" style="display: none">
+    <h2>Песни на сайте</h2>
+      <span id="songs_ul"></span>
+  </div>
+
+  <!-- VIDEO COLUMN --->
+  <div class="content_column video_column" id="main_column">
       <div class="my_controls">
         <button onclick="playPause()">▶</button> 
         <button onclick="setSpeed(0.5)">0.5</button> 
@@ -143,6 +142,10 @@
             <!-- here are the Russian subtitles -->
           </div>
       </div>
+
+      <!--<p class="song_info" style="text-align: center; margin-top: 0px; margin-bottom: 10px; padding: 10px">
+        Наведите курсор или нажмите на слово, чтобы увидеть его перевод
+      </p>-->
     </div>
 
     <span id="contents_wrap">
@@ -150,9 +153,6 @@
     </span>
   </div>
 </body>
-
-<!-- VTT-TO-JSON LIBRARY -->
-<!--<script src="https://unpkg.com/vtt-to-json@0.1.1/index.js"></script>-->
 
 <!-- My JS -->
 <script src="script/script.js"></script>

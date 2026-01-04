@@ -1,0 +1,7 @@
+/* menu.css */
+/* Menu (list of available songs) */
+
+.open_triangle {
+  cursor: pointer;
+  line-height: 1em;
+}

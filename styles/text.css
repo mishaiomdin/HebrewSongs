@@ -1,10 +1,14 @@
 /* text.css */
- /* Text size, color, display */ 
+/* Text size, color, display */ 
 
 p, h1, h2, h3, li, a {
-    font-size: 1em;
     color: black;
 }
+
+p, a, li {
+  font-size: 1em;
+}
+
 
 h1 {
   font-size: 2em;

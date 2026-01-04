@@ -1,7 +1,6 @@
 /* JS for HebrewSongs */
 /* by: Misha Iomdin, 2024-2025 */
 
-
 /* MENU */
 
 // Generates one song link
@@ -468,7 +467,7 @@ function show_song_old() {
     }
 
     function designAnalysis(word) {
-      return `<span class="tooltip" ontouchstart="this.querySelector("#${word}_analysis").visibility = "visible">
+      return `<span class="mytooltip" ontouchstart="this.querySelector("#${word}_analysis").visibility = "visible">
           ${word.word} <span class="tooltiptext_analysis" id="${word}_analysis">
           <table class="word_analysis_table">
         <tr>
@@ -525,7 +524,7 @@ function show_suff(suffix) {
     }
 
 function designAnalysis(word) {
-      return `<span class="tooltip" ontouchstart="this.querySelector("#${word}_analysis").visibility = "visible">
+  return `<span class="mytooltip" ontouchstart="this.querySelector("#${word}_analysis").visibility = "visible">
           ${word.word} <span class="tooltiptext_analysis" id="${word}_analysis">
           <table class="word_analysis_table">
         <tr>
@@ -639,7 +638,8 @@ function index() {
             <li>Включить песню с субтитрами: <button>▶</button></li>
             <li>Настроить скорость: <button>0.5</button> <button>0.75</button> <button>1</button></li>
             <li>Навести курсор или нажать на слово, чтобы увидеть его подробный грамматический разбор:<br>
-            <div id="subtitles_he" class="subtitles" dir="rtl" data-line="לא יצליח להפתיע"><span class="tooltip" ontouchstart="this.querySelector(" #[object="" object]_analysis").visibility="visible">
+            <div id="subtitles_he_wrap" class="subtitles_wrap">
+          <div id="subtitles_he" class="subtitles" dir="rtl" data-line="לא יצליח להפתיע"><span class="mytooltip" ontouchstart="this.querySelector(" #[object="" object]_analysis").visibility="visible">
           לא <span class="tooltiptext_analysis" id="[object Object]_analysis">
           <table class="word_analysis_table">
         <tbody><tr>
@@ -660,7 +660,7 @@ function index() {
         </tr>
       </tbody></table>
       </span>
-      </span> <span class="tooltip" ontouchstart="this.querySelector(" #[object="" object]_analysis").visibility="visible">
+      </span> <span class="mytooltip" ontouchstart="this.querySelector(" #[object="" object]_analysis").visibility="visible">
           יצליח <span class="tooltiptext_analysis" id="[object Object]_analysis">
           <table class="word_analysis_table">
         <tbody><tr>
@@ -681,7 +681,7 @@ function index() {
         </tr>
       </tbody></table>
       </span>
-      </span> <span class="tooltip" ontouchstart="this.querySelector(" #[object="" object]_analysis").visibility="visible">
+      </span> <span class="mytooltip" ontouchstart="this.querySelector(" #[object="" object]_analysis").visibility="visible">
           להפתיע <span class="tooltiptext_analysis" id="[object Object]_analysis">
           <table class="word_analysis_table">
         <tbody><tr>
@@ -703,11 +703,21 @@ function index() {
       </tbody></table>
       </span>
       </span> </div>
+      </div>
             </li>
             </ul>
-            <p><span class="strong">Я — школьник Миша Иомдин.</span> Живу и учусь в Берлине, до этого — в Израиле, ещё раньше — в Москве. Учу языки, занимаюсь лингвистикой, математикой и программирую.</p>
+            <p><span class="strong">Я — школьник <a href="https://misha.iomdin.com">Миша Иомдин</a>.</span> Живу и учусь в Берлине, до этого — в Израиле, ещё раньше — в Москве. Учу языки, занимаюсь лингвистикой, математикой и программирую.</p>
             <p>Мой канал про иврит, немецкий и другие языки: <a href="https://t.me/MonOnSun">«Понедельник начинается в воскресенье»</a></p>
-        </div>`;
+        </div>
+
+        <div class="content_container">
+    <img height="35" src="media/images/Misha_Leonid.png" style="margin-right: 10px">
+    <div>
+      Имени моего дедушки <strong>Леонида Иомдина</strong> (1947–2024), лингвиста, автора статей, словарей и корпусов
+    </div>
+  </div>
+        
+        `;
     get_songs().then(x => {
         document.getElementById("songs_ul").innerHTML = getSongsUL(window.songs);
     });

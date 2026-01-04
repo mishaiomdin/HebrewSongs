@@ -1,0 +1,14 @@
+/* containers.css */
+/* Containers */
+
+.content_container {
+  display: flex;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.main_page_container {
+  flex: 9.5;
+  padding: 0px;
+}

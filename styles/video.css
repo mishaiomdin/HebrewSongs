@@ -1,0 +1,29 @@
+/* video.css */
+/* Video, subtitles */ 
+
+.video {
+    max-width: 100%;
+    outline: none;
+}
+
+.video_wrap {
+    margin: auto;
+    text-align: center;
+}
+
+.subtitles_wrap {
+    text-align: center;
+    min-height: 30px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.subtitles {
+    font-size: 2em;
+}
+
+.my_controls {
+    margin-bottom: 5px;
+    text-align: center;
+}

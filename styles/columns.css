@@ -1,0 +1,31 @@
+/* columns.css */
+/* Columns (parts of the page) */
+
+.content_column {
+  margin-right: 50px;
+  margin-top: 25px;
+  padding: 20px;
+}
+
+/*left columnn, 1/4 width*/
+.menu_column {
+  flex: 1;
+  background-color: #b2c9f6;
+  border-radius: 25px;
+  min-height: 510px;
+  height:100%; 
+}
+
+/*middle columnn, 1/2 width*/
+.video_column { 
+  flex: 3;
+  width: 640px;
+  padding: 0px;
+}
+
+/*right column, 1/4 width*/
+.contents_column { 
+  flex: 1;
+  margin-right: 0px;
+  border-radius: 25px;
+}

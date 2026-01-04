@@ -1,0 +1,51 @@
+/* songinfo.css */
+/* Song info */
+
+.info_circle {
+  color: navy;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.song_author {
+  color: navy;
+  margin-top: 10px;
+}
+
+.author_photo {
+  margin-right: 20px;
+}
+
+.song_logo {
+  margin-left: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.song_info_close_button {
+  float: right;
+  margin: 5px;
+}
+
+.song_info_heb {
+  direction: rtl;
+  float:right;
+}
+
+.song_info {
+  padding: 0rem;
+  margin: auto;
+  margin-top: 0rem;
+  border-radius: 25px;
+}
+
+/* HEADER FOR WIDE (TABLETS, DESKTOPS) */
+@media (min-width: 850px) {
+  .song_info {
+    max-width: 800px;
+    margin-top: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
