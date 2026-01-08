@@ -1,0 +1,3719 @@
+[
+  {
+    "word": "אתה",
+    "word_menukad": "אַתָּה",
+    "translation": "ты",
+    "lemma": "אַתָּה",
+    "parsed_grammar": "[]",
+    "pealim_id": "4644",
+    "line": "אתה לא אמור לעשן את זה כאן"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "не",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "אתה לא אמור לעשן את זה כאן"
+  },
+  {
+    "word": "אמור",
+    "word_menukad": "אָמוּר",
+    "translation": "должен",
+    "lemma": "אָמוּר",
+    "root": "א - מ - ר",
+    "pattern": "катуль",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "3801",
+    "line": "אתה לא אמור לעשן את זה כאן"
+  },
+  {
+    "word": "לעשן",
+    "word_menukad": "לְעַשֵּׁן",
+    "translation": "курить",
+    "lemma": "לְעַשֵּׁן",
+    "root": "ע - שׁ - ן",
+    "pattern": "пиэль",
+    "parsed_grammar": "[]",
+    "pealim_id": "1576",
+    "line": "אתה לא אמור לעשן את זה כאן"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "אתה לא אמור לעשן את זה כאן"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "этот",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "אתה לא אמור לעשן את זה כאן"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "parsed_grammar": "[]",
+    "pealim_id": "3191",
+    "line": "אתה לא אמור לעשן את זה כאן"
+  },
+  {
+    "word": "יש",
+    "word_menukad": "יֵשׁ",
+    "translation": "есть",
+    "lemma": "יֵשׁ",
+    "parsed_grammar": "[]",
+    "pealim_id": "3244",
+    "line": "יש בעיה?"
+  },
+  {
+    "word": "בעיה?",
+    "word_menukad": "בְּעָיָה",
+    "translation": "проблема",
+    "lemma": "בְּעָיָה",
+    "root": "ב - ע - ה",
+    "pattern": "ктала, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4383",
+    "line": "יש בעיה?"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "это",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "זה לא סיגריה, אני מריחה מה זה"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "не",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "זה לא סיגריה, אני מריחה מה זה"
+  },
+  {
+    "word": "סיגריה,",
+    "word_menukad": "סִיגַרְיָה",
+    "translation": "сигарета",
+    "lemma": "סִיגַרְיָה",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "7400",
+    "line": "זה לא סיגריה, אני מריחה מה זה"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "זה לא סיגריה, אני מריחה מה זה"
+  },
+  {
+    "word": "מריחה",
+    "word_menukad": "מְרִיחָה",
+    "translation": "чувствую запах",
+    "lemma": "לְהָרִיחַ",
+    "root": "ר - י - ח",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'pres', 'femn']",
+    "pealim_id": "2036",
+    "line": "זה לא סיגריה, אני מריחה מה זה"
+  },
+  {
+    "word": "מה",
+    "word_menukad": "מַה",
+    "translation": "что",
+    "lemma": "מַה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "זה לא סיגריה, אני מריחה מה זה"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "этот",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "זה לא סיגריה, אני מריחה מה זה"
+  },
+  {
+    "word": "נו",
+    "word_menukad": "נוּ",
+    "translation": "ну",
+    "lemma": "נוּ",
+    "parsed_grammar": "[]",
+    "pealim_id": "8706",
+    "line": "נו אז?"
+  },
+  {
+    "word": "אז?",
+    "word_menukad": "אָז",
+    "translation": "и что?",
+    "lemma": "אָז",
+    "parsed_grammar": "[]",
+    "pealim_id": "5316",
+    "line": "נו אז?"
+  },
+  {
+    "word": "אז",
+    "word_menukad": "אָז",
+    "translation": "так",
+    "lemma": "אָז",
+    "parsed_grammar": "[]",
+    "pealim_id": "5316",
+    "line": "אז אני לא חושבת שאתה אמור לעשן את זה בעבודה"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אז אני לא חושבת שאתה אמור לעשן את זה בעבודה"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "не",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "אז אני לא חושבת שאתה אמור לעשן את זה בעבודה"
+  },
+  {
+    "word": "חושבת",
+    "word_menukad": "חוֹשֶׁבֶת",
+    "translation": "думаю",
+    "lemma": "לַחְשׁוֹב",
+    "root": "ח - שׁ - ב",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'femn']",
+    "pealim_id": "700",
+    "line": "אז אני לא חושבת שאתה אמור לעשן את זה בעבודה"
+  },
+  {
+    "word": "שאתה",
+    "word_menukad": "אַתָּה",
+    "translation": "что ты",
+    "prefix": "ש־ +",
+    "lemma": "אַתָּה",
+    "parsed_grammar": "[]",
+    "pealim_id": "4644",
+    "line": "אז אני לא חושבת שאתה אמור לעשן את זה בעבודה"
+  },
+  {
+    "word": "אמור",
+    "word_menukad": "אָמוּר",
+    "translation": "должен",
+    "lemma": "אָמוּר",
+    "root": "א - מ - ר",
+    "pattern": "катуль",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "3801",
+    "line": "אז אני לא חושבת שאתה אמור לעשן את זה בעבודה"
+  },
+  {
+    "word": "לעשן",
+    "word_menukad": "לְעַשֵּׁן",
+    "translation": "курить",
+    "lemma": "לְעַשֵּׁן",
+    "root": "ע - שׁ - ן",
+    "pattern": "пиэль",
+    "parsed_grammar": "[]",
+    "pealim_id": "1576",
+    "line": "אז אני לא חושבת שאתה אמור לעשן את זה בעבודה"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "אז אני לא חושבת שאתה אמור לעשן את זה בעבודה"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "это",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "אז אני לא חושבת שאתה אמור לעשן את זה בעבודה"
+  },
+  {
+    "word": "בעבודה",
+    "word_menukad": "עֲבוֹדָה",
+    "translation": "на работе",
+    "prefix": "ב־ +",
+    "lemma": "עֲבוֹדָה",
+    "root": "ע - ב - ד",
+    "pattern": "ктола, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3140",
+    "line": "אז אני לא חושבת שאתה אמור לעשן את זה בעבודה"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "это",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "זה מרגיע אותי, מה יש?"
+  },
+  {
+    "word": "מרגיע",
+    "word_menukad": "מַרְגִּיעַ",
+    "translation": "успокаивает",
+    "lemma": "לְהַרְגִּיעַ",
+    "root": "ר - ג - ע",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "1991",
+    "line": "זה מרגיע אותי, מה יש?"
+  },
+  {
+    "word": "אותי,",
+    "word_menukad": "אוֹתִי",
+    "translation": "меня",
+    "lemma": "אֶת",
+    "suffix": "י",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "זה מרגיע אותי, מה יש?"
+  },
+  {
+    "word": "מה יש?",
+    "word_menukad": "מַה יֵשׁ",
+    "translation": "чего такого?",
+    "lemma": "מַה יֵשׁ",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "זה מרגיע אותי, מה יש?"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אַתְּ",
+    "translation": "ты",
+    "lemma": "אַתְּ",
+    "parsed_grammar": "[]",
+    "pealim_id": "4645",
+    "line": "את יודעת איזה לחץ יש לי שם בפנים?"
+  },
+  {
+    "word": "יודעת",
+    "word_menukad": "יוֹדַעַת",
+    "translation": "знаешь",
+    "lemma": "לָדַעַת",
+    "root": "י - ד - ע",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'femn']",
+    "pealim_id": "791",
+    "line": "את יודעת איזה לחץ יש לי שם בפנים?"
+  },
+  {
+    "word": "איזה",
+    "word_menukad": "אֵיזֶה",
+    "translation": "какой",
+    "lemma": "אֵיזֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "6874",
+    "line": "את יודעת איזה לחץ יש לי שם בפנים?"
+  },
+  {
+    "word": "לחץ",
+    "word_menukad": "לַחַץ",
+    "translation": "давление",
+    "lemma": "לַחַץ",
+    "root": "ל - ח - ץ",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "2824",
+    "line": "את יודעת איזה לחץ יש לי שם בפנים?"
+  },
+  {
+    "word": "יש",
+    "word_menukad": "יֵשׁ",
+    "translation": "есть",
+    "lemma": "יֵשׁ",
+    "parsed_grammar": "[]",
+    "pealim_id": "3244",
+    "line": "את יודעת איזה לחץ יש לי שם בפנים?"
+  },
+  {
+    "word": "לי",
+    "word_menukad": "לִי",
+    "translation": "у меня",
+    "lemma": "לְ",
+    "suffix": "י",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "את יודעת איזה לחץ יש לי שם בפנים?"
+  },
+  {
+    "word": "שם",
+    "word_menukad": "שָׁם",
+    "translation": "там",
+    "lemma": "שָׁם",
+    "parsed_grammar": "[]",
+    "pealim_id": "3193",
+    "line": "את יודעת איזה לחץ יש לי שם בפנים?"
+  },
+  {
+    "word": "בפנים?",
+    "word_menukad": "בִּפְנִים",
+    "translation": "внутри",
+    "lemma": "בִּפְנִים",
+    "parsed_grammar": "[]",
+    "pealim_id": "6855",
+    "line": "את יודעת איזה לחץ יש לי שם בפנים?"
+  },
+  {
+    "word": "מה",
+    "word_menukad": "מַה",
+    "translation": "что",
+    "lemma": "מַה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "מה אני כמוך? עומד אוסף בדלים כל היום?"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "מה אני כמוך? עומד אוסף בדלים כל היום?"
+  },
+  {
+    "word": "כמוך?",
+    "word_menukad": "כָּמוֹךְ",
+    "translation": "как ты",
+    "lemma": "כְּמוֹ",
+    "suffix": "ך",
+    "parsed_grammar": "[]",
+    "pealim_id": "4118",
+    "line": "מה אני כמוך? עומד אוסף בדלים כל היום?"
+  },
+  {
+    "word": "עומד",
+    "word_menukad": "עוֹמֵד",
+    "translation": "стою",
+    "lemma": "לַעֲמוֹד",
+    "root": "ע - מ - ד",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "8",
+    "line": "מה אני כמוך? עומד אוסף בדלים כל היום?"
+  },
+  {
+    "word": "אוסף",
+    "word_menukad": "אוֹסֵף",
+    "translation": "собираю",
+    "lemma": "לֶאֱסוֹף",
+    "root": "א - ס - ף",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "128",
+    "line": "מה אני כמוך? עומד אוסף בדלים כל היום?"
+  },
+  {
+    "word": "בדלים",
+    "word_menukad": "בּדָלִים",
+    "translation": "окурки",
+    "lemma": "בְּדָל",
+    "root": "ב - ד - ל",
+    "pattern": "м. р.",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "מה אני כמוך? עומד אוסף בדלים כל היום?"
+  },
+  {
+    "word": "כל",
+    "word_menukad": "כָּל־",
+    "translation": "весь",
+    "lemma": "כּוֹל",
+    "root": "כ - ל - ל",
+    "pattern": "котель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4158",
+    "line": "מה אני כמוך? עומד אוסף בדלים כל היום?"
+  },
+  {
+    "word": "היום?",
+    "word_menukad": "יוֹם",
+    "translation": "день",
+    "prefix": "ה־ +",
+    "lemma": "יוֹם",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3061",
+    "line": "מה אני כמוך? עומד אוסף בדלים כל היום?"
+  },
+  {
+    "word": "גם",
+    "word_menukad": "גַּם",
+    "translation": "тоже",
+    "lemma": "גַּם",
+    "parsed_grammar": "[]",
+    "pealim_id": "3304",
+    "line": "גם לי יש שאיפות"
+  },
+  {
+    "word": "לי",
+    "word_menukad": "לִי",
+    "translation": "у меня",
+    "lemma": "לְ",
+    "suffix": "י",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "גם לי יש שאיפות"
+  },
+  {
+    "word": "יש",
+    "word_menukad": "יֵשׁ",
+    "translation": "есть",
+    "lemma": "יֵשׁ",
+    "parsed_grammar": "[]",
+    "pealim_id": "3244",
+    "line": "גם לי יש שאיפות"
+  },
+  {
+    "word": "שאיפות",
+    "word_menukad": "שְׁאִיפוֹת",
+    "translation": "стремления",
+    "lemma": "שְׁאִיפָה",
+    "root": "שׁ - א - ף",
+    "pattern": "ктила, ж. р.",
+    "parsed_grammar": "['plur']",
+    "pealim_id": "4279",
+    "line": "גם לי יש שאיפות"
+  },
+  {
+    "word": "מה",
+    "word_menukad": "מַה",
+    "translation": "что",
+    "lemma": "מַה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "מה את אומרת?"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אַתְּ",
+    "translation": "ты",
+    "lemma": "אַתְּ",
+    "parsed_grammar": "[]",
+    "pealim_id": "4645",
+    "line": "מה את אומרת?"
+  },
+  {
+    "word": "אומרת?",
+    "word_menukad": "אוֹמֶרֶת",
+    "translation": "говоришь",
+    "lemma": "לוֹמַר",
+    "root": "א - מ - ר",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'femn']",
+    "pealim_id": "55",
+    "line": "מה את אומרת?"
+  },
+  {
+    "word": "כן!",
+    "word_menukad": "כֵּן",
+    "translation": "да",
+    "lemma": "כֵּן",
+    "parsed_grammar": "[]",
+    "pealim_id": "4529",
+    "line": "כן! יש לי מיזם שאני עובדת עליו"
+  },
+  {
+    "word": "יש",
+    "word_menukad": "יֵשׁ",
+    "translation": "есть",
+    "lemma": "יֵשׁ",
+    "parsed_grammar": "[]",
+    "pealim_id": "3244",
+    "line": "כן! יש לי מיזם שאני עובדת עליו"
+  },
+  {
+    "word": "לי",
+    "word_menukad": "לִי",
+    "translation": "у меня",
+    "lemma": "לְ",
+    "suffix": "י",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "כן! יש לי מיזם שאני עובדת עליו"
+  },
+  {
+    "word": "מיזם",
+    "word_menukad": "מֵיזָם",
+    "translation": "проект",
+    "lemma": "מֵיזָם",
+    "root": "י - ז - ם",
+    "pattern": "микталь, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3064",
+    "line": "כן! יש לי מיזם שאני עובדת עליו"
+  },
+  {
+    "word": "שאני",
+    "word_menukad": "אֲנִי",
+    "translation": "что я",
+    "prefix": "ש־ +",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "כן! יש לי מיזם שאני עובדת עליו"
+  },
+  {
+    "word": "עובדת",
+    "word_menukad": "עוֹבֶדֶת",
+    "translation": "работаю",
+    "lemma": "לַעֲבוֹד",
+    "root": "ע - ב - ד",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'femn']",
+    "pealim_id": "51",
+    "line": "כן! יש לי מיזם שאני עובדת עליו"
+  },
+  {
+    "word": "עליו",
+    "word_menukad": "עָלָיו",
+    "translation": "над ним",
+    "lemma": "עַל",
+    "suffix": "ו",
+    "parsed_grammar": "[]",
+    "pealim_id": "6012",
+    "line": "כן! יש לי מיזם שאני עובדת עליו"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני לא אהיה תקועה כאן לנצח, מה נראה לך?"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "не",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "אני לא אהיה תקועה כאן לנצח, מה נראה לך?"
+  },
+  {
+    "word": "אהיה",
+    "word_menukad": "אֶהְיֶה",
+    "translation": "буду",
+    "lemma": "לִהְיוֹת",
+    "root": "ה - י - ה",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'futr', '1per']",
+    "pealim_id": "454",
+    "line": "אני לא אהיה תקועה כאן לנצח, מה נראה לך?"
+  },
+  {
+    "word": "תקועה",
+    "word_menukad": "תְּקוּעָה",
+    "translation": "застрявшая",
+    "lemma": "תָּקוּעַ",
+    "root": "ת - ק - ע",
+    "pattern": "катуль",
+    "parsed_grammar": "['sing', 'femn']",
+    "pealim_id": "7134",
+    "line": "אני לא אהיה תקועה כאן לנצח, מה נראה לך?"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "parsed_grammar": "[]",
+    "pealim_id": "3191",
+    "line": "אני לא אהיה תקועה כאן לנצח, מה נראה לך?"
+  },
+  {
+    "word": "לנצח,",
+    "word_menukad": "נֶצַח",
+    "translation": "навсегда",
+    "prefix": "ל־ +",
+    "lemma": "נֶצַח",
+    "root": "נ - צ - ח",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "6374",
+    "line": "אני לא אהיה תקועה כאן לנצח, מה נראה לך?"
+  },
+  {
+    "word": "מה",
+    "word_menukad": "מַה",
+    "translation": "что",
+    "lemma": "מַה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "אני לא אהיה תקועה כאן לנצח, מה נראה לך?"
+  },
+  {
+    "word": "נראה",
+    "word_menukad": "נִרְאֶה",
+    "translation": "кажется",
+    "lemma": "לְהֵירָאוֹת",
+    "root": "ר - א - ה",
+    "pattern": "нифъаль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "1973",
+    "line": "אני לא אהיה תקועה כאן לנצח, מה נראה לך?"
+  },
+  {
+    "word": "לך?",
+    "word_menukad": "לְךָ",
+    "translation": "тебе",
+    "lemma": "לְ",
+    "suffix": "ך",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "אני לא אהיה תקועה כאן לנצח, מה נראה לך?"
+  },
+  {
+    "word": "וואלה",
+    "word_menukad": "וואלה",
+    "translation": "правда?",
+    "lemma": "וַאלְלַהּ",
+    "pattern": "араб. сленг",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "וואלה"
+  },
+  {
+    "word": "איזה",
+    "word_menukad": "אֵיזֶה",
+    "translation": "какой",
+    "lemma": "אֵיזֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "6874",
+    "line": "איזה מיזם?"
+  },
+  {
+    "word": "מיזם?",
+    "word_menukad": "מֵיזָם",
+    "translation": "проект",
+    "lemma": "מֵיזָם",
+    "root": "י - ז - ם",
+    "pattern": "микталь, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3064",
+    "line": "איזה מיזם?"
+  },
+  {
+    "word": "מה",
+    "word_menukad": "מַה",
+    "translation": "что",
+    "lemma": "מַה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "מה אכפת לך?"
+  },
+  {
+    "word": "אכפת",
+    "word_menukad": "אִכְפַּת",
+    "translation": "волнует",
+    "lemma": "אִכְפַּת",
+    "parsed_grammar": "[]",
+    "pealim_id": "4820",
+    "line": "מה אכפת לך?"
+  },
+  {
+    "word": "לך?",
+    "word_menukad": "לְךָ",
+    "translation": "тебя",
+    "lemma": "לְ",
+    "suffix": "ך",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "מה אכפת לך?"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני אגיד לך את האמת, אני מחפש הזדמנויות"
+  },
+  {
+    "word": "אגיד",
+    "word_menukad": "אַגִּיד",
+    "translation": "скажу",
+    "lemma": "לְהַגִּיד",
+    "root": "נ - ג - ד",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'futr', '1per']",
+    "pealim_id": "1135",
+    "line": "אני אגיד לך את האמת, אני מחפש הזדמנויות"
+  },
+  {
+    "word": "לך",
+    "word_menukad": "לָךְ",
+    "translation": "тебе",
+    "lemma": "לְ",
+    "suffix": "ך",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "אני אגיד לך את האמת, אני מחפש הזדמנויות"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "אני אגיד לך את האמת, אני מחפש הזדמנויות"
+  },
+  {
+    "word": "האמת,",
+    "word_menukad": "אֱמֶת",
+    "translation": "правда",
+    "prefix": "ה־ +",
+    "lemma": "אֱמֶת",
+    "root": "א - מ - ת",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5186",
+    "line": "אני אגיד לך את האמת, אני מחפש הזדמנויות"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני אגיד לך את האמת, אני מחפש הזדמנויות"
+  },
+  {
+    "word": "מחפש",
+    "word_menukad": "מְחַפֵּשׂ",
+    "translation": "ищу",
+    "lemma": "לְחַפֵּשׂ",
+    "root": "ח - פ - שׂ",
+    "pattern": "пиэль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "663",
+    "line": "אני אגיד לך את האמת, אני מחפש הזדמנויות"
+  },
+  {
+    "word": "הזדמנויות",
+    "word_menukad": "הִזְדַּמְּנֻיּוֹת",
+    "translation": "возможности",
+    "lemma": "הִזְדַּמְּנוּת",
+    "root": "ז - מ - ן",
+    "pattern": "hиткаттлут, ж. р.",
+    "parsed_grammar": "['plur']",
+    "pealim_id": "5544",
+    "line": "אני אגיד לך את האמת, אני מחפש הזדמנויות"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני מת לעוף מפה"
+  },
+  {
+    "word": "מת",
+    "word_menukad": "מֵת",
+    "translation": "умираю [очень хочу]",
+    "lemma": "לָמוּת",
+    "root": "מ - ו - ת",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "52",
+    "line": "אני מת לעוף מפה"
+  },
+  {
+    "word": "לעוף",
+    "word_menukad": "לָעוּף",
+    "translation": "улететь [уйти]",
+    "lemma": "לָעוּף",
+    "root": "ע - ו - ף",
+    "pattern": "пааль",
+    "parsed_grammar": "[]",
+    "pealim_id": "1461",
+    "line": "אני מת לעוף מפה"
+  },
+  {
+    "word": "מפה",
+    "word_menukad": "מִפֹּה",
+    "translation": "отсюда",
+    "prefix": "מ־ +",
+    "lemma": "פֹּה",
+    "line": "אני מת לעוף מפה"
+  },
+  {
+    "word": "אתה",
+    "word_menukad": "אַתָּה",
+    "translation": "ты",
+    "lemma": "אַתָּה",
+    "parsed_grammar": "[]",
+    "pealim_id": "4644",
+    "line": "אתה לא מבסוט כאן?"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "не",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "אתה לא מבסוט כאן?"
+  },
+  {
+    "word": "מבסוט",
+    "word_menukad": "מַבְּסוּט",
+    "translation": "доволен",
+    "lemma": "מַבְּסוּט",
+    "pattern": "араб. сленг",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "אתה לא מבסוט כאן?"
+  },
+  {
+    "word": "כאן?",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "parsed_grammar": "[]",
+    "pealim_id": "3191",
+    "line": "אתה לא מבסוט כאן?"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני מסטול בתשע בבוקר, מה נראה לך?"
+  },
+  {
+    "word": "מסטול",
+    "word_menukad": "מַסְטוּל",
+    "translation": "накуренный",
+    "lemma": "מַסְטוּל",
+    "root": "ס - ט - ל",
+    "pattern": "мактуль",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "8766",
+    "line": "אני מסטול בתשע בבוקר, מה נראה לך?"
+  },
+  {
+    "word": "בתשע",
+    "word_menukad": "בתשע",
+    "translation": "в девять",
+    "prefix": "ב־ +",
+    "lemma": "תֵשַע",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "אני מסטול בתשע בבוקר, מה נראה לך?"
+  },
+  {
+    "word": "בבוקר,",
+    "word_menukad": "בֹּקֶר",
+    "translation": "утром",
+    "prefix": "ב־ +",
+    "lemma": "בּוֹקֶר",
+    "root": "ב - ק - ר",
+    "pattern": "котель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4235",
+    "line": "אני מסטול בתשע בבוקר, מה נראה לך?"
+  },
+  {
+    "word": "מה",
+    "word_menukad": "מַה",
+    "translation": "что",
+    "lemma": "מַה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "אני מסטול בתשע בבוקר, מה נראה לך?"
+  },
+  {
+    "word": "נראה",
+    "word_menukad": "נִרְאֶה",
+    "translation": "кажется",
+    "lemma": "לְהֵירָאוֹת",
+    "root": "ר - א - ה",
+    "pattern": "нифъаль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "1973",
+    "line": "אני מסטול בתשע בבוקר, מה נראה לך?"
+  },
+  {
+    "word": "לך?",
+    "word_menukad": "לָךְ",
+    "translation": "тебе",
+    "lemma": "לְ",
+    "suffix": "ך",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "אני מסטול בתשע בבוקר, מה נראה לך?"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "это",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "זה בתחום המאפרות"
+  },
+  {
+    "word": "בתחום",
+    "word_menukad": "תְּחוּם־",
+    "translation": "в области",
+    "prefix": "ב־ +",
+    "lemma": "תְּחוּם",
+    "root": "ת - ח - ם",
+    "pattern": "ктуль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4708",
+    "line": "זה בתחום המאפרות"
+  },
+  {
+    "word": "המאפרות",
+    "word_menukad": "מַאֲפֵרוֹת",
+    "translation": "пепельницы",
+    "prefix": "ה־ +",
+    "lemma": "מַאֲפֵרָה",
+    "root": "א - פ - ר",
+    "pattern": "мактела, ж. р.",
+    "parsed_grammar": "['plur']",
+    "pealim_id": "6320",
+    "line": "זה בתחום המאפרות"
+  },
+  {
+    "word": "אוקי",
+    "word_menukad": "אוקי",
+    "translation": "окей",
+    "lemma": "אוֹקֵי",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "אוקי"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני הרי עומדת כאן כל היום"
+  },
+  {
+    "word": "הרי",
+    "word_menukad": "הֲרֵי",
+    "translation": "ведь",
+    "lemma": "הֲרֵי",
+    "parsed_grammar": "[]",
+    "pealim_id": "6573",
+    "line": "אני הרי עומדת כאן כל היום"
+  },
+  {
+    "word": "עומדת",
+    "word_menukad": "עוֹמֶדֶת",
+    "translation": "стою",
+    "lemma": "לַעֲמוֹד",
+    "root": "ע - מ - ד",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'femn']",
+    "pealim_id": "8",
+    "line": "אני הרי עומדת כאן כל היום"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "parsed_grammar": "[]",
+    "pealim_id": "3191",
+    "line": "אני הרי עומדת כאן כל היום"
+  },
+  {
+    "word": "כל",
+    "word_menukad": "כָּל־",
+    "translation": "весь",
+    "lemma": "כּוֹל",
+    "root": "כ - ל - ל",
+    "pattern": "котель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4158",
+    "line": "אני הרי עומדת כאן כל היום"
+  },
+  {
+    "word": "היום",
+    "word_menukad": "יוֹם",
+    "translation": "день",
+    "prefix": "ה־ +",
+    "lemma": "יוֹם",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3061",
+    "line": "אני הרי עומדת כאן כל היום"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני מסתכלת על אנשים, אני קולטת מה קורה"
+  },
+  {
+    "word": "מסתכלת",
+    "word_menukad": "מִסְתַּכֶּלֶת",
+    "translation": "смотрю",
+    "lemma": "לְהִסְתַּכֵּל",
+    "root": "ס - כ - ל",
+    "pattern": "hитпаэль",
+    "parsed_grammar": "['sing', 'pres', 'femn']",
+    "pealim_id": "1352",
+    "line": "אני מסתכלת על אנשים, אני קולטת מה קורה"
+  },
+  {
+    "word": "על",
+    "word_menukad": "עַל",
+    "translation": "на",
+    "lemma": "עַל",
+    "parsed_grammar": "[]",
+    "pealim_id": "6012",
+    "line": "אני מסתכלת על אנשים, אני קולטת מה קורה"
+  },
+  {
+    "word": "אנשים,",
+    "word_menukad": "אֲנָשִׁים",
+    "translation": "люди",
+    "lemma": "אִישׁ",
+    "root": "א - נ - שׁ",
+    "pattern": "м. р.",
+    "parsed_grammar": "['plur']",
+    "pealim_id": "3307",
+    "line": "אני מסתכלת על אנשים, אני קולטת מה קורה"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני מסתכלת על אנשים, אני קולטת מה קורה"
+  },
+  {
+    "word": "קולטת",
+    "word_menukad": "קוֹלֶטֶת",
+    "translation": "воспринимаю",
+    "lemma": "לִקְלוֹט",
+    "root": "ק - ל - ט",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'femn']",
+    "pealim_id": "1897",
+    "line": "אני מסתכלת על אנשים, אני קולטת מה קורה"
+  },
+  {
+    "word": "מה",
+    "word_menukad": "מַה",
+    "translation": "что",
+    "lemma": "מַה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "אני מסתכלת על אנשים, אני קולטת מה קורה"
+  },
+  {
+    "word": "קורה",
+    "word_menukad": "קוֹרֶה",
+    "translation": "происходит",
+    "lemma": "לִקְרוֹת",
+    "root": "ק - ר - ה",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "1949",
+    "line": "אני מסתכלת על אנשים, אני קולטת מה קורה"
+  },
+  {
+    "word": "כן",
+    "word_menukad": "כֵּן",
+    "translation": "да",
+    "lemma": "כֵּן",
+    "parsed_grammar": "[]",
+    "pealim_id": "4529",
+    "line": "כן"
+  },
+  {
+    "word": "יפה",
+    "word_menukad": "יָפֶה",
+    "translation": "хорошо",
+    "lemma": "יָפֶה",
+    "root": "י - פ - ה",
+    "pattern": "катель",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "5168",
+    "line": "יפה"
+  },
+  {
+    "word": "עם",
+    "word_menukad": "עִם",
+    "translation": "с",
+    "lemma": "עִם",
+    "parsed_grammar": "[]",
+    "pealim_id": "4112",
+    "line": "עם מה אנשים הכי אוהבים לעשן את הסיגריה שלהם"
+  },
+  {
+    "word": "מה",
+    "word_menukad": "מַה",
+    "translation": "что",
+    "lemma": "מַה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "עם מה אנשים הכי אוהבים לעשן את הסיגריה שלהם"
+  },
+  {
+    "word": "אנשים",
+    "word_menukad": "אֲנָשִׁים",
+    "translation": "люди",
+    "lemma": "אִישׁ",
+    "root": "א - נ - שׁ",
+    "pattern": "м. р.",
+    "parsed_grammar": "['plur']",
+    "pealim_id": "3307",
+    "line": "עם מה אנשים הכי אוהבים לעשן את הסיגריה שלהם"
+  },
+  {
+    "word": "הכי",
+    "word_menukad": "הֲכִי",
+    "translation": "больше всего",
+    "lemma": "הֲכִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "6529",
+    "line": "עם מה אנשים הכי אוהבים לעשן את הסיגריה שלהם"
+  },
+  {
+    "word": "אוהבים",
+    "word_menukad": "אוֹהֲבִים",
+    "translation": "любят",
+    "lemma": "לֶאֱהוֹב",
+    "root": "א - ה - ב",
+    "pattern": "пааль",
+    "parsed_grammar": "['plur', 'pres']",
+    "pealim_id": "67",
+    "line": "עם מה אנשים הכי אוהבים לעשן את הסיגריה שלהם"
+  },
+  {
+    "word": "לעשן",
+    "word_menukad": "לְעַשֵּׁן",
+    "translation": "курить",
+    "lemma": "לְעַשֵּׁן",
+    "root": "ע - שׁ - ן",
+    "pattern": "пиэль",
+    "parsed_grammar": "[]",
+    "pealim_id": "1576",
+    "line": "עם מה אנשים הכי אוהבים לעשן את הסיגריה שלהם"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "עם מה אנשים הכי אוהבים לעשן את הסיגריה שלהם"
+  },
+  {
+    "word": "הסיגריה",
+    "word_menukad": "סִיגַרְיָה",
+    "translation": "сигарета",
+    "prefix": "ה־ +",
+    "lemma": "סִיגַרְיָה",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "7400",
+    "line": "עם מה אנשים הכי אוהבים לעשן את הסיגריה שלהם"
+  },
+  {
+    "word": "שלהם",
+    "word_menukad": "שֶׁלָּהֶם",
+    "translation": "их",
+    "lemma": "שֶׁל",
+    "suffix": "הם",
+    "parsed_grammar": "[]",
+    "pealim_id": "2643",
+    "line": "עם מה אנשים הכי אוהבים לעשן את הסיגריה שלהם"
+  },
+  {
+    "word": "קפה",
+    "word_menukad": "קָפֶה",
+    "translation": "кофе",
+    "lemma": "קָפֶה",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5319",
+    "line": "קפה"
+  },
+  {
+    "word": "קפה,",
+    "word_menukad": "קָפֶה",
+    "translation": "кофе",
+    "lemma": "קָפֶה",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5319",
+    "line": "קפה, נכון מאוד"
+  },
+  {
+    "word": "נכון",
+    "word_menukad": "נָכוֹן",
+    "translation": "правильно",
+    "lemma": "נָכוֹן",
+    "root": "כ - ו - ן",
+    "pattern": "никталь",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "4196",
+    "line": "קפה, נכון מאוד"
+  },
+  {
+    "word": "מאוד",
+    "word_menukad": "מְאֹד",
+    "translation": "очень",
+    "lemma": "מְאוֹד",
+    "parsed_grammar": "[]",
+    "pealim_id": "5449",
+    "line": "קפה, נכון מאוד"
+  },
+  {
+    "word": "נו?",
+    "word_menukad": "נוּ",
+    "translation": "ну?",
+    "lemma": "נוּ",
+    "parsed_grammar": "[]",
+    "pealim_id": "8706",
+    "line": "נו?"
+  },
+  {
+    "word": "מאפרה...",
+    "word_menukad": "מַאֲפֵרָה",
+    "translation": "пепельница",
+    "lemma": "מַאֲפֵרָה",
+    "root": "א - פ - ר",
+    "pattern": "мактела, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "6320",
+    "line": "מאפרה... שהיא גם מכונת קפה"
+  },
+  {
+    "word": "שהיא",
+    "word_menukad": "הִיא",
+    "translation": "которая",
+    "prefix": "ש־ +",
+    "lemma": "הִיא",
+    "parsed_grammar": "[]",
+    "pealim_id": "4647",
+    "line": "מאפרה... שהיא גם מכונת קפה"
+  },
+  {
+    "word": "גם",
+    "word_menukad": "גַּם",
+    "translation": "тоже",
+    "lemma": "גַּם",
+    "parsed_grammar": "[]",
+    "pealim_id": "3304",
+    "line": "מאפרה... שהיא גם מכונת קפה"
+  },
+  {
+    "word": "מכונת",
+    "word_menukad": "מְכוֹנַת־",
+    "translation": "машина",
+    "lemma": "מְכוֹנָה",
+    "root": "כ - ו - ן",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "7094",
+    "line": "מאפרה... שהיא גם מכונת קפה"
+  },
+  {
+    "word": "קפה",
+    "word_menukad": "קָפֶה",
+    "translation": "кофе",
+    "lemma": "קָפֶה",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5319",
+    "line": "מאפרה... שהיא גם מכונת קפה"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "этот",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "זה פאקינג מבריק"
+  },
+  {
+    "word": "פאקינג",
+    "word_menukad": "פאקינג",
+    "translation": "чертовски",
+    "pattern": "англ. ругательство",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "זה פאקינג מבריק"
+  },
+  {
+    "word": "מבריק",
+    "word_menukad": "מַבְרִיק",
+    "translation": "блестяще",
+    "lemma": "מַברִיק",
+    "root": "ב - ר - ק",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "267",
+    "line": "זה פאקינג מבריק"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני יודעת"
+  },
+  {
+    "word": "יודעת",
+    "word_menukad": "יוֹדַעַת",
+    "translation": "знаю",
+    "lemma": "לָדַעַת",
+    "root": "י - ד - ע",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'femn']",
+    "pealim_id": "791",
+    "line": "אני יודעת"
+  },
+  {
+    "word": "אבל",
+    "word_menukad": "אֲבָל",
+    "translation": "но",
+    "lemma": "אֲבָל",
+    "parsed_grammar": "[]",
+    "pealim_id": "4642",
+    "line": "אבל איך תרימי את זה מכאן?"
+  },
+  {
+    "word": "איך",
+    "word_menukad": "אֵיךְ",
+    "translation": "как",
+    "lemma": "אֵיךְ",
+    "pattern": "катуль",
+    "parsed_grammar": "[]",
+    "pealim_id": "4588",
+    "line": "אבל איך תרימי את זה מכאן?"
+  },
+  {
+    "word": "תרימי",
+    "word_menukad": "תָּרִימִי",
+    "translation": "ты поднимешь [устроишь]",
+    "lemma": "לְהָרִים",
+    "root": "ר - ו - ם",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'futr', 'femn', '2per']",
+    "pealim_id": "2414",
+    "line": "אבל איך תרימי את זה מכאן?"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "אבל איך תרימי את זה מכאן?"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "это",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "אבל איך תרימי את זה מכאן?"
+  },
+  {
+    "word": "מכאן?",
+    "word_menukad": "מִכָּאן",
+    "translation": "отсюда",
+    "lemma": "מִכָּאן",
+    "parsed_grammar": "[]",
+    "pealim_id": "7150",
+    "line": "אבל איך תרימי את זה מכאן?"
+  },
+  {
+    "word": "בשביל",
+    "word_menukad": "בִּשְׁבִיל",
+    "translation": "для",
+    "lemma": "בִּשְׁבִיל",
+    "parsed_grammar": "[]",
+    "pealim_id": "3839",
+    "line": "בשביל זה אני מחפשת שותף"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "это",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "בשביל זה אני מחפשת שותף"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "בשביל זה אני מחפשת שותף"
+  },
+  {
+    "word": "מחפשת",
+    "word_menukad": "מְחַפֶּשֶׂת",
+    "translation": "ищу",
+    "lemma": "לְחַפֵּשׂ",
+    "root": "ח - פ - שׂ",
+    "pattern": "пиэль",
+    "parsed_grammar": "['sing', 'pres', 'femn']",
+    "pealim_id": "663",
+    "line": "בשביל זה אני מחפשת שותף"
+  },
+  {
+    "word": "שותף",
+    "word_menukad": "שֻׁתָּף",
+    "translation": "партнёр",
+    "lemma": "שׁוּתָּף",
+    "root": "שׁ - ת - ף",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "7512",
+    "line": "בשביל זה אני מחפשת שותף"
+  },
+  {
+    "word": "אני...",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני... אני צריך לדבר איתך"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני... אני צריך לדבר איתך"
+  },
+  {
+    "word": "צריך",
+    "word_menukad": "צָרִיךְ",
+    "translation": "должен",
+    "lemma": "צָרִיךְ",
+    "root": "צ - ר - ך",
+    "pattern": "катиль",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "6018",
+    "line": "אני... אני צריך לדבר איתך"
+  },
+  {
+    "word": "לדבר",
+    "word_menukad": "לְדַבֵּר",
+    "translation": "говорить",
+    "lemma": "לְדַבֵּר",
+    "root": "ד - ב - ר",
+    "pattern": "пиэль",
+    "parsed_grammar": "[]",
+    "pealim_id": "2",
+    "line": "אני... אני צריך לדבר איתך"
+  },
+  {
+    "word": "איתך",
+    "word_menukad": "אִתָּךְ",
+    "translation": "с тобой",
+    "lemma": "עִם",
+    "suffix": "ך",
+    "parsed_grammar": "[]",
+    "pealim_id": "4112",
+    "line": "אני... אני צריך לדבר איתך"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני צריך לדבר איתך"
+  },
+  {
+    "word": "צריך",
+    "word_menukad": "צָרִיךְ",
+    "translation": "должен",
+    "lemma": "צָרִיךְ",
+    "root": "צ - ר - ך",
+    "pattern": "катиль",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "6018",
+    "line": "אני צריך לדבר איתך"
+  },
+  {
+    "word": "לדבר",
+    "word_menukad": "לְדַבֵּר",
+    "translation": "говорить",
+    "lemma": "לְדַבֵּר",
+    "root": "ד - ב - ר",
+    "pattern": "пиэль",
+    "parsed_grammar": "[]",
+    "pealim_id": "2",
+    "line": "אני צריך לדבר איתך"
+  },
+  {
+    "word": "איתך",
+    "word_menukad": "אִתָּךְ",
+    "translation": "с тобой",
+    "lemma": "עִם",
+    "suffix": "ך",
+    "parsed_grammar": "[]",
+    "pealim_id": "4112",
+    "line": "אני צריך לדבר איתך"
+  },
+  {
+    "word": "חכי",
+    "word_menukad": "חַכִּי!‏",
+    "translation": "подожди",
+    "lemma": "לְחַכּוֹת",
+    "root": "ח - כ - ה",
+    "pattern": "пиэль",
+    "parsed_grammar": "['sing', 'femn', '2per', 'impr']",
+    "pealim_id": "594",
+    "line": "חכי שנייה, רק תפסתי רעב"
+  },
+  {
+    "word": "שנייה,",
+    "word_menukad": "שְׁנִיָּה",
+    "translation": "секунда",
+    "lemma": "שְׁנִייָּה",
+    "root": "שׁ - נ - ה",
+    "pattern": "ктила, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "8864",
+    "line": "חכי שנייה, רק תפסתי רעב"
+  },
+  {
+    "word": "רק",
+    "word_menukad": "רַק",
+    "translation": "только",
+    "lemma": "רַק",
+    "parsed_grammar": "[]",
+    "pealim_id": "3394",
+    "line": "חכי שנייה, רק תפסתי רעב"
+  },
+  {
+    "word": "תפסתי",
+    "word_menukad": "תָּפַסְתִּי",
+    "translation": "(я) поймал",
+    "lemma": "לִתְפּוֹשׂ",
+    "root": "ת - פ - ס",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', '1per']",
+    "pealim_id": "2385",
+    "line": "חכי שנייה, רק תפסתי רעב"
+  },
+  {
+    "word": "רעב",
+    "word_menukad": "רָעָב",
+    "translation": "голод",
+    "lemma": "רָעָב",
+    "root": "ר - ע - ב",
+    "pattern": "каталь, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3341",
+    "line": "חכי שנייה, רק תפסתי רעב"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני חוטף איזה משהו, דקה אני כאן"
+  },
+  {
+    "word": "חוטף",
+    "word_menukad": "חוֹטֵף",
+    "translation": "хватаю",
+    "lemma": "לַחְטוֹף",
+    "root": "ח - ט - ף",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "587",
+    "line": "אני חוטף איזה משהו, דקה אני כאן"
+  },
+  {
+    "word": "איזה",
+    "word_menukad": "אֵיזֶה",
+    "translation": "какой",
+    "lemma": "אֵיזֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "6874",
+    "line": "אני חוטף איזה משהו, דקה אני כאן"
+  },
+  {
+    "word": "משהו,",
+    "word_menukad": "מַשֶּׁהוּ",
+    "translation": "что-то",
+    "lemma": "מַשֶּׁהוּ",
+    "parsed_grammar": "[]",
+    "pealim_id": "4269",
+    "line": "אני חוטף איזה משהו, דקה אני כאן"
+  },
+  {
+    "word": "דקה",
+    "word_menukad": "דַּקָּה",
+    "translation": "минута",
+    "lemma": "דַּקָּה",
+    "root": "ד - ק - ק",
+    "pattern": "катла, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5828",
+    "line": "אני חוטף איזה משהו, דקה אני כאן"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני חוטף איזה משהו, דקה אני כאן"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "parsed_grammar": "[]",
+    "pealim_id": "3191",
+    "line": "אני חוטף איזה משהו, דקה אני כאן"
+  },
+  {
+    "word": "אל",
+    "word_menukad": "אַל",
+    "translation": "не",
+    "lemma": "אַל",
+    "parsed_grammar": "[]",
+    "pealim_id": "5261",
+    "line": "אל תזוזי!"
+  },
+  {
+    "word": "תזוזי!",
+    "word_menukad": "תָּזוּזִי",
+    "translation": "двигайся",
+    "lemma": "לָזוּז",
+    "root": "ז - ו - ז",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'futr', 'femn', '2per']",
+    "pealim_id": "493",
+    "line": "אל תזוזי!"
+  },
+  {
+    "word": "לא,",
+    "word_menukad": "לֹא",
+    "translation": "нет",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "לא, לא, לא, אל תיגע בי"
+  },
+  {
+    "word": "לא,",
+    "word_menukad": "לֹא",
+    "translation": "нет",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "לא, לא, לא, אל תיגע בי"
+  },
+  {
+    "word": "לא,",
+    "word_menukad": "לֹא",
+    "translation": "нет",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "לא, לא, לא, אל תיגע בי"
+  },
+  {
+    "word": "אל",
+    "word_menukad": "אַל",
+    "translation": "не",
+    "lemma": "אַל",
+    "parsed_grammar": "[]",
+    "pealim_id": "5261",
+    "line": "לא, לא, לא, אל תיגע בי"
+  },
+  {
+    "word": "תיגע",
+    "word_menukad": "תִּגַּע",
+    "translation": "трогай",
+    "lemma": "לָגַעַת",
+    "root": "נ - ג - ע",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'futr', 'masc', '2per']",
+    "pealim_id": "1140",
+    "line": "לא, לא, לא, אל תיגע בי"
+  },
+  {
+    "word": "בי",
+    "word_menukad": "בִּי",
+    "translation": "меня",
+    "lemma": "בְּ",
+    "suffix": "י",
+    "parsed_grammar": "[]",
+    "pealim_id": "6013",
+    "line": "לא, לא, לא, אל תיגע בי"
+  },
+  {
+    "word": "מה",
+    "word_menukad": "מַה",
+    "translation": "что",
+    "lemma": "מַה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "מה הבעיה?"
+  },
+  {
+    "word": "הבעיה?",
+    "word_menukad": "בְּעָיָה",
+    "translation": "проблема",
+    "prefix": "ה־ +",
+    "lemma": "בְּעָיָה",
+    "root": "ב - ע - ה",
+    "pattern": "ктала, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4383",
+    "line": "מה הבעיה?"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני של רונה משיווק, אסור לי ללכת עם מישהו אחר"
+  },
+  {
+    "word": "של",
+    "word_menukad": "שֶׁל",
+    "translation": "[род. п.]",
+    "lemma": "שֶׁל",
+    "parsed_grammar": "[]",
+    "pealim_id": "2643",
+    "line": "אני של רונה משיווק, אסור לי ללכת עם מישהו אחר"
+  },
+  {
+    "word": "רונה",
+    "translation": "Рона (имя)",
+    "lemma": "רונה",
+    "line": "אני של רונה משיווק, אסור לי ללכת עם מישהו אחר"
+  },
+  {
+    "word": "משיווק,",
+    "word_menukad": "שִׁוּוּק",
+    "translation": "из маркетинга",
+    "prefix": "מ־ +",
+    "lemma": "שִׁיוּוּק",
+    "root": "שׁ - ו - ק",
+    "pattern": "киттуль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "6755",
+    "line": "אני של רונה משיווק, אסור לי ללכת עם מישהו אחר"
+  },
+  {
+    "word": "אסור",
+    "word_menukad": "אָסוּר",
+    "translation": "запрещено",
+    "lemma": "אָסוּר",
+    "root": "א - ס - ר",
+    "pattern": "катуль",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "4256",
+    "line": "אני של רונה משיווק, אסור לי ללכת עם מישהו אחר"
+  },
+  {
+    "word": "לי",
+    "word_menukad": "לִי",
+    "translation": "мне",
+    "lemma": "לְ",
+    "suffix": "י",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "אני של רונה משיווק, אסור לי ללכת עם מישהו אחר"
+  },
+  {
+    "word": "ללכת",
+    "word_menukad": "לָלֶכֶת",
+    "translation": "идти",
+    "lemma": "לָלֶכֶת",
+    "root": "ה - ל - ך",
+    "pattern": "пааль",
+    "parsed_grammar": "[]",
+    "pealim_id": "7",
+    "line": "אני של רונה משיווק, אסור לי ללכת עם מישהו אחר"
+  },
+  {
+    "word": "עם",
+    "word_menukad": "עִם",
+    "translation": "с",
+    "lemma": "עִם",
+    "parsed_grammar": "[]",
+    "pealim_id": "4112",
+    "line": "אני של רונה משיווק, אסור לי ללכת עם מישהו אחר"
+  },
+  {
+    "word": "מישהו",
+    "word_menukad": "מִישֶׁהוּ",
+    "translation": "кто-то",
+    "lemma": "מִישֶׁהוּ",
+    "pattern": "м. р.",
+    "parsed_grammar": "[]",
+    "pealim_id": "5399",
+    "line": "אני של רונה משיווק, אסור לי ללכת עם מישהו אחר"
+  },
+  {
+    "word": "אחר",
+    "word_menukad": "אַחֵר",
+    "translation": "другой",
+    "lemma": "אַחֵר",
+    "root": "א - ח - ר",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "4630",
+    "line": "אני של רונה משיווק, אסור לי ללכת עם מישהו אחר"
+  },
+  {
+    "word": "בוא",
+    "word_menukad": "בּוֹא!‏",
+    "translation": "приходи",
+    "lemma": "לָבוֹא",
+    "root": "ב - ו - א",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'masc', '2per', 'impr']",
+    "pealim_id": "28",
+    "line": "בוא אני אביא אותך לרונה, מה אתה דואג?"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "בוא אני אביא אותך לרונה, מה אתה דואג?"
+  },
+  {
+    "word": "אביא",
+    "word_menukad": "אָבִיא",
+    "translation": "принесу",
+    "lemma": "לְהָבִיא",
+    "root": "ב - ו - א",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'futr', '1per']",
+    "pealim_id": "188",
+    "line": "בוא אני אביא אותך לרונה, מה אתה דואג?"
+  },
+  {
+    "word": "אותך,",
+    "word_menukad": "אוֹתְךָ",
+    "translation": "тебя",
+    "lemma": "אֶת",
+    "suffix": "ך",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "בוא אני אביא אותך לרונה, מה אתה דואג?"
+  },
+  {
+    "word": "לרונה,",
+    "word_menukad": "לרונה,",
+    "translation": "Роне",
+    "prefix": "ל־ +",
+    "lemma": "רונה",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "בוא אני אביא אותך לרונה, מה אתה דואג?"
+  },
+  {
+    "word": "מה",
+    "word_menukad": "מַה",
+    "translation": "что",
+    "lemma": "מַה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "בוא אני אביא אותך לרונה, מה אתה דואג?"
+  },
+  {
+    "word": "אתה",
+    "word_menukad": "אַתָּה",
+    "translation": "ты",
+    "lemma": "אַתָּה",
+    "parsed_grammar": "[]",
+    "pealim_id": "4644",
+    "line": "בוא אני אביא אותך לרונה, מה אתה דואג?"
+  },
+  {
+    "word": "דואג?",
+    "word_menukad": "דּוֹאֵג",
+    "translation": "беспокоишься",
+    "lemma": "לִדְאוֹג",
+    "root": "ד - א - ג",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "394",
+    "line": "בוא אני אביא אותך לרונה, מה אתה דואג?"
+  },
+  {
+    "word": "שהיא",
+    "word_menukad": "הִיא",
+    "translation": "пусть она",
+    "prefix": "ש־ +",
+    "lemma": "הִיא",
+    "parsed_grammar": "[]",
+    "pealim_id": "4647",
+    "line": "שהיא תבוא לקחת!"
+  },
+  {
+    "word": "תבוא",
+    "word_menukad": "תָּבוֹא",
+    "translation": "придёт",
+    "lemma": "לָבוֹא",
+    "root": "ב - ו - א",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'futr', 'femn', '3per']",
+    "pealim_id": "28",
+    "line": "שהיא תבוא לקחת!"
+  },
+  {
+    "word": "לקחת!",
+    "word_menukad": "לָקַחַת",
+    "translation": "взять",
+    "lemma": "לָקַחַת",
+    "root": "ל - ק - ח",
+    "pattern": "пааль",
+    "parsed_grammar": "[]",
+    "pealim_id": "2427",
+    "line": "שהיא תבוא לקחת!"
+  },
+  {
+    "word": "בוא",
+    "word_menukad": "בּוֹא!‏",
+    "translation": "приходи",
+    "lemma": "לָבוֹא",
+    "root": "ב - ו - א",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'masc', '2per', 'impr']",
+    "pealim_id": "28",
+    "line": "בוא אני אביא אותך, נו מה אתה"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "בוא אני אביא אותך, נו מה אתה"
+  },
+  {
+    "word": "אביא",
+    "word_menukad": "אָבִיא",
+    "translation": "принесу",
+    "lemma": "לְהָבִיא",
+    "root": "ב - ו - א",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'futr', '1per']",
+    "pealim_id": "188",
+    "line": "בוא אני אביא אותך, נו מה אתה"
+  },
+  {
+    "word": "אותך,",
+    "word_menukad": "אוֹתְךָ",
+    "translation": "тебя",
+    "lemma": "אֶת",
+    "suffix": "ך",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "בוא אני אביא אותך, נו מה אתה"
+  },
+  {
+    "word": "נו",
+    "word_menukad": "נוּ",
+    "translation": "ну!",
+    "lemma": "נוּ",
+    "parsed_grammar": "[]",
+    "pealim_id": "8706",
+    "line": "בוא אני אביא אותך, נו מה אתה"
+  },
+  {
+    "word": "מה",
+    "word_menukad": "מַה",
+    "translation": "что",
+    "lemma": "מַה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "בוא אני אביא אותך, נו מה אתה"
+  },
+  {
+    "word": "אתה",
+    "word_menukad": "אַתָּה",
+    "translation": "ты",
+    "lemma": "אַתָּה",
+    "parsed_grammar": "[]",
+    "pealim_id": "4644",
+    "line": "בוא אני אביא אותך, נו מה אתה"
+  },
+  {
+    "word": "מה",
+    "word_menukad": "מַה",
+    "translation": "что",
+    "lemma": "מַה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "מה אני מתווכח עם יוגורט?"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "מה אני מתווכח עם יוגורט?"
+  },
+  {
+    "word": "מתווכח",
+    "word_menukad": "מִתְוַכֵּחַ",
+    "translation": "спорю",
+    "lemma": "לְהִתְווַכֵּחַ",
+    "root": "ו - כ - ח",
+    "pattern": "hитпаэль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "798",
+    "line": "מה אני מתווכח עם יוגורט?"
+  },
+  {
+    "word": "עם",
+    "word_menukad": "עִם",
+    "translation": "с",
+    "lemma": "עִם",
+    "parsed_grammar": "[]",
+    "pealim_id": "4112",
+    "line": "מה אני מתווכח עם יוגורט?"
+  },
+  {
+    "word": "יוגורט?",
+    "word_menukad": "יוגורט?",
+    "translation": "йогурт",
+    "lemma": "יוֹגוּרט",
+    "pattern": "м. р.",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "מה אני מתווכח עם יוגורט?"
+  },
+  {
+    "word": "חטיפה!",
+    "word_menukad": "חֲטִיפָה",
+    "translation": "похищение",
+    "lemma": "חֲטִיפָה",
+    "root": "ח - ט - ף",
+    "pattern": "ктила, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "8652",
+    "line": "חטיפה! חטיפה! חטיפה!"
+  },
+  {
+    "word": "חטיפה!",
+    "word_menukad": "חֲטִיפָה",
+    "translation": "похищение",
+    "lemma": "חֲטִיפָה",
+    "root": "ח - ט - ף",
+    "pattern": "ктила, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "8652",
+    "line": "חטיפה! חטיפה! חטיפה!"
+  },
+  {
+    "word": "חטיפה!",
+    "word_menukad": "חֲטִיפָה",
+    "translation": "похищение",
+    "lemma": "חֲטִיפָה",
+    "root": "ח - ט - ף",
+    "pattern": "ктила, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "8652",
+    "line": "חטיפה! חטיפה! חטיפה!"
+  },
+  {
+    "word": "מה",
+    "word_menukad": "מַה",
+    "translation": "что",
+    "lemma": "מַה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "מה זה, היה לי פה יוגורט"
+  },
+  {
+    "word": "זה,",
+    "word_menukad": "זֶה",
+    "translation": "этот",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "מה זה, היה לי פה יוגורט"
+  },
+  {
+    "word": "היה",
+    "word_menukad": "הָיָה",
+    "translation": "был",
+    "lemma": "לִהְיוֹת",
+    "root": "ה - י - ה",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "454",
+    "line": "מה זה, היה לי פה יוגורט"
+  },
+  {
+    "word": "לי",
+    "word_menukad": "לִי",
+    "translation": "к",
+    "lemma": "לְ",
+    "suffix": "י",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "מה זה, היה לי פה יוגורט"
+  },
+  {
+    "word": "פה",
+    "word_menukad": "פֹּה",
+    "translation": "здесь",
+    "lemma": "פֹּה",
+    "parsed_grammar": "[]",
+    "pealim_id": "3192",
+    "line": "מה זה, היה לי פה יוגורט"
+  },
+  {
+    "word": "יוגורט",
+    "word_menukad": "יוגורט",
+    "translation": "йогурт",
+    "lemma": "יוֹגוּרט",
+    "pattern": "м. р.",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "מה זה, היה לי פה יוגורט"
+  },
+  {
+    "word": "מישהו",
+    "word_menukad": "מִישֶׁהוּ",
+    "translation": "кто-то",
+    "lemma": "מִישֶׁהוּ",
+    "pattern": "м. р.",
+    "parsed_grammar": "[]",
+    "pealim_id": "5399",
+    "line": "מישהו לקח מפה יוגורט?"
+  },
+  {
+    "word": "לקח",
+    "word_menukad": "לָקַח",
+    "translation": "взял",
+    "lemma": "לָקַחַת",
+    "root": "ל - ק - ח",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "2427",
+    "line": "מישהו לקח מפה יוגורט?"
+  },
+  {
+    "word": "מפה",
+    "word_menukad": "מִפֹּה",
+    "translation": "отсюда",
+    "prefix": "מ־ +",
+    "lemma": "פֹּה",
+    "line": "מישהו לקח מפה יוגורט?"
+  },
+  {
+    "word": "יוגורט?",
+    "word_menukad": "יוגורט?",
+    "translation": "йогурт",
+    "lemma": "יוֹגוּרט",
+    "pattern": "м. р.",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "מישהו לקח מפה יוגורט?"
+  },
+  {
+    "word": "אולי",
+    "word_menukad": "אוּלַי",
+    "translation": "может быть",
+    "lemma": "אוּלַי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4636",
+    "line": "אולי הוא בפנים?"
+  },
+  {
+    "word": "הוא",
+    "word_menukad": "הוּא",
+    "translation": "он",
+    "lemma": "הוּא",
+    "parsed_grammar": "[]",
+    "pealim_id": "4646",
+    "line": "אולי הוא בפנים?"
+  },
+  {
+    "word": "בפנים?",
+    "word_menukad": "בִּפְנִים",
+    "translation": "внутри",
+    "lemma": "בִּפְנִים",
+    "parsed_grammar": "[]",
+    "pealim_id": "6855",
+    "line": "אולי הוא בפנים?"
+  },
+  {
+    "word": "סליחה,",
+    "word_menukad": "סְלִיחָה",
+    "translation": "извините",
+    "lemma": "סְלִיחָה",
+    "root": "ס - ל - ח",
+    "pattern": "ктила, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3996",
+    "line": "סליחה, סליחה, ראית אולי את בני מהנהלת חשבונות"
+  },
+  {
+    "word": "ראית",
+    "word_menukad": "רָאִית",
+    "translation": "(ты) видела",
+    "lemma": "לִרְאוֹת",
+    "root": "ר - א - ה",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'femn', '2per']",
+    "pealim_id": "1972",
+    "line": "סליחה, סליחה, ראית אולי את בני מהנהלת חשבונות"
+  },
+  {
+    "word": "אולי",
+    "word_menukad": "אוּלַי",
+    "translation": "может быть",
+    "lemma": "אוּלַי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4636",
+    "line": "סליחה, סליחה, ראית אולי את בני מהנהלת חשבונות"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "סליחה, סליחה, ראית אולי את בני מהנהלת חשבונות"
+  },
+  {
+    "word": "בני",
+    "word_menukad": "בני",
+    "translation": "Бени (имя)",
+    "lemma": "בני",
+    "line": "סליחה, סליחה, ראית אולי את בני מהנהלת חשבונות"
+  },
+  {
+    "word": "מהנהלת",
+    "word_menukad": "הַנְהָלַת־",
+    "translation": "из управления",
+    "prefix": "מ־ +",
+    "lemma": "הַנְהָלָה",
+    "root": "נ - ה - ל",
+    "pattern": "hактала, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "7271",
+    "line": "סליחה, סליחה, ראית אולי את בני מהנהלת חשבונות"
+  },
+  {
+    "word": "חשבונות",
+    "word_menukad": "חֶשְׁבּוֹנוֹת",
+    "translation": "счета",
+    "lemma": "חֶשְׁבּוֹן",
+    "root": "ח - שׁ - ב",
+    "pattern": "китлон, м. р.",
+    "parsed_grammar": "['plur']",
+    "pealim_id": "3594",
+    "line": "סליחה, סליחה, ראית אולי את בני מהנהלת חשבונות"
+  },
+  {
+    "word": "גבוה",
+    "word_menukad": "גָּבֹהַּ",
+    "translation": "высокий",
+    "lemma": "גָּבוֹהַּ",
+    "root": "ג - ב - הּ",
+    "pattern": "католь",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "4478",
+    "line": "גבוה כזה עם תלתלים"
+  },
+  {
+    "word": "כזה",
+    "word_menukad": "כָּזֶה",
+    "translation": "такой",
+    "prefix": "כ־ +",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "גבוה כזה עם תלתלים"
+  },
+  {
+    "word": "עם",
+    "word_menukad": "עִם",
+    "translation": "с",
+    "lemma": "עִם",
+    "parsed_grammar": "[]",
+    "pealim_id": "4112",
+    "line": "גבוה כזה עם תלתלים"
+  },
+  {
+    "word": "תלתלים",
+    "word_menukad": "תַּלְתָּלִים",
+    "translation": "локоны",
+    "lemma": "תַּלְתָּל",
+    "root": "ת - ל - ת - ל",
+    "pattern": "катталь, м. р.",
+    "parsed_grammar": "['plur']",
+    "pealim_id": "6268",
+    "line": "גבוה כזה עם תלתלים"
+  },
+  {
+    "word": "איזה",
+    "word_menukad": "אֵיזֶה",
+    "translation": "какой",
+    "lemma": "אֵיזֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "6874",
+    "line": "איזה בני זה, הוא בטח יירד עוד פעם לנגב חומוס"
+  },
+  {
+    "word": "בני",
+    "word_menukad": "בני",
+    "translation": "Бени (имя)",
+    "lemma": "בני",
+    "line": "איזה בני זה, הוא בטח יירד עוד פעם לנגב חומוס"
+  },
+  {
+    "word": "זה,",
+    "word_menukad": "זֶה",
+    "translation": "этот",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "איזה בני זה, הוא בטח יירד עוד פעם לנגב חומוס"
+  },
+  {
+    "word": "הוא",
+    "word_menukad": "הוּא",
+    "translation": "он",
+    "lemma": "הוּא",
+    "parsed_grammar": "[]",
+    "pealim_id": "4646",
+    "line": "איזה בני זה, הוא בטח יירד עוד פעם לנגב חומוס"
+  },
+  {
+    "word": "בטח",
+    "word_menukad": "בֶּטַח",
+    "translation": "конечно",
+    "lemma": "בֶּטַח",
+    "root": "ב - ט - ח",
+    "pattern": "кетель",
+    "parsed_grammar": "[]",
+    "pealim_id": "3600",
+    "line": "איזה בני זה, הוא בטח יירד עוד פעם לנגב חומוס"
+  },
+  {
+    "word": "יירד",
+    "word_menukad": "יֵירֵד",
+    "translation": "спустится",
+    "lemma": "לָרֶדֶת",
+    "root": "י - ר - ד",
+    "pattern": "пааль",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "איזה בני זה, הוא בטח יירד עוד פעם לנגב חומוס"
+  },
+  {
+    "word": "עוד",
+    "word_menukad": "עוֹד",
+    "translation": "ещё",
+    "lemma": "עוֹד",
+    "parsed_grammar": "[]",
+    "pealim_id": "5241",
+    "line": "איזה בני זה, הוא בטח יירד עוד פעם לנגב חומוס"
+  },
+  {
+    "word": "פעם",
+    "word_menukad": "פַּעַם",
+    "translation": "раз",
+    "lemma": "פַּעַם",
+    "root": "פ - ע - ם",
+    "pattern": "кетель, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "6082",
+    "line": "איזה בני זה, הוא בטח יירד עוד פעם לנגב חומוס"
+  },
+  {
+    "word": "לנגב",
+    "word_menukad": "לְנַגֵּב",
+    "translation": "намазать",
+    "lemma": "לְנַגֵּב",
+    "root": "נ - ג - ב",
+    "pattern": "пиэль",
+    "parsed_grammar": "[]",
+    "pealim_id": "1132",
+    "line": "איזה בני זה, הוא בטח יירד עוד פעם לנגב חומוס"
+  },
+  {
+    "word": "חומוס",
+    "word_menukad": "חוּמוּס",
+    "translation": "хумусы",
+    "lemma": "חוּמוּס",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5876",
+    "line": "איזה בני זה, הוא בטח יירד עוד פעם לנגב חומוס"
+  },
+  {
+    "word": "אין,",
+    "word_menukad": "אֵין",
+    "translation": "нет",
+    "lemma": "אֵין",
+    "parsed_grammar": "[]",
+    "pealim_id": "6052",
+    "line": "אין, הוא מת על חומוס"
+  },
+  {
+    "word": "הוא",
+    "word_menukad": "הוּא",
+    "translation": "он",
+    "lemma": "הוּא",
+    "parsed_grammar": "[]",
+    "pealim_id": "4646",
+    "line": "אין, הוא מת על חומוס"
+  },
+  {
+    "word": "מת",
+    "word_menukad": "מֵת",
+    "translation": "умирает [обожает]",
+    "lemma": "לָמוּת",
+    "root": "מ - ו - ת",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "52",
+    "line": "אין, הוא מת על חומוס"
+  },
+  {
+    "word": "על",
+    "word_menukad": "עַל",
+    "translation": "на",
+    "lemma": "עַל",
+    "parsed_grammar": "[]",
+    "pealim_id": "6012",
+    "line": "אין, הוא מת על חומוס"
+  },
+  {
+    "word": "חומוס",
+    "word_menukad": "חוּמוּס",
+    "translation": "хумусы",
+    "lemma": "חוּמוּס",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5876",
+    "line": "אין, הוא מת על חומוס"
+  },
+  {
+    "word": "תגיד",
+    "word_menukad": "תַּגִּיד",
+    "translation": "скажи",
+    "lemma": "לְהַגִּיד",
+    "root": "נ - ג - ד",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'futr', 'masc', '2per']",
+    "pealim_id": "1135",
+    "line": "תגיד לי, אתה חי בסרט או מה?"
+  },
+  {
+    "word": "לי,",
+    "word_menukad": "לִי",
+    "translation": "мне",
+    "lemma": "לְ",
+    "suffix": "י",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "תגיד לי, אתה חי בסרט או מה?"
+  },
+  {
+    "word": "אתה",
+    "word_menukad": "אַתָּה",
+    "translation": "ты",
+    "lemma": "אַתָּה",
+    "parsed_grammar": "[]",
+    "pealim_id": "4644",
+    "line": "תגיד לי, אתה חי בסרט או מה?"
+  },
+  {
+    "word": "חי",
+    "word_menukad": "חַי",
+    "translation": "живёшь",
+    "lemma": "לִחְיוֹת",
+    "root": "ח - י - ה",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "797",
+    "line": "תגיד לי, אתה חי בסרט או מה?"
+  },
+  {
+    "word": "בסרט",
+    "word_menukad": "סֶרֶט",
+    "translation": "в фильме",
+    "prefix": "ב־ +",
+    "lemma": "סֶרֶט",
+    "root": "ס - ר - ט",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3122",
+    "line": "תגיד לי, אתה חי בסרט או מה?"
+  },
+  {
+    "word": "או",
+    "word_menukad": "אוֹ",
+    "translation": "или",
+    "lemma": "אוֹ",
+    "parsed_grammar": "[]",
+    "pealim_id": "5231",
+    "line": "תגיד לי, אתה חי בסרט או מה?"
+  },
+  {
+    "word": "מה?",
+    "word_menukad": "מַה",
+    "translation": "что",
+    "lemma": "מַה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "תגיד לי, אתה חי בסרט או מה?"
+  },
+  {
+    "word": "עזבי,",
+    "word_menukad": "עִזְבִי!‏",
+    "translation": "оставь",
+    "lemma": "לַעֲזוֹב",
+    "root": "ע - ז - ב",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'femn', '2per', 'impr']",
+    "pealim_id": "1470",
+    "line": "עזבי, הילה"
+  },
+  {
+    "word": "הילה",
+    "word_menukad": "הילה",
+    "translation": "Хила (имя)",
+    "lemma": "הילה",
+    "line": "עזבי, הילה"
+  },
+  {
+    "word": "לא,",
+    "word_menukad": "לֹא",
+    "translation": "нет",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "לא, אל תגיד לי עזבי"
+  },
+  {
+    "word": "אל",
+    "word_menukad": "אַל",
+    "translation": "не",
+    "lemma": "אַל",
+    "parsed_grammar": "[]",
+    "pealim_id": "5261",
+    "line": "לא, אל תגיד לי עזבי"
+  },
+  {
+    "word": "תגיד",
+    "word_menukad": "תַּגִּיד",
+    "translation": "говори",
+    "lemma": "לְהַגִּיד",
+    "root": "נ - ג - ד",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'futr', 'masc', '2per']",
+    "pealim_id": "1135",
+    "line": "לא, אל תגיד לי עזבי"
+  },
+  {
+    "word": "לי",
+    "word_menukad": "לִי",
+    "translation": "мне",
+    "lemma": "לְ",
+    "suffix": "י",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "לא, אל תגיד לי עזבי"
+  },
+  {
+    "word": "עזבי",
+    "word_menukad": "עִזְבִי!‏",
+    "translation": "оставь",
+    "lemma": "לַעֲזוֹב",
+    "root": "ע - ז - ב",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'femn', '2per', 'impr']",
+    "pealim_id": "1470",
+    "line": "לא, אל תגיד לי עזבי"
+  },
+  {
+    "word": "הרקוב",
+    "word_menukad": "רָקוּב",
+    "translation": "гнилой",
+    "prefix": "ה־ +",
+    "lemma": "רָקוּב",
+    "root": "ר - ק - ב",
+    "pattern": "катуль",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "4942",
+    "line": "הרקוב הזה מצחין כאן את כל המקרר"
+  },
+  {
+    "word": "הזה",
+    "word_menukad": "הזה",
+    "translation": "этот",
+    "prefix": "ה־ +",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "הרקוב הזה מצחין כאן את כל המקרר"
+  },
+  {
+    "word": "מצחין",
+    "word_menukad": "מצחין",
+    "translation": "воняет",
+    "lemma": "לְהַצחִין",
+    "root": "צ - ח - ן",
+    "pattern": "hифъиль",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "הרקוב הזה מצחין כאן את כל המקרר"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "parsed_grammar": "[]",
+    "pealim_id": "3191",
+    "line": "הרקוב הזה מצחין כאן את כל המקרר"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "הרקוב הזה מצחין כאן את כל המקרר"
+  },
+  {
+    "word": "כל",
+    "word_menukad": "כָּל־",
+    "translation": "весь",
+    "lemma": "כּוֹל",
+    "root": "כ - ל - ל",
+    "pattern": "котель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4158",
+    "line": "הרקוב הזה מצחין כאן את כל המקרר"
+  },
+  {
+    "word": "המקרר",
+    "word_menukad": "מְקָרֵר",
+    "translation": "холодильник",
+    "prefix": "ה־ +",
+    "lemma": "מְקָרֵר",
+    "root": "ק - ר - ר",
+    "pattern": "мекаттель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "6255",
+    "line": "הרקוב הזה מצחין כאן את כל המקרר"
+  },
+  {
+    "word": "ולאף אחד",
+    "word_menukad": "ולאף אֶחָד",
+    "translation": "и никому",
+    "prefix": "ו־ + ל־ +",
+    "lemma": "אַף אֶחָד",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "ולאף אחד אין לב להגיד לו: אבל די, יש גבול"
+  },
+  {
+    "word": "לב",
+    "word_menukad": "לֵב",
+    "translation": "сердце",
+    "lemma": "לֵב",
+    "root": "ל - ב - ב",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4353",
+    "line": "ולאף אחד אין לב להגיד לו: אבל די, יש גבול"
+  },
+  {
+    "word": "להגיד",
+    "word_menukad": "לְהַגִּיד",
+    "translation": "сказать",
+    "lemma": "לְהַגִּיד",
+    "root": "נ - ג - ד",
+    "pattern": "hифъиль",
+    "parsed_grammar": "[]",
+    "pealim_id": "1135",
+    "line": "ולאף אחד אין לב להגיד לו: אבל די, יש גבול"
+  },
+  {
+    "word": "לו:",
+    "word_menukad": "לוֹ",
+    "translation": "ему",
+    "lemma": "לְ",
+    "suffix": "ו",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "ולאף אחד אין לב להגיד לו: אבל די, יש גבול"
+  },
+  {
+    "word": "אבל",
+    "word_menukad": "אֲבָל",
+    "translation": "но",
+    "lemma": "אֲבָל",
+    "parsed_grammar": "[]",
+    "pealim_id": "4642",
+    "line": "ולאף אחד אין לב להגיד לו: אבל די, יש גבול"
+  },
+  {
+    "word": "די,",
+    "word_menukad": "דַּי",
+    "translation": "хватит",
+    "lemma": "דַּיי",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5366",
+    "line": "ולאף אחד אין לב להגיד לו: אבל די, יש גבול"
+  },
+  {
+    "word": "יש",
+    "word_menukad": "יֵשׁ",
+    "translation": "есть",
+    "lemma": "יֵשׁ",
+    "parsed_grammar": "[]",
+    "pealim_id": "3244",
+    "line": "ולאף אחד אין לב להגיד לו: אבל די, יש גבול"
+  },
+  {
+    "word": "גבול",
+    "word_menukad": "גְּבוּל",
+    "translation": "граница",
+    "lemma": "גְּבוּל",
+    "root": "ג - ב - ל",
+    "pattern": "ктуль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3075",
+    "line": "ולאף אחד אין לב להגיד לו: אבל די, יש גבול"
+  },
+  {
+    "word": "בני",
+    "word_menukad": "בני",
+    "translation": "Бени (имя)",
+    "lemma": "בני",
+    "line": "בני פוטר, פוטר, הוא לא יחזור"
+  },
+  {
+    "word": "פוטר,",
+    "word_menukad": "פֻּטַּר",
+    "translation": "уволен",
+    "lemma": "לְפַטֵּר",
+    "root": "פ - ט - ר",
+    "pattern": "пиэль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per', 'pssv']",
+    "pealim_id": "1626",
+    "line": "בני פוטר, פוטר, הוא לא יחזור"
+  },
+  {
+    "word": "פוטר,",
+    "word_menukad": "פֻּטַּר",
+    "translation": "уволен",
+    "lemma": "לְפַטֵּר",
+    "root": "פ - ט - ר",
+    "pattern": "пиэль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per', 'pssv']",
+    "pealim_id": "1626",
+    "line": "בני פוטר, פוטר, הוא לא יחזור"
+  },
+  {
+    "word": "הוא",
+    "word_menukad": "הוּא",
+    "translation": "он",
+    "lemma": "הוּא",
+    "parsed_grammar": "[]",
+    "pealim_id": "4646",
+    "line": "בני פוטר, פוטר, הוא לא יחזור"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "нет",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "בני פוטר, פוטר, הוא לא יחזור"
+  },
+  {
+    "word": "יחזור",
+    "word_menukad": "יַחֲזֹר",
+    "translation": "возвращаться",
+    "lemma": "לַחֲזוֹר",
+    "root": "ח - ז - ר",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'futr', 'masc', '3per']",
+    "pealim_id": "48",
+    "line": "בני פוטר, פוטר, הוא לא יחזור"
+  },
+  {
+    "word": "לא,",
+    "word_menukad": "לֹא",
+    "translation": "нет",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "לא, הוא לא פוטר, הוא בחופש"
+  },
+  {
+    "word": "הוא",
+    "word_menukad": "הוּא",
+    "translation": "он",
+    "lemma": "הוּא",
+    "parsed_grammar": "[]",
+    "pealim_id": "4646",
+    "line": "לא, הוא לא פוטר, הוא בחופש"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "нет",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "לא, הוא לא פוטר, הוא בחופש"
+  },
+  {
+    "word": "פוטר,",
+    "word_menukad": "פֻּטַּר",
+    "translation": "уволен",
+    "lemma": "לְפַטֵּר",
+    "root": "פ - ט - ר",
+    "pattern": "пиэль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per', 'pssv']",
+    "pealim_id": "1626",
+    "line": "לא, הוא לא פוטר, הוא בחופש"
+  },
+  {
+    "word": "הוא",
+    "word_menukad": "הוּא",
+    "translation": "он",
+    "lemma": "הוּא",
+    "parsed_grammar": "[]",
+    "pealim_id": "4646",
+    "line": "לא, הוא לא פוטר, הוא בחופש"
+  },
+  {
+    "word": "בחופש",
+    "word_menukad": "חֹפֶשׁ",
+    "translation": "в отпуске",
+    "prefix": "ב־ +",
+    "lemma": "חוֹפֶשׁ",
+    "root": "ח - פ - שׁ",
+    "pattern": "котель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5397",
+    "line": "לא, הוא לא פוטר, הוא בחופש"
+  },
+  {
+    "word": "בני",
+    "word_menukad": "בני",
+    "translation": "Бени (имя)",
+    "lemma": "בני",
+    "line": "בני בחופש"
+  },
+  {
+    "word": "בחופש",
+    "word_menukad": "חֹפֶשׁ",
+    "translation": "в отпуске",
+    "prefix": "ב־ +",
+    "lemma": "חוֹפֶשׁ",
+    "root": "ח - פ - שׁ",
+    "pattern": "котель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5397",
+    "line": "בני בחופש"
+  },
+  {
+    "word": "ומי",
+    "word_menukad": "מִי",
+    "translation": "и кто",
+    "prefix": "ו־ +",
+    "lemma": "מִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "5401",
+    "line": "ומי ייגע בך, תגיד לי?"
+  },
+  {
+    "word": "ייגע",
+    "word_menukad": "יִגַּע",
+    "translation": "тронет",
+    "lemma": "לָגַעַת",
+    "root": "נ - ג - ע",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'futr', 'masc', '3per']",
+    "pealim_id": "1140",
+    "line": "ומי ייגע בך, תגיד לי?"
+  },
+  {
+    "word": "בך,",
+    "word_menukad": "בְּךָ",
+    "translation": "тебя",
+    "lemma": "בְּ",
+    "suffix": "ך",
+    "parsed_grammar": "[]",
+    "pealim_id": "6013",
+    "line": "ומי ייגע בך, תגיד לי?"
+  },
+  {
+    "word": "תגיד",
+    "word_menukad": "תַּגִּיד",
+    "translation": "скажи",
+    "lemma": "לְהַגִּיד",
+    "root": "נ - ג - ד",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'futr', 'masc', '2per']",
+    "pealim_id": "1135",
+    "line": "ומי ייגע בך, תגיד לי?"
+  },
+  {
+    "word": "לי?",
+    "word_menukad": "לִי",
+    "translation": "мне",
+    "lemma": "לְ",
+    "suffix": "י",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "ומי ייגע בך, תגיד לי?"
+  },
+  {
+    "word": "אתה",
+    "word_menukad": "אַתָּה",
+    "translation": "ты",
+    "lemma": "אַתָּה",
+    "parsed_grammar": "[]",
+    "pealim_id": "4644",
+    "line": "אתה פאד תאי עוף, כמה זמן אתה מחזיק?"
+  },
+  {
+    "word": "פאד תאי",
+    "word_menukad": "פאד תאי",
+    "translation": "пад-тай",
+    "lemma": "פאד תאי",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "אתה פאד תאי עוף, כמה זמן אתה מחזיק?"
+  },
+  {
+    "word": "עוף,",
+    "word_menukad": "עוֹף",
+    "translation": "курица",
+    "lemma": "עוֹף",
+    "root": "ע - ו - ף",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "6781",
+    "line": "אתה פאד תאי עוף, כמה זמן אתה מחזיק?"
+  },
+  {
+    "word": "כמה",
+    "word_menukad": "כַּמָּה",
+    "translation": "сколько",
+    "lemma": "כַּמָּה",
+    "parsed_grammar": "[]",
+    "pealim_id": "4784",
+    "line": "אתה פאד תאי עוף, כמה זמן אתה מחזיק?"
+  },
+  {
+    "word": "זמן",
+    "word_menukad": "זְמַן",
+    "translation": "время",
+    "lemma": "זְמַן",
+    "root": "ז - מ - ן",
+    "pattern": "кталь, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3055",
+    "line": "אתה פאד תאי עוף, כמה זמן אתה מחזיק?"
+  },
+  {
+    "word": "אתה",
+    "word_menukad": "אַתָּה",
+    "translation": "ты",
+    "lemma": "אַתָּה",
+    "parsed_grammar": "[]",
+    "pealim_id": "4644",
+    "line": "אתה פאד תאי עוף, כמה זמן אתה מחזיק?"
+  },
+  {
+    "word": "מחזיק?",
+    "word_menukad": "מַחְזִיק",
+    "translation": "держишь",
+    "lemma": "לְהַחְזִיק",
+    "root": "ח - ז - ק",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "579",
+    "line": "אתה פאד תאי עוף, כמה זמן אתה מחזיק?"
+  },
+  {
+    "word": "יומיים?",
+    "word_menukad": "יוֹמַיִם",
+    "translation": "два дня",
+    "lemma": "יוֹמַייִם",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "7863",
+    "line": "יומיים? שבוע?"
+  },
+  {
+    "word": "שבוע?",
+    "word_menukad": "שָׁבוּעַ",
+    "translation": "неделя",
+    "lemma": "שָׁבוּעַ",
+    "root": "שׁ - ב - ע",
+    "pattern": "катуль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3958",
+    "line": "יומיים? שבוע?"
+  },
+  {
+    "word": "אתה",
+    "word_menukad": "אַתָּה",
+    "translation": "ты",
+    "lemma": "אַתָּה",
+    "parsed_grammar": "[]",
+    "pealim_id": "4644",
+    "line": "אתה שלושה חודשים כאן!"
+  },
+  {
+    "word": "שלושה",
+    "word_menukad": "שְׁלֹשָׁה",
+    "translation": "три",
+    "lemma": "שָׁלוֹשׁ",
+    "root": "שׁ - ל - שׁ",
+    "parsed_grammar": "['masc']",
+    "pealim_id": "7123",
+    "line": "אתה שלושה חודשים כאן!"
+  },
+  {
+    "word": "חודשים",
+    "word_menukad": "חֳדָשִׁים",
+    "translation": "месяцы",
+    "lemma": "חוֹדֶשׁ",
+    "root": "ח - ד - שׁ",
+    "pattern": "котель, м. р.",
+    "parsed_grammar": "['plur']",
+    "pealim_id": "3208",
+    "line": "אתה שלושה חודשים כאן!"
+  },
+  {
+    "word": "כאן!",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "parsed_grammar": "[]",
+    "pealim_id": "3191",
+    "line": "אתה שלושה חודשים כאן!"
+  },
+  {
+    "word": "אתה",
+    "word_menukad": "אַתָּה",
+    "translation": "ты",
+    "lemma": "אַתָּה",
+    "parsed_grammar": "[]",
+    "pealim_id": "4644",
+    "line": "אתה כולך מלא פרווה כבר, למען השם"
+  },
+  {
+    "word": "כולך",
+    "word_menukad": "כֻּלְּךָ",
+    "translation": "ты весь",
+    "lemma": "כּוֹל",
+    "suffix": "ך",
+    "root": "כ - ל - ל",
+    "pattern": "котель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4158",
+    "line": "אתה כולך מלא פרווה כבר, למען השם"
+  },
+  {
+    "word": "מלא",
+    "word_menukad": "מְלֵא־",
+    "translation": "полный",
+    "lemma": "מָלֵא",
+    "root": "מ - ל - א",
+    "pattern": "катель",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "4396",
+    "line": "אתה כולך מלא פרווה כבר, למען השם"
+  },
+  {
+    "word": "פרווה",
+    "word_menukad": "פַּרְוָה",
+    "translation": "мех",
+    "lemma": "פַּרְווָה",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "8895",
+    "line": "אתה כולך מלא פרווה כבר, למען השם"
+  },
+  {
+    "word": "כבר,",
+    "word_menukad": "כְּבָר",
+    "translation": "уже",
+    "lemma": "כְּבָר",
+    "parsed_grammar": "[]",
+    "pealim_id": "6115",
+    "line": "אתה כולך מלא פרווה כבר, למען השם"
+  },
+  {
+    "word": "למען",
+    "word_menukad": "לְמַעַן",
+    "translation": "ради",
+    "lemma": "לְמַעַן",
+    "parsed_grammar": "[]",
+    "pealim_id": "5831",
+    "line": "אתה כולך מלא פרווה כבר, למען השם"
+  },
+  {
+    "word": "השם",
+    "word_menukad": "שֵׁם",
+    "translation": "имя [Бог]",
+    "prefix": "ה־ +",
+    "lemma": "שֵׁם",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3194",
+    "line": "אתה כולך מלא פרווה כבר, למען השם"
+  },
+  {
+    "word": "אני",
+    "word_menukad": "אֲנִי",
+    "translation": "я",
+    "lemma": "אֲנִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4643",
+    "line": "אני באמת כבר לא מרגיש טוב"
+  },
+  {
+    "word": "באמת",
+    "word_menukad": "אֱמֶת",
+    "translation": "действительно",
+    "prefix": "ב־ +",
+    "lemma": "אֱמֶת",
+    "root": "א - מ - ת",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5186",
+    "line": "אני באמת כבר לא מרגיש טוב"
+  },
+  {
+    "word": "כבר",
+    "word_menukad": "כְּבָר",
+    "translation": "уже",
+    "lemma": "כְּבָר",
+    "parsed_grammar": "[]",
+    "pealim_id": "6115",
+    "line": "אני באמת כבר לא מרגיש טוב"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "не",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "אני באמת כבר לא מרגיש טוב"
+  },
+  {
+    "word": "מרגיש",
+    "word_menukad": "מַרְגִּישׁ",
+    "translation": "чувствую (себя)",
+    "lemma": "לְהַרְגִּישׁ",
+    "root": "ר - ג - שׁ",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "1993",
+    "line": "אני באמת כבר לא מרגיש טוב"
+  },
+  {
+    "word": "טוב",
+    "word_menukad": "טוֹב",
+    "translation": "хорошо",
+    "lemma": "טוֹב",
+    "root": "ט - ו - ב",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "5422",
+    "line": "אני באמת כבר לא מרגיש טוב"
+  },
+  {
+    "word": "אוי,",
+    "word_menukad": "אוֹי",
+    "translation": "ой",
+    "lemma": "אוֹי",
+    "parsed_grammar": "[]",
+    "pealim_id": "7989",
+    "line": "אוי, נו באמת!"
+  },
+  {
+    "word": "נו",
+    "word_menukad": "נוּ",
+    "translation": "ну",
+    "lemma": "נוּ",
+    "parsed_grammar": "[]",
+    "pealim_id": "8706",
+    "line": "אוי, נו באמת!"
+  },
+  {
+    "word": "באמת!",
+    "word_menukad": "אֱמֶת",
+    "translation": "действительно",
+    "prefix": "ב־ +",
+    "lemma": "אֱמֶת",
+    "root": "א - מ - ת",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5186",
+    "line": "אוי, נו באמת!"
+  },
+  {
+    "word": "בני?",
+    "word_menukad": "בני",
+    "translation": "Бени (имя)",
+    "line": "בני? זה אתה?"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "этот",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "בני? זה אתה?"
+  },
+  {
+    "word": "אתה?",
+    "word_menukad": "אַתָּה",
+    "translation": "ты",
+    "lemma": "אַתָּה",
+    "parsed_grammar": "[]",
+    "pealim_id": "4644",
+    "line": "בני? זה אתה?"
+  },
+  {
+    "word": "לך!",
+    "word_menukad": "לֵךְ!‏",
+    "translation": "иди",
+    "lemma": "לָלֶכֶת",
+    "root": "ה - ל - ך",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'masc', '2per', 'impr']",
+    "pealim_id": "7",
+    "line": "לך! לך אל האור, חמוד!"
+  },
+  {
+    "word": "לך",
+    "word_menukad": "לֵךְ!‏",
+    "translation": "иди",
+    "lemma": "לָלֶכֶת",
+    "root": "ה - ל - ך",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'masc', '2per', 'impr']",
+    "pealim_id": "7",
+    "line": "לך! לך אל האור, חמוד!"
+  },
+  {
+    "word": "אל",
+    "word_menukad": "אֶל",
+    "translation": "к",
+    "lemma": "אֶל",
+    "parsed_grammar": "[]",
+    "pealim_id": "2682",
+    "line": "לך! לך אל האור, חמוד!"
+  },
+  {
+    "word": "האור,",
+    "word_menukad": "אוֹר",
+    "translation": "свет",
+    "prefix": "ה־ +",
+    "lemma": "אוֹר",
+    "root": "א - ו - ר",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5232",
+    "line": "לך! לך אל האור, חמוד!"
+  },
+  {
+    "word": "חמוד!",
+    "word_menukad": "חָמוּד",
+    "translation": "милый",
+    "lemma": "חָמוּד",
+    "root": "ח - מ - ד",
+    "pattern": "катуль",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "5454",
+    "line": "לך! לך אל האור, חמוד!"
+  },
+  {
+    "word": "אמרתי",
+    "word_menukad": "אָמַרְתִּי",
+    "translation": "(я) сказал",
+    "lemma": "לוֹמַר",
+    "root": "א - מ - ר",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', '1per']",
+    "pealim_id": "55",
+    "line": "אמרתי לכם: הוא היה בחופש! הוא היה בחופש, זה הכל"
+  },
+  {
+    "word": "לכם:",
+    "word_menukad": "לָכֶם",
+    "translation": "вам",
+    "lemma": "לְ",
+    "suffix": "כם",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "אמרתי לכם: הוא היה בחופש! הוא היה בחופש, זה הכל"
+  },
+  {
+    "word": "הוא",
+    "word_menukad": "הוּא",
+    "translation": "он",
+    "lemma": "הוּא",
+    "parsed_grammar": "[]",
+    "pealim_id": "4646",
+    "line": "אמרתי לכם: הוא היה בחופש! הוא היה בחופש, זה הכל"
+  },
+  {
+    "word": "היה",
+    "word_menukad": "הָיָה",
+    "translation": "был",
+    "lemma": "לִהְיוֹת",
+    "root": "ה - י - ה",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "454",
+    "line": "אמרתי לכם: הוא היה בחופש! הוא היה בחופש, זה הכל"
+  },
+  {
+    "word": "בחופש!",
+    "word_menukad": "חֹפֶשׁ",
+    "translation": "в отпуске",
+    "prefix": "ב־ +",
+    "lemma": "חוֹפֶשׁ",
+    "root": "ח - פ - שׁ",
+    "pattern": "котель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5397",
+    "line": "אמרתי לכם: הוא היה בחופש! הוא היה בחופש, זה הכל"
+  },
+  {
+    "word": "הוא",
+    "word_menukad": "הוּא",
+    "translation": "он",
+    "lemma": "הוּא",
+    "parsed_grammar": "[]",
+    "pealim_id": "4646",
+    "line": "אמרתי לכם: הוא היה בחופש! הוא היה בחופש, זה הכל"
+  },
+  {
+    "word": "היה",
+    "word_menukad": "הָיָה",
+    "translation": "(он) был",
+    "lemma": "לִהְיוֹת",
+    "root": "ה - י - ה",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "454",
+    "line": "אמרתי לכם: הוא היה בחופש! הוא היה בחופש, זה הכל"
+  },
+  {
+    "word": "בחופש,",
+    "word_menukad": "חֹפֶשׁ",
+    "translation": "в отпуске",
+    "prefix": "ב־ +",
+    "lemma": "חוֹפֶשׁ",
+    "root": "ח - פ - שׁ",
+    "pattern": "котель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "5397",
+    "line": "אמרתי לכם: הוא היה בחופש! הוא היה בחופש, זה הכל"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "это",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "אמרתי לכם: הוא היה בחופש! הוא היה בחופש, זה הכל"
+  },
+  {
+    "word": "הכל",
+    "word_menukad": "כֹּל",
+    "translation": "всё",
+    "prefix": "ה־ +",
+    "lemma": "כּוֹל",
+    "root": "כ - ל - ל",
+    "pattern": "котель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4158",
+    "line": "אמרתי לכם: הוא היה בחופש! הוא היה בחופש, זה הכל"
+  },
+  {
+    "word": "בני?",
+    "word_menukad": "בני",
+    "translation": "Бени (имя)",
+    "line": "בני?"
+  },
+  {
+    "word": "אתה",
+    "word_menukad": "אַתָּה",
+    "translation": "ты",
+    "lemma": "אַתָּה",
+    "parsed_grammar": "[]",
+    "pealim_id": "4644",
+    "line": "אתה מאפר פעם אחת זה אספרסו קצר"
+  },
+  {
+    "word": "מאפר",
+    "word_menukad": "מְאַפֵּר",
+    "translation": "стряхиваешь пепел",
+    "lemma": "לְאַפֵר",
+    "root": "א - פ - ר",
+    "pattern": "пиэль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "line": "אתה מאפר פעם אחת זה אספרסו קצר"
+  },
+  {
+    "word": "פעם",
+    "word_menukad": "פַּעַם",
+    "translation": "раз",
+    "lemma": "פַּעַם",
+    "root": "פ - ע - ם",
+    "pattern": "кетель, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "6082",
+    "line": "אתה מאפר פעם אחת זה אספרסו קצר"
+  },
+  {
+    "word": "אחת",
+    "word_menukad": "אַחַת",
+    "translation": "один",
+    "lemma": "אֶחָד",
+    "root": "א - ח - ד",
+    "parsed_grammar": "['femn']",
+    "pealim_id": "7130",
+    "line": "אתה מאפר פעם אחת זה אספרסו קצר"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "этот",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "אתה מאפר פעם אחת זה אספרסו קצר"
+  },
+  {
+    "word": "אספרסו",
+    "word_menukad": "אֶספּרֶסוֹ",
+    "translation": "эспрессо",
+    "lemma": "אֶספּרֶסוֹ",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "אתה מאפר פעם אחת זה אספרסו קצר"
+  },
+  {
+    "word": "קצר",
+    "word_menukad": "קָצָר",
+    "translation": "короткий",
+    "lemma": "קָצָר",
+    "root": "ק - צ - ר",
+    "pattern": "каталь",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "3178",
+    "line": "אתה מאפר פעם אחת זה אספרסו קצר"
+  },
+  {
+    "word": "מאפר",
+    "word_menukad": "מְאַפֵּר",
+    "translation": "стряхиваешь пепел",
+    "lemma": "לְאַפֵר",
+    "root": "א - פ - ר",
+    "pattern": "пиэль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "line": "מאפר פעמיים זה אספרסו כפול"
+  },
+  {
+    "word": "פעמיים",
+    "word_menukad": "פַּעְמַיִם",
+    "translation": "дважды",
+    "lemma": "פַּעְמַייִם",
+    "root": "פ - ע - ם",
+    "parsed_grammar": "[]",
+    "pealim_id": "7515",
+    "line": "מאפר פעמיים זה אספרסו כפול"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "этот",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "מאפר פעמיים זה אספרסו כפול"
+  },
+  {
+    "word": "אספרסו",
+    "word_menukad": "אֶספּרֶסוֹ",
+    "translation": "эспрессо",
+    "lemma": "אֶספּרֶסוֹ",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "מאפר פעמיים זה אספרסו כפול"
+  },
+  {
+    "word": "כפול",
+    "word_menukad": "כָּפוּל",
+    "translation": "двойной",
+    "lemma": "כָּפוּל",
+    "root": "כ - פ - ל",
+    "pattern": "катуль",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "419",
+    "line": "מאפר פעמיים זה אספרסו כפול"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "этот",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "זה פאקינג מבריק, אחי!"
+  },
+  {
+    "word": "פאקינג",
+    "word_menukad": "פאקינג",
+    "translation": "чертовски",
+    "pattern": "англ. ругательство",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "זה פאקינג מבריק, אחי!"
+  },
+  {
+    "word": "מבריק",
+    "word_menukad": "מַבְרִיק",
+    "translation": "блестяще",
+    "lemma": "מַברִיק",
+    "root": "ב - ר - ק",
+    "pattern": "hифъиль",
+    "parsed_grammar": "['sing', 'pres', 'masc']",
+    "pealim_id": "267",
+    "line": "זה פאקינג מבריק, אחי!"
+  },
+  {
+    "word": "אחי!",
+    "word_menukad": "אָחִי",
+    "translation": "мой брат",
+    "lemma": "אָח",
+    "suffix": "י",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4113",
+    "line": "זה פאקינג מבריק, אחי!"
+  },
+  {
+    "word": "אמרתי",
+    "word_menukad": "אָמַרְתִּי",
+    "translation": "(я) сказал",
+    "lemma": "לוֹמַר",
+    "root": "א - מ - ר",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', '1per']",
+    "pealim_id": "55",
+    "line": "אמרתי לך"
+  },
+  {
+    "word": "לך",
+    "word_menukad": "לְךָ",
+    "translation": "тебе",
+    "lemma": "לְ",
+    "suffix": "ך",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "אמרתי לך"
+  }
+]
