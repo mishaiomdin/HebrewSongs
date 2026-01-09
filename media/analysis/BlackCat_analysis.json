@@ -1,0 +1,1011 @@
+[
+  {
+    "word": "פעם",
+    "word_menukad": "פַּעַם",
+    "translation": "раз [когда-то]",
+    "lemma": "פַּעַם",
+    "root": "פ - ע - ם",
+    "pattern": "кетель, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "6082",
+    "line": "פעם גר חתול שחור בגינה"
+  },
+  {
+    "word": "גר",
+    "word_menukad": "גָּר",
+    "translation": "(он) жил",
+    "lemma": "לָגוּר",
+    "root": "ג - ו - ר",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "4",
+    "line": "פעם גר חתול שחור בגינה"
+  },
+  {
+    "word": "חתול",
+    "word_menukad": "חָתוּל",
+    "translation": "кот",
+    "lemma": "חָתוּל",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4673",
+    "line": "פעם גר חתול שחור בגינה"
+  },
+  {
+    "word": "שחור",
+    "word_menukad": "שָׁחֹר",
+    "translation": "чёрный",
+    "lemma": "שָׁחוֹר",
+    "root": "שׁ - ח - ר",
+    "pattern": "католь",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "3481",
+    "line": "פעם גר חתול שחור בגינה"
+  },
+  {
+    "word": "בגינה",
+    "word_menukad": "גִּנָּה",
+    "translation": "в палисаднике",
+    "prefix": "ב־ +",
+    "lemma": "גִּינָּה",
+    "root": "ג - נ - ן",
+    "pattern": "китла, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "7197",
+    "line": "פעם גר חתול שחור בגינה"
+  },
+  {
+    "word": "ואותו",
+    "word_menukad": "אוֹתוֹ",
+    "translation": "и его",
+    "prefix": "ו־ +",
+    "lemma": "אֶת",
+    "suffix": "ו",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "ואותו לא סבלה השכונה"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "не",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "ואותו לא סבלה השכונה"
+  },
+  {
+    "word": "סבלה",
+    "word_menukad": "סָבְלָה",
+    "translation": "терпела",
+    "lemma": "לִסְבּוֹל",
+    "root": "ס - ב - ל",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'femn', '3per']",
+    "pealim_id": "1301",
+    "line": "ואותו לא סבלה השכונה"
+  },
+  {
+    "word": "השכונה",
+    "word_menukad": "שְׁכוּנָה",
+    "translation": "район",
+    "prefix": "ה־ +",
+    "lemma": "שְׁכוּנָה",
+    "root": "שׁ - כ - ן",
+    "pattern": "ктула, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3664",
+    "line": "ואותו לא סבלה השכונה"
+  },
+  {
+    "word": "רק",
+    "word_menukad": "רַק",
+    "translation": "только",
+    "lemma": "רַק",
+    "parsed_grammar": "[]",
+    "pealim_id": "3394",
+    "line": "רק שלא יהיה כאן בלבול"
+  },
+  {
+    "word": "שלא",
+    "word_menukad": "לֹא",
+    "translation": "пусть не",
+    "prefix": "ש־ +",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "רק שלא יהיה כאן בלבול"
+  },
+  {
+    "word": "יהיה",
+    "word_menukad": "יִהְיֶה",
+    "translation": "будет",
+    "lemma": "לִהְיוֹת",
+    "root": "ה - י - ה",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'futr', 'masc', '3per']",
+    "pealim_id": "454",
+    "line": "רק שלא יהיה כאן בלבול"
+  },
+  {
+    "word": "כאן",
+    "word_menukad": "כָּאן",
+    "translation": "здесь",
+    "lemma": "כָּאן",
+    "parsed_grammar": "[]",
+    "pealim_id": "3191",
+    "line": "רק שלא יהיה כאן בלבול"
+  },
+  {
+    "word": "בלבול",
+    "word_menukad": "בִּלְבּוּל",
+    "translation": "путаница",
+    "lemma": "בִּילְבּוּל",
+    "root": "ב - ל - ב - ל",
+    "pattern": "киттуль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "6512",
+    "line": "רק שלא יהיה כאן בלבול"
+  },
+  {
+    "word": "זה",
+    "word_menukad": "זֶה",
+    "translation": "этот",
+    "lemma": "זֶה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5713",
+    "line": "זה לא שיר על שכונה וחתול"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "не",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "זה לא שיר על שכונה וחתול"
+  },
+  {
+    "word": "שיר",
+    "word_menukad": "שִׁיר",
+    "translation": "песня",
+    "lemma": "שִׁיר",
+    "root": "שׁ - י - ר",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4337",
+    "line": "זה לא שיר על שכונה וחתול"
+  },
+  {
+    "word": "על",
+    "word_menukad": "עַל",
+    "translation": "про",
+    "lemma": "עַל",
+    "parsed_grammar": "[]",
+    "pealim_id": "6012",
+    "line": "זה לא שיר על שכונה וחתול"
+  },
+  {
+    "word": "שכונה",
+    "word_menukad": "שְׁכוּנָה",
+    "translation": "район",
+    "lemma": "שְׁכוּנָה",
+    "root": "שׁ - כ - ן",
+    "pattern": "ктула, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3664",
+    "line": "זה לא שיר על שכונה וחתול"
+  },
+  {
+    "word": "וחתול",
+    "word_menukad": "חָתוּל",
+    "translation": "и кот",
+    "prefix": "ו־ +",
+    "lemma": "חָתוּל",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4673",
+    "line": "זה לא שיר על שכונה וחתול"
+  },
+  {
+    "word": "ואומרים,",
+    "word_menukad": "אוֹמְרִים",
+    "translation": "и говорят",
+    "prefix": "ו־ +",
+    "lemma": "לוֹמַר",
+    "root": "א - מ - ר",
+    "pattern": "пааль",
+    "parsed_grammar": "['plur', 'pres']",
+    "pealim_id": "55",
+    "line": "ואומרים, מזל לא טוב"
+  },
+  {
+    "word": "מזל",
+    "word_menukad": "מַזָּל",
+    "translation": "удача",
+    "lemma": "מַזָּל",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3673",
+    "line": "ואומרים, מזל לא טוב"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "нет",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "ואומרים, מזל לא טוב"
+  },
+  {
+    "word": "טוב",
+    "word_menukad": "טוֹב",
+    "translation": "хороший",
+    "lemma": "טוֹב",
+    "root": "ט - ו - ב",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "5422",
+    "line": "ואומרים, מזל לא טוב"
+  },
+  {
+    "word": "אם",
+    "word_menukad": "אִם",
+    "translation": "если",
+    "lemma": "אִם",
+    "parsed_grammar": "[]",
+    "pealim_id": "5213",
+    "line": "אם חתול שחור עבר את הרחוב"
+  },
+  {
+    "word": "חתול",
+    "word_menukad": "חָתוּל",
+    "translation": "кот",
+    "lemma": "חָתוּל",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4673",
+    "line": "אם חתול שחור עבר את הרחוב"
+  },
+  {
+    "word": "שחור",
+    "word_menukad": "שָׁחֹר",
+    "translation": "чёрный",
+    "lemma": "שָׁחוֹר",
+    "root": "שׁ - ח - ר",
+    "pattern": "католь",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "3481",
+    "line": "אם חתול שחור עבר את הרחוב"
+  },
+  {
+    "word": "עבר",
+    "word_menukad": "עָבַר",
+    "translation": "перешёл",
+    "lemma": "לַעֲבוֹר",
+    "root": "ע - ב - ר",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "1441",
+    "line": "אם חתול שחור עבר את הרחוב"
+  },
+  {
+    "word": "את",
+    "word_menukad": "אֶת",
+    "translation": "[вин. п.]",
+    "lemma": "אֶת",
+    "parsed_grammar": "[]",
+    "pealim_id": "2710",
+    "line": "אם חתול שחור עבר את הרחוב"
+  },
+  {
+    "word": "הרחוב",
+    "word_menukad": "רְחוֹב",
+    "translation": "улица",
+    "prefix": "ה־ +",
+    "lemma": "רְחוֹב",
+    "root": "ר - ח - ב",
+    "pattern": "ктоль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3653",
+    "line": "אם חתול שחור עבר את הרחוב"
+  },
+  {
+    "word": "רק",
+    "word_menukad": "רַק",
+    "translation": "только",
+    "lemma": "רַק",
+    "parsed_grammar": "[]",
+    "pealim_id": "3394",
+    "line": "רק בינתיים מה חבל"
+  },
+  {
+    "word": "בינתיים",
+    "word_menukad": "בֵּינְתַיִם",
+    "translation": "тем временем",
+    "lemma": "בֵּינְתַייִם",
+    "parsed_grammar": "[]",
+    "pealim_id": "4809",
+    "line": "רק בינתיים מה חבל"
+  },
+  {
+    "word": "מה",
+    "word_menukad": "מַה",
+    "translation": "что",
+    "lemma": "מַה",
+    "parsed_grammar": "[]",
+    "pealim_id": "5402",
+    "line": "רק בינתיים מה חבל"
+  },
+  {
+    "word": "חבל",
+    "word_menukad": "חֲבָל",
+    "translation": "жалко",
+    "lemma": "חֲבָל",
+    "root": "ח - ב - ל",
+    "parsed_grammar": "[]",
+    "pealim_id": "5334",
+    "line": "רק בינתיים מה חבל"
+  },
+  {
+    "word": "החתול",
+    "word_menukad": "חָתוּל",
+    "translation": "кот",
+    "prefix": "ה־ +",
+    "lemma": "חָתוּל",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4673",
+    "line": "החתול עצמו נשאר חסר מזל"
+  },
+  {
+    "word": "עצמו",
+    "word_menukad": "עַצְמוֹ",
+    "translation": "он сам",
+    "lemma": "עֶצֶם",
+    "suffix": "ו",
+    "root": "ע - צ - ם",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3706",
+    "line": "החתול עצמו נשאר חסר מזל"
+  },
+  {
+    "word": "נשאר",
+    "word_menukad": "נִשאַר",
+    "translation": "остался",
+    "lemma": "לְהִישָאֵר",
+    "root": "שׁ - א - ר",
+    "pattern": "нифаль",
+    "parsed_grammar": "[]",
+    "pealim_id": "47",
+    "line": "החתול עצמו נשאר חסר מזל"
+  },
+  {
+    "word": "חסר",
+    "word_menukad": "חֲסַר־",
+    "translation": "недостаточный",
+    "lemma": "חָסֵר",
+    "root": "ח - ס - ר",
+    "pattern": "катель",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "4266",
+    "line": "החתול עצמו נשאר חסר מזל"
+  },
+  {
+    "word": "מזל",
+    "word_menukad": "מַזָּל",
+    "translation": "удача",
+    "lemma": "מַזָּל",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3673",
+    "line": "החתול עצמו נשאר חסר מזל"
+  },
+  {
+    "word": "כל",
+    "word_menukad": "כָּל־",
+    "translation": "каждый",
+    "lemma": "כּוֹל",
+    "root": "כ - ל - ל",
+    "pattern": "котель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4158",
+    "line": "כל היום בשכונה בלאגן"
+  },
+  {
+    "word": "היום",
+    "word_menukad": "יוֹם",
+    "translation": "день",
+    "prefix": "ה־ +",
+    "lemma": "יוֹם",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3061",
+    "line": "כל היום בשכונה בלאגן"
+  },
+  {
+    "word": "בשכונה",
+    "word_menukad": "שְׁכוּנָה",
+    "translation": "на районе",
+    "prefix": "ב־ +",
+    "lemma": "שְׁכוּנָה",
+    "root": "שׁ - כ - ן",
+    "pattern": "ктула, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3664",
+    "line": "כל היום בשכונה בלאגן"
+  },
+  {
+    "word": "בלאגן",
+    "word_menukad": "בָּלָאגָן",
+    "translation": "бардак",
+    "lemma": "בָּלָגָן",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4079",
+    "line": "כל היום בשכונה בלאגן"
+  },
+  {
+    "word": "החתול",
+    "word_menukad": "חָתוּל",
+    "translation": "кот",
+    "prefix": "ה־ +",
+    "lemma": "חָתוּל",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4673",
+    "line": "החתול מגורש מהגן"
+  },
+  {
+    "word": "מגורש",
+    "word_menukad": "מְגֹרָשׁ",
+    "translation": "изгнан",
+    "lemma": "לְגָרֵשׁ",
+    "root": "ג - ר - שׁ",
+    "pattern": "пиэль",
+    "parsed_grammar": "['sing', 'pres', 'masc', 'pssv']",
+    "pealim_id": "386",
+    "line": "החתול מגורש מהגן"
+  },
+  {
+    "word": "מהגן",
+    "word_menukad": "גַּן",
+    "translation": "из сада",
+    "prefix": "מ־ + ה־ +",
+    "lemma": "גַּן",
+    "root": "ג - נ - ן",
+    "pattern": "каль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "2656",
+    "line": "החתול מגורש מהגן"
+  },
+  {
+    "word": "רק",
+    "word_menukad": "רַק",
+    "translation": "только",
+    "lemma": "רַק",
+    "parsed_grammar": "[]",
+    "pealim_id": "3394",
+    "line": "רק השיר לא על התעלול"
+  },
+  {
+    "word": "השיר",
+    "word_menukad": "שִׁיר",
+    "translation": "песня",
+    "prefix": "ה־ +",
+    "lemma": "שִׁיר",
+    "root": "שׁ - י - ר",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4337",
+    "line": "רק השיר לא על התעלול"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "не",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "רק השיר לא על התעלול"
+  },
+  {
+    "word": "על",
+    "word_menukad": "עַל",
+    "translation": "про",
+    "lemma": "עַל",
+    "parsed_grammar": "[]",
+    "pealim_id": "6012",
+    "line": "רק השיר לא על התעלול"
+  },
+  {
+    "word": "התעלול",
+    "word_menukad": "תַּעֲלוּל",
+    "translation": "пранк",
+    "prefix": "ה־ +",
+    "lemma": "תַּעֲלוּל",
+    "root": "ע - ל - ל",
+    "pattern": "тактуль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "9238",
+    "line": "רק השיר לא על התעלול"
+  },
+  {
+    "word": "איך",
+    "word_menukad": "אֵיךְ",
+    "translation": "как",
+    "lemma": "אֵיךְ",
+    "pattern": "катуль",
+    "parsed_grammar": "[]",
+    "pealim_id": "4588",
+    "line": "איך שכונה התאחדה מול חתול"
+  },
+  {
+    "word": "שכונה",
+    "word_menukad": "שְׁכוּנָה",
+    "translation": "район",
+    "lemma": "שְׁכוּנָה",
+    "root": "שׁ - כ - ן",
+    "pattern": "ктула, ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3664",
+    "line": "איך שכונה התאחדה מול חתול"
+  },
+  {
+    "word": "התאחדה",
+    "word_menukad": "הִתְאַחֲדָה",
+    "translation": "объединилась",
+    "lemma": "לְהִתְאַחֵד",
+    "root": "א - ח - ד",
+    "pattern": "hитпаэль",
+    "parsed_grammar": "['sing', 'past', 'femn', '3per']",
+    "pealim_id": "84",
+    "line": "איך שכונה התאחדה מול חתול"
+  },
+  {
+    "word": "מול",
+    "word_menukad": "מוּל",
+    "translation": "против",
+    "lemma": "מוּל",
+    "parsed_grammar": "[]",
+    "pealim_id": "4534",
+    "line": "איך שכונה התאחדה מול חתול"
+  },
+  {
+    "word": "חתול",
+    "word_menukad": "חָתוּל",
+    "translation": "кот",
+    "lemma": "חָתוּל",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4673",
+    "line": "איך שכונה התאחדה מול חתול"
+  },
+  {
+    "word": "זמן",
+    "word_menukad": "זְמַן־",
+    "translation": "время",
+    "lemma": "זְמַן",
+    "root": "ז - מ - ן",
+    "pattern": "кталь, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3055",
+    "line": "זמן איכות עם אחת, חתולה"
+  },
+  {
+    "word": "איכות",
+    "word_menukad": "אֵיכוּת",
+    "translation": "качество",
+    "lemma": "אֵיכוּת",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4590",
+    "line": "זמן איכות עם אחת, חתולה"
+  },
+  {
+    "word": "עם",
+    "word_menukad": "עִם",
+    "translation": "с",
+    "lemma": "עִם",
+    "parsed_grammar": "[]",
+    "pealim_id": "4112",
+    "line": "זמן איכות עם אחת, חתולה"
+  },
+  {
+    "word": "אחת,",
+    "word_menukad": "אַחַת",
+    "translation": "одна",
+    "lemma": "אֶחָד",
+    "root": "א - ח - ד",
+    "parsed_grammar": "['femn']",
+    "pealim_id": "7130",
+    "line": "זמן איכות עם אחת, חתולה"
+  },
+  {
+    "word": "חתולה",
+    "word_menukad": "חֲתוּלָה",
+    "translation": "кошка",
+    "lemma": "חֲתוּלָה",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4674",
+    "line": "זמן איכות עם אחת, חתולה"
+  },
+  {
+    "word": "הוא",
+    "word_menukad": "הוּא",
+    "translation": "он",
+    "lemma": "הוּא",
+    "parsed_grammar": "[]",
+    "pealim_id": "4646",
+    "line": "הוא מצא רק הרחק בגולה"
+  },
+  {
+    "word": "מצא",
+    "word_menukad": "מָצָא",
+    "translation": "(он) находил",
+    "lemma": "לִמְצוֹא",
+    "root": "מ - צ - א",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "1083",
+    "line": "הוא מצא רק הרחק בגולה"
+  },
+  {
+    "word": "רק",
+    "word_menukad": "רַק",
+    "translation": "только",
+    "lemma": "רַק",
+    "parsed_grammar": "[]",
+    "pealim_id": "3394",
+    "line": "הוא מצא רק הרחק בגולה"
+  },
+  {
+    "word": "הרחק",
+    "word_menukad": "הַרְחֵק",
+    "translation": "далеко",
+    "lemma": "הַרְחֵק",
+    "root": "ר - ח - ק",
+    "parsed_grammar": "[]",
+    "pealim_id": "8571",
+    "line": "הוא מצא רק הרחק בגולה"
+  },
+  {
+    "word": "בגולה",
+    "word_menukad": "גּוֹלָה",
+    "translation": "в ссылке",
+    "prefix": "ב־ +",
+    "lemma": "גּוֹלָה",
+    "root": "ג - ל - הּ",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "8659",
+    "line": "הוא מצא רק הרחק בגולה"
+  },
+  {
+    "word": "רק",
+    "word_menukad": "רַק",
+    "translation": "только",
+    "lemma": "רַק",
+    "parsed_grammar": "[]",
+    "pealim_id": "3394",
+    "line": "רק השיר הוא לא על הסלסול"
+  },
+  {
+    "word": "השיר",
+    "word_menukad": "שִׁיר",
+    "translation": "песня",
+    "prefix": "ה־ +",
+    "lemma": "שִׁיר",
+    "root": "שׁ - י - ר",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4337",
+    "line": "רק השיר הוא לא על הסלסול"
+  },
+  {
+    "word": "הוא",
+    "word_menukad": "הוּא",
+    "translation": "он",
+    "lemma": "הוּא",
+    "parsed_grammar": "[]",
+    "pealim_id": "4646",
+    "line": "רק השיר הוא לא על הסלסול"
+  },
+  {
+    "word": "לא",
+    "word_menukad": "לֹא",
+    "translation": "не",
+    "lemma": "לֹא",
+    "parsed_grammar": "[]",
+    "pealim_id": "2943",
+    "line": "רק השיר הוא לא על הסלסול"
+  },
+  {
+    "word": "על",
+    "word_menukad": "עַל",
+    "translation": "про",
+    "lemma": "עַל",
+    "parsed_grammar": "[]",
+    "pealim_id": "6012",
+    "line": "רק השיר הוא לא על הסלסול"
+  },
+  {
+    "word": "הסלסול",
+    "word_menukad": "הסלסול",
+    "translation": "трель",
+    "prefix": "ה־ +",
+    "lemma": "סִילסוּל",
+    "pattern": "м. р.",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "רק השיר הוא לא על הסלסול"
+  },
+  {
+    "word": "גרגרה",
+    "word_menukad": "גִּרְגְּרָה",
+    "translation": "мурлыкала",
+    "lemma": "לְגַרְגֵּר",
+    "root": "ג - ר - ג - ר",
+    "pattern": "пиэль",
+    "parsed_grammar": "['sing', 'past', 'femn', '3per']",
+    "pealim_id": "371",
+    "line": "גרגרה חתולה עם חתול"
+  },
+  {
+    "word": "חתולה",
+    "word_menukad": "חֲתוּלָה",
+    "translation": "кошка",
+    "lemma": "חֲתוּלָה",
+    "pattern": "ж. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4674",
+    "line": "גרגרה חתולה עם חתול"
+  },
+  {
+    "word": "עם",
+    "word_menukad": "עִם",
+    "translation": "с",
+    "lemma": "עִם",
+    "parsed_grammar": "[]",
+    "pealim_id": "4112",
+    "line": "גרגרה חתולה עם חתול"
+  },
+  {
+    "word": "חתול",
+    "word_menukad": "חָתוּל",
+    "translation": "кот",
+    "lemma": "חָתוּל",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4673",
+    "line": "גרגרה חתולה עם חתול"
+  },
+  {
+    "word": "החתול",
+    "word_menukad": "חָתוּל",
+    "translation": "кот",
+    "prefix": "ה־ +",
+    "lemma": "חָתוּל",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4673",
+    "line": "החתול משפם עד זנב"
+  },
+  {
+    "word": "משפם",
+    "word_menukad": "שָׂפָם",
+    "translation": "от усов",
+    "prefix": "מ־ +",
+    "lemma": "שָׂפָם",
+    "root": "שׂ - פ - ם",
+    "pattern": "каталь, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4413",
+    "line": "החתול משפם עד זנב"
+  },
+  {
+    "word": "עד",
+    "word_menukad": "עַד",
+    "translation": "до",
+    "lemma": "עַד",
+    "parsed_grammar": "[]",
+    "pealim_id": "3396",
+    "line": "החתול משפם עד זנב"
+  },
+  {
+    "word": "זנב",
+    "word_menukad": "זָנָב",
+    "translation": "хвост",
+    "lemma": "זָנָב",
+    "root": "ז - נ - ב",
+    "pattern": "каталь, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3486",
+    "line": "החתול משפם עד זנב"
+  },
+  {
+    "word": "היה",
+    "word_menukad": "הָיָה",
+    "translation": "(он) был",
+    "lemma": "לִהְיוֹת",
+    "root": "ה - י - ה",
+    "pattern": "пааль",
+    "parsed_grammar": "['sing', 'past', 'masc', '3per']",
+    "pealim_id": "454",
+    "line": "היה שחור יותר מלילה בלי כוכב"
+  },
+  {
+    "word": "שחור",
+    "word_menukad": "שָׁחֹר",
+    "translation": "чёрный",
+    "lemma": "שָׁחוֹר",
+    "root": "שׁ - ח - ר",
+    "pattern": "католь",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "3481",
+    "line": "היה שחור יותר מלילה בלי כוכב"
+  },
+  {
+    "word": "יותר",
+    "word_menukad": "יוֹתֵר",
+    "translation": "более",
+    "lemma": "יוֹתֵר",
+    "root": "י - ת - ר",
+    "pattern": "котель",
+    "parsed_grammar": "[]",
+    "pealim_id": "4788",
+    "line": "היה שחור יותר מלילה בלי כוכב"
+  },
+  {
+    "word": "מלילה",
+    "word_menukad": "לַיְלָה",
+    "translation": "чем ночь",
+    "prefix": "מ־ +",
+    "lemma": "לַיְלָה",
+    "root": "ל - י - ל",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4234",
+    "line": "היה שחור יותר מלילה בלי כוכב"
+  },
+  {
+    "word": "בלי",
+    "word_menukad": "בְּלִי",
+    "translation": "без",
+    "lemma": "בְּלִי",
+    "parsed_grammar": "[]",
+    "pealim_id": "4136",
+    "line": "היה שחור יותר מלילה בלי כוכב"
+  },
+  {
+    "word": "כוכב",
+    "word_menukad": "כּוֹכָב",
+    "translation": "звезда",
+    "lemma": "כּוֹכָב",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4054",
+    "line": "היה שחור יותר מלילה בלי כוכב"
+  },
+  {
+    "word": "והשיר",
+    "word_menukad": "והשיר",
+    "translation": "и песня",
+    "prefix": "ו־ + ה־ +",
+    "lemma": "שִׁיר",
+    "root": "שׁ - י - ר",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4337",
+    "line": "והשיר דווקא על התסכול"
+  },
+  {
+    "word": "דווקא",
+    "word_menukad": "דַּוְקָא",
+    "translation": "именно",
+    "lemma": "דַּווְקָא",
+    "parsed_grammar": "[]",
+    "pealim_id": "4641",
+    "line": "והשיר דווקא על התסכול"
+  },
+  {
+    "word": "על",
+    "word_menukad": "עַל",
+    "translation": "про",
+    "lemma": "עַל",
+    "parsed_grammar": "[]",
+    "pealim_id": "6012",
+    "line": "והשיר דווקא על התסכול"
+  },
+  {
+    "word": "התסכול",
+    "word_menukad": "תִּסְכּוּל",
+    "translation": "депрессия",
+    "prefix": "ה־ +",
+    "lemma": "תִּיסְכּוּל",
+    "root": "ת - ס - כ - ל",
+    "pattern": "киттуль, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "3145",
+    "line": "והשיר דווקא על התסכול"
+  },
+  {
+    "word": "איך",
+    "word_menukad": "אֵיךְ",
+    "translation": "как",
+    "lemma": "אֵיךְ",
+    "pattern": "катуль",
+    "parsed_grammar": "[]",
+    "pealim_id": "4588",
+    "line": "איך שחור לו בלב לחתול"
+  },
+  {
+    "word": "שחור",
+    "word_menukad": "שָׁחֹר",
+    "translation": "чёрно",
+    "lemma": "שָׁחוֹר",
+    "root": "שׁ - ח - ר",
+    "pattern": "католь",
+    "parsed_grammar": "['sing', 'masc']",
+    "pealim_id": "3481",
+    "line": "איך שחור לו בלב לחתול"
+  },
+  {
+    "word": "לו",
+    "word_menukad": "לוֹ",
+    "translation": "ему",
+    "lemma": "לְ",
+    "suffix": "ו",
+    "parsed_grammar": "[]",
+    "pealim_id": "6014",
+    "line": "איך שחור לו בלב לחתול"
+  },
+  {
+    "word": "בלב",
+    "word_menukad": "לֵב",
+    "translation": "в сердце",
+    "prefix": "ב־ +",
+    "lemma": "לֵב",
+    "root": "ל - ב - ב",
+    "pattern": "кетель, м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4353",
+    "line": "איך שחור לו בלב לחתול"
+  },
+  {
+    "word": "לחתול",
+    "word_menukad": "חָתוּל",
+    "translation": "коту",
+    "prefix": "ל־ +",
+    "lemma": "חָתוּל",
+    "pattern": "м. р.",
+    "parsed_grammar": "['sing']",
+    "pealim_id": "4673",
+    "line": "איך שחור לו בלב לחתול"
+  },
+  {
+    "word": "Говорят, не повезёт",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "Говорят, не повезёт"
+  },
+  {
+    "word": "Если чёрный кот дорогу перейдёт",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "Если чёрный кот дорогу перейдёт"
+  },
+  {
+    "word": "А пока наоборот",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "А пока наоборот"
+  },
+  {
+    "word": "Только чёрному коту и не везёт",
+    "parsed_grammar": "[]",
+    "pealim_id": "0",
+    "line": "Только чёрному коту и не везёт"
+  }
+]

@@ -118,7 +118,7 @@
   {
     "code": "MissHappiness",
     "name": "Ваше благородие",
-    "part": "Песни",
+    "part": "Переведённые",
     "videoId": "RiTgZSgsgkY",
     "dateAdded": "27.12.2025",
     "published": "0",
@@ -130,7 +130,7 @@
   {
     "code": "Brichmulla",
     "name": "Бричмулла",
-    "part": "Песни",
+    "part": "Переведённые",
     "videoId": "Xy4uvcnzTIc",
     "dateAdded": "27.12.2025",
     "published": "0",
@@ -144,7 +144,7 @@
     "name": "כאן",
     "part": "🇪🇺 Eurovision",
     "videoId": "sh7BsuBZv9s",
-    "dateAdded": "2.1.2026",
+    "dateAdded": "02.01.2026",
     "published": "0",
     "author": "Uzi Hitman",
     "singer": "Orna Datz, Moshe Datz"
@@ -154,18 +154,18 @@
     "name": "את ואני",
     "part": "🇪🇺 Eurovision",
     "videoId": "uXkULDSYGCk",
-    "dateAdded": "2.1.2026",
+    "dateAdded": "02.01.2026",
     "published": "0",
     "author": "Ehud Manor",
     "singer": "Shlomo Artzi",
-    "comment": "Eurovision 1975"
+    "comment": "Eurovision 1975, 11th place"
   },
   {
     "code": "MoscowOdessa",
     "name": "Москва-Одесса",
     "part": "👤 Высоцкий",
     "videoId": "lQzZMD_uOc8",
-    "dateAdded": "3.1.2026",
+    "dateAdded": "03.01.2026",
     "published": "0",
     "origAuthor": "Владимир Высоцкий, 1967",
     "origSinger": "Владимир Высоцкий, 1967",
@@ -178,7 +178,7 @@
     "name": "שמחה רבה",
     "part": "Песах",
     "videoId": "9ChTRq4wx9Y",
-    "dateAdded": "3.1.2026",
+    "dateAdded": "03.01.2026",
     "published": "0"
   },
   {
@@ -186,7 +186,7 @@
     "name": "חד גדיא",
     "part": "Песах",
     "videoId": "cbObL-oop44",
-    "dateAdded": "3.1.2026",
+    "dateAdded": "03.01.2026",
     "published": "0"
   },
   {
@@ -194,7 +194,7 @@
     "name": "דיינו",
     "part": "Песах",
     "videoId": "oSQaCDW5sTg",
-    "dateAdded": "3.1.2026",
+    "dateAdded": "03.01.2026",
     "published": "0"
   },
   {
@@ -202,12 +202,36 @@
     "name": "Мне нравится, что вы больны не мной",
     "part": "🎄 Новый год",
     "videoId": "9XEHxzlTdR0",
-    "dateAdded": "3.1.2026",
+    "dateAdded": "03.01.2026",
     "published": "0",
     "composer": "Микаэл Таривердиев",
     "origAuthor": "Марина Цветаева",
     "origSinger": "Алла Пугачева",
     "tranAuthor": "Боаз Оснис",
     "tranSinger": "Боаз Оснис"
+  },
+  {
+    "code": "SayHi1976",
+    "name": "אמור שלום",
+    "part": "🇪🇺 Eurovision",
+    "videoId": "6_nROPfn4Nc",
+    "dateAdded": "08.01.2026",
+    "published": "0",
+    "author": "Ehud Manor",
+    "composer": "Matti Caspi",
+    "singer": "Shokolad Menta Mastik",
+    "comment": "Eurovision 1976, 6th place"
+  },
+  {
+    "code": "BlackCat",
+    "name": "Чёрный кот",
+    "part": "Переведённые",
+    "videoId": "TbzHRW1sEZc",
+    "dateAdded": "09.01.2026",
+    "composer": "Юрий Саульский",
+    "origAuthor": "Михаил Танич",
+    "origSinger": "Тамара Миансарова, 1964; Браво, 1987",
+    "tranAuthor": "Shmuel Zeltser, Alex Rif, 2015",
+    "tranSinger": "Alex Rif"
   }
 ]
