@@ -548,13 +548,22 @@ function designAnalysis(word) {
       </span>`;
 }
 
+const normalize = s =>
+  s
+    .normalize("NFC")
+    .replace(/[\u200E\u200F\u202A-\u202E]/g, "") // remove RTL/LTR marks
+    .replace(/\s+/g, " ")
+    .trim();
+
+
 function makeInteractive(line) {
     if (typeof analysis === 'undefined') {
         console.log("Undefined analysis!");
         return line;
       }
       let new_line = "";
-      let words = analysis.filter(item => item.line === line);
+      let cleanLine = normalize(line);
+      let words = analysis.filter(item => item.line === cleanLine);
       if (words.length > 0) {
         for (let word of words) {
           new_line += designAnalysis(word) + " ";

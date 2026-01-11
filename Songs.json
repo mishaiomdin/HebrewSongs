@@ -228,10 +228,23 @@
     "part": "Переведённые",
     "videoId": "TbzHRW1sEZc",
     "dateAdded": "09.01.2026",
+    "published": "0",
     "composer": "Юрий Саульский",
     "origAuthor": "Михаил Танич",
     "origSinger": "Тамара Миансарова, 1964; Браво, 1987",
     "tranAuthor": "Shmuel Zeltser, Alex Rif, 2015",
     "tranSinger": "Alex Rif"
+  },
+  {
+    "code": "Ropewalker",
+    "name": "Канатоходец",
+    "part": "Переведённые",
+    "videoId": "zexdw73GY9s",
+    "dateAdded": "10.01.2026",
+    "published": "0",
+    "origAuthor": "Владимир Высоцкий",
+    "origSinger": "Владимир Высоцкий",
+    "tranAuthor": "Boaz Osnis",
+    "tranSinger": "Boaz Osnis, 2016"
   }
 ]
